@@ -1,0 +1,37 @@
+
+<body class='{{ page.page_name }}'>
+  <div class="container-fluid">
+    
+    <div class="row" style="padding-bottom:50px">
+      <!-- LEFT SIDEBAR -->
+
+      <div class="col-md-2" style="border-right: 2px dashed #4582ec; /*position:fixed;*/">
+        <!--<div class="well">-->
+            <h2 class='site-title text-center'>
+              <a href="{{ site.production_url }}">Kevin Bello</a>
+            </h2>
+
+            <img src="/images/me.jpg" alt="Me" class="img-circle center-block" width="120px" height="120px"><br>
+            <!--<ul class="nav nav-stacked">-->
+            <div class="text-center">
+              <a class="btn btn-default" href="/about">About</a>
+              <a class="btn btn-default" href="/blog">Blog</a><br><br>
+              <a class="btn" href="http://twitter.com/kbellomedina">@kbellomedina</a> <br>
+            </div>
+            <!--</ul>-->
+        <!--</div>-->
+      </div>
+      
+      <!-- RIGHT SIDEBAR -->
+      <div class="col-md-9" style="padding-left:50px;">
+          
+          {{ content }}
+          
+      </div>
+    </div>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/bootstrap.min.js"></script>
+
+</body>

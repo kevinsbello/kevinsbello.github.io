@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kevin Bello | {{ page.title }} </title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" /> 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <style type="text/css">
+      body,html,.row-offcanvas {
+        height:100%;
+      }
+      #sidebar {
+        width: inherit;
+        min-width: 250px;
+        max-width: 250px;
+        /*background-color:#f5f5f5;*/
+        float: left;
+        height:100%;
+        position:relative;
+        overflow-y:auto;
+        overflow-x:hidden;
+        border-right: 2px dashed #4582ec;
+      }
+      #main {
+        height:100%;
+        overflow:auto;
+      }
+
+      /*
+       * off Canvas sidebar
+       * --------------------------------------------------
+       */
+      @media screen and (max-width: 768px) {
+        .row-offcanvas {
+          position: relative;
+          -webkit-transition: all 0.25s ease-out;
+          -moz-transition: all 0.25s ease-out;
+          transition: all 0.25s ease-out;
+          width:calc(100% + 250px);
+        }
+          
+        .row-offcanvas-left
+        {
+          left: -250px;
+        }
+
+        .row-offcanvas-left.active {
+          left: 0;
+        }
+
+        .sidebar-offcanvas {
+          position: absolute;
+          top: 0;
+        }
+      }
+  </style>
+</head>
+
+
+<body>
+<div class="row-offcanvas row-offcanvas-left">
+  <div id="sidebar" class="sidebar-offcanvas well" style="padding:0">
+      <div class="col-md-12">
+        <h2 class='site-title text-center'>
+           Kevin Bello
+        </h2>
+
+        <img src="/images/me.jpg" alt="Me" class="img-circle center-block" width="120px" height="120px"><br>
+        <!--<ul class="nav nav-stacked">-->
+        <div class="text-center">
+          <a class="btn btn-default" href="/">Home</a><br><br>
+          <a class="btn btn-default" href="/about">About</a>
+          <a class="btn btn-default" href="/blog">Blog</a><br><br>
+          <a class="btn" href="http://twitter.com/kbellomedina">@kbellomedina</a> <br>
+        </div>
+      </div>
+  </div>
+
+  <div id="main">
+      <div class="col-md-12" style="padding-left:20px; padding-bottom:20px">
+          {{ content }}
+      </div>
+  </div>
+</div><!--/row-offcanvas -->
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('[data-toggle=offcanvas]').click(function() {
+      $('.row-offcanvas').toggleClass('active');
+    });
+  });
+</script>
+</body>
+</html>

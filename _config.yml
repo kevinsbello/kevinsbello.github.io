@@ -1,5 +1,5 @@
 permalink: pretty
-paginate: 10
+paginate: 5
 exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'config.rb', 'run']
 
-production_url: http://kevinbm.github.com
+production_url: http://kevinbm.github.io
