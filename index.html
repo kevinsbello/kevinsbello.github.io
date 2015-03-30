@@ -8,7 +8,7 @@ page_name: Homepage
 {% for post in paginator.posts %}
   <div class="post">
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <small class="meta">{{ post.date | date:"%B %d, %Y" }} by <a href='{{ site.production_url }}/about'>Kevin</a></small>
+    <small class="meta">{{ post.date | date:"%B %d, %Y" }}</small>
     {{ post.excerpt }}
     <div style="border-bottom:1px solid #4582ec;"></div> 
   </div>
