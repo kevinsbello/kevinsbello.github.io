@@ -1,9 +1,0 @@
----
-layout: post
-title: NOOOOO
-tags: [programming]
-author_name: Kevin Bello
-author_uri: http://twitter.com/johnduff
----
-
-## Hi my name is Kevin. I'm Kevin yoló

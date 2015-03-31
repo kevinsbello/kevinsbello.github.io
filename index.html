@@ -14,38 +14,44 @@ page_name: Homepage
   </div>
 {% endfor %}
 </div>
-<div class="text-center">
-  <ul class="pagination">
-    {% if paginator.page == 1 %}
-      <li class="disabled"><a href="/">«</a></li>
-    {% else %}
-      {% if paginator.previous_page == 1 %}
-        <li><a href="/">«</a></li>
-      {% else %}
-        <li><a href="/page{{paginator.previous_page}}">«</a></li>
-      {% endif %}
-    {% endif %}
-
-    {% for i in (1..paginator.total_pages) %}
-      {% if paginator.page == i %}
-        {% if i == 1 %}
-          <li class="active"><a href="/">{{ i }}</a></li>
+{% if paginator.total_posts > 0 %}
+  <div class="text-center">
+    <ul class="pagination">
+      
+        {% if paginator.page == 1 %}
+          <li class="disabled"><a href="/">«</a></li>
         {% else %}
-          <li class="active"><a href="/page{{i}}">{{ i }}</a></li>
+          {% if paginator.previous_page == 1 %}
+            <li><a href="/">«</a></li>
+          {% else %}
+            <li><a href="/page{{paginator.previous_page}}">«</a></li>
+          {% endif %}
         {% endif %}
-      {% else %}
-        {% if i == 1 %}
-          <li><a href="/">{{ i }}</a></li>
-        {% else %}
-          <li><a href="/page{{i}}">{{ i }}</a></li>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
 
-    {% if paginator.next_page %}
-      <li><a href="/page{{paginator.next_page}}">»</a></li>
-    {% else %}
-      <li class="disabled"><a href="#">»</a></li>
-    {% endif %}
-  </ul>
-</div>
+        {% for i in (1..paginator.total_pages) %}
+          {% if paginator.page == i %}
+            {% if i == 1 %}
+              <li class="active"><a href="/">{{ i }}</a></li>
+            {% else %}
+              <li class="active"><a href="/page{{i}}">{{ i }}</a></li>
+            {% endif %}
+          {% else %}
+            {% if i == 1 %}
+              <li><a href="/">{{ i }}</a></li>
+            {% else %}
+              <li><a href="/page{{i}}">{{ i }}</a></li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+
+        {% if paginator.next_page %}
+          <li><a href="/page{{paginator.next_page}}">»</a></li>
+        {% else %}
+          <li class="disabled"><a href="#">»</a></li>
+        {% endif %}
+
+    </ul>
+  </div>
+{% else %}
+  <h3> Under Construction (Basic information in the about page) </h3>
+{% endif %}
