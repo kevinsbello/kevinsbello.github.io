@@ -3,7 +3,8 @@ layout: default
 page_name: blog
 ---
 <div class="post">
-    <h2>{{page.title}} <br> <small>Posted {{ page.date | date:"%B %d, %Y" }}</small></h2>
+    <h2>{{page.title}}</h2>
+    <small><i class="fa fa-clock-o"></i> Posted {{ page.date | date:"%B %d, %Y" }}</small>
     {{ content }}
 </div>
 
@@ -14,7 +15,7 @@ page_name: blog
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">
-    var disqus_shortname = 'kevinbm';
+    var disqus_shortname = 'kevinhomepage';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -23,6 +24,6 @@ page_name: blog
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
   </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+ 
 </div>

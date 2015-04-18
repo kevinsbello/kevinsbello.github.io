@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:700);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 body {
   font:22px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -8,8 +8,9 @@ body {
 }
 
 .site-title {
-  font:35px/1 Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#005;
+  font:35px/1 Varela Round, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#358;
+  font-weight:500;
 }
 
 
