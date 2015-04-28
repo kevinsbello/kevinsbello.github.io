@@ -1,5 +1,17 @@
 permalink: pretty
 paginate: 5
-exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'config.rb', 'run']
+exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'run', '_drafts/*.R', '_drafts/*.Rmd']
+excerpt_separator: <!--more-->
 
 production_url: http://kevinbm.github.io
+
+markdown: redcarpet-pygments
+hightlighter: pygments
+
+  
+
+  
+
+
+
+

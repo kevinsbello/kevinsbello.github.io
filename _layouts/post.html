@@ -4,7 +4,7 @@ page_name: blog
 ---
 <div class="post">
     <h2>{{page.title}}</h2>
-    <small><i class="fa fa-clock-o"></i> Posted {{ page.date | date:"%B %d, %Y" }}</small>
+    <small><i class="fa fa-clock-o"></i> Posted on {{ page.date | date:"%B %d, %Y" }}</small>
     {{ content }}
 </div>
 
@@ -24,6 +24,8 @@ page_name: blog
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
   </script>
-
+  <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
  
 </div>
