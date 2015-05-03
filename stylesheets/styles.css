@@ -2,14 +2,14 @@
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 body {
-  font:22px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#345;
+  font:20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#222;
   font-weight:500;
 }
 
 .site-title {
   font:35px/1 Varela Round, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#358;
+  color:#222;
   font-weight:500;
 }
 
@@ -31,7 +31,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  //color:#39c;
   font-weight:400;
   text-decoration:none;
 }

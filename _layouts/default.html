@@ -7,8 +7,8 @@
   <meta name="description" content="Kevin Bello's Personal Page">
   <meta name="keywords" content="kevin, bello, ksbm, kevinbm, machine learning, giscia, probabilities, statistics, learning, computer science, uni, mechatronics, algorithms">
   <meta name="author" content="Kevin Bello">
-  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css" />
-  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" /> 
+  <!--<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css" />-->
+  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" /> 
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="/stylesheets/codekevin.css" rel="stylesheet" />
@@ -21,24 +21,51 @@
         width: inherit;
         min-width: 250px;
         max-width: 250px;
-        background-color: rgba(245, 245, 245, 0.7);
+        /*background-color: rgba(245, 245, 245, 0.7);*/
+        background-color: rgba(231, 230, 231,0.65);
+        //background-image: url(/images/bg-main.jpg);
         padding: 0;
         float: left;
         height:100%;
         position:relative;
         overflow-y:auto;
         overflow-x:auto;
-        border-right: 2px dashed #4582ec;
+        border-right: 2px solid #4582ec;
+        border-right: 1px dashed #000;
       }
       #main {
         height:100%;
         overflow:auto;
+        background: rgba(245, 245, 245, 0.7);
       }
-
+      .col-md-10 {
+        	min-height: 100%;
+        	//background-color: rgba(245, 245, 245, 0.7);
+       }
+      .post-title{
+      	margin-bottom: 0px;
+      }
+      .post-date{
+      	margin-bottom: 15px;
+      }
       /*
        * off Canvas sidebar
        * --------------------------------------------------
        */
+		#face-wrapper .face {
+		 position: relative;
+		 z-index: 1;
+		 -moz-box-shadow: 0px 0px 0px 2px #000; /* Firefox */  
+	     -webkit-box-shadow: 0px 0px 0px 2px #000; /* Safari, Chrome */  
+		 box-shadow: 0px 0px 0px 2px #000; /* CSS3 */
+		}
+
+		.img-circle {z-index:
+			-webkit-border-radius: 500px;
+			-moz-border-radius: 500px;
+			border-radius: 500px;
+				
+		}
       @media screen and (max-width: 768px) {
         .row-offcanvas {
           position: relative;
@@ -49,14 +76,14 @@
           width: auto;
           min-width: 100%;
           max-width: 100%;
-          background-color: rgba(245, 245, 245, 0.7);
           float: inherit;
           height:100%;
           position:relative;
           overflow-y:auto;
           overflow-x:auto;
-          border-right: 0px dashed #4582ec;
-          border-bottom: 2px dashed #4582ec;
+          border-right: 0px solid #4582ec;
+          border-bottom: 2px solid #4582ec;
+          border-bottom: 1px dashed #000;
         }
       }
   </style>
@@ -68,23 +95,26 @@
 <div class="row-offcanvas">
     <div id="sidebar">
       <div class="col-md-12">
+      	
         <h2 class='site-title text-center'>
            Kevin Bello
         </h2>
-
-        <img src="/images/me.jpg" alt="Me" class="img-circle center-block" width="120px" height="120px"><br>
-        
+        <!--<span id="face-wrapper">
+        	<img src="/images/me.jpg" alt="Me" class="img-circle center-block face" width="120px" height="120px"><br>
+        </span>-->
         <div class="text-center">
-          <a class="btn btn-default" href="/"><i class="fa fa-home fa-fw"></i> Home</a><br><br>
+          <a class="btn btn-default" href="/" style="margin-bottom:10px"><i class="fa fa-home fa-fw"></i> Home</a><br>
           <a class="btn btn-default" href="/about"><i class="fa fa-info"></i> About</a>
-          <a class="btn btn-default" href="/blog"><i class="fa fa-book"></i> Blog</a><br><br>
-          <a class="btn btn-link" target="_blank" href="http://twitter.com/kbellomedina"><i class="fa fa-twitter"></i> @kbellomedina</a> <br>
+          <a class="btn btn-default" href="/blog"><i class="fa fa-book"></i> Blog</a><br>
+          <a class="btn btn-link" target="_blank" href="http://twitter.com/kbellomedina" style="margin-top:10px">
+          	<i class="fa fa-twitter"></i> @kbellomedina
+          </a>
         </div>
       </div>
   </div>
 
   <div id="main">
-      <div class="col-md-12" style="padding-left:20px; padding-bottom:10px">
+      <div class="col-xs-12 col-md-12" style="padding:0 40px;">
           {{ content }}
       </div>
   </div>
@@ -100,6 +130,7 @@
     });
   });
 </script>
+
 <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>

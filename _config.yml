@@ -6,6 +6,8 @@ excerpt_separator: <!--more-->
 production_url: http://kevinbm.github.io
 
 markdown: redcarpet-pygments
+redcarpet:
+  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 hightlighter: pygments
 
   

@@ -75,7 +75,7 @@ pre {
     counter-reset: line-numbering;
     border: solid 1px #d9d9d9;
     border-radius: 0;
-    background: #fff;
+    background: #fdfdfd;
     padding: 0;
     line-height: 23px;
     margin-bottom: 30px;
@@ -135,4 +135,7 @@ code.inline-code {
 code, kbd, pre, samp {
   font-family: "Monaco", monospace, serif;
   font-size: 0.75em;
+}
+pre code {
+	white-space: pre;
 }
