@@ -2,11 +2,7 @@
 title: Codeforces Round 293 - Problem D
 author_uri: "http://twitter.com/kbellomedina"
 layout: post
-tags:
-  - programming
-  - probabilities
-  - expected value
-  - codeforces
+tags: [programming, probabilities, expected value, codeforces]
 author_name: Kevin Bello
 ---
 
