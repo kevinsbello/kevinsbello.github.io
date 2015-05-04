@@ -85,10 +85,31 @@ pre {
     word-wrap: inherit;
 }
 
+.lineno {
+
+    padding-right: 1em; /* space after numbers */
+    width: 35px;
+    text-align: right;
+    opacity: 0.7;
+    display: inline-block;
+    color: #a8a;
+    background: #eee;
+    margin-right: 15px;
+    padding: 2px 10px;
+    font-size: 15px;
+    border-right: 1px solid #dedede;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*
 pre a::before {
     content: counter(line-numbering);
     counter-increment: line-numbering;
-    padding-right: 1em; /* space after numbers */
+    padding-right: 1em; 
     width: 35px;
     text-align: right;
     opacity: 0.7;
@@ -119,6 +140,18 @@ pre a:last-of-type::before {
 pre a:only-of-type::before {
     padding: 10px;
 }
+pre span:first-of-type::before {
+    padding-top: 10px;
+    @include box-shadow(rgba(255, 255, 255, 0.9) 0px 1px 1px inset);
+}
+
+pre span:last-of-type::before {
+    padding-bottom: 10px;
+}
+
+pre span:only-of-type::before {
+    padding: 10px;
+}*/
 code.inline-code {
     padding: 0.2em 0.4em;
     background-color: #fdfdfd;
