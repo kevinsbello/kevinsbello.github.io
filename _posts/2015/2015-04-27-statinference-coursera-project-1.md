@@ -107,4 +107,4 @@ The variance of sample means is \\(0.663\\) and the theoretical variance of the 
 
 By the central limit theorem we know that the averages of samples will follow a normal distribution. The figure below shows the density computed using the histogram and the normal density plotted with theoretical mean and variance values. Both graphics are similar which suggest the normality.
 
-<img src="{{ site.url }}/images/statinference1-unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="{{ site.url }}/images/statinference1-unnamed-chunk-4-1.png" title="Fig1" alt="Fig1" style="display: block; margin: auto;" />
