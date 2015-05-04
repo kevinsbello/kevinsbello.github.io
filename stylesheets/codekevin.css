@@ -84,7 +84,18 @@ pre {
     word-break: inherit;
     word-wrap: inherit;
 }
+code {
+    padding: 0.2em 0.4em;
+    background-color: #fdfdfd;
+    @include box-shadow(0 1px rgba(255,255,255,.75), inset 0 1px 3px rgba(0,0,0,.07));
 
+    color: $light-gray;
+
+    @include border-radius(4px);
+    border: solid 1px #dedede;
+
+    white-space: nowrap;
+}
 .lineno {
 
     padding-right: 1em; /* space after numbers */
@@ -152,18 +163,7 @@ pre span:last-of-type::before {
 pre span:only-of-type::before {
     padding: 10px;
 }*/
-code.inline-code {
-    padding: 0.2em 0.4em;
-    background-color: #fdfdfd;
-    @include box-shadow(0 1px rgba(255,255,255,.75), inset 0 1px 3px rgba(0,0,0,.07));
 
-    color: $light-gray;
-
-    @include border-radius(4px);
-    border: solid 1px #dedede;
-
-    white-space: nowrap;
-}
 
 code, kbd, pre, samp {
   font-family: "Monaco", monospace, serif;
@@ -171,4 +171,7 @@ code, kbd, pre, samp {
 }
 pre code {
 	white-space: pre;
+	
+    border: solid 0px #dedede;
+
 }
