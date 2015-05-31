@@ -3,12 +3,12 @@
 
 body {
   font:20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#222;
+  color:#333;
   font-weight:500;
 }
 
 .site-title {
-  font:35px/1 Varela Round, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:32px/1 Varela Round, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#222;
   font-weight:500;
 }
@@ -58,4 +58,15 @@ pre {
   overflow-x: auto;
 }
 
+.table-striped>tbody>tr:nth-of-type(odd) {
+  //background-color: rgba(69, 130, 236,0.05);
+  background-color: whitesmoke;
+ 
+}
 
+del {
+	color: red;
+}
+ins {
+	color: green;
+}
