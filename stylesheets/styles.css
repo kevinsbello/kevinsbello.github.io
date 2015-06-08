@@ -20,8 +20,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.menu-cat{
+  font:25px/1 Varela Round, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#333;
+  border-bottom: 1px solid gray;
+  margin-top: 0.8em;
+  padding-top: 0.2em;
+  padding-bottom: 0.1em;
 
-
+}
+.MathJax{
+	color: #555;
+}
 h2 {
   color:#393939;
 }
@@ -42,6 +52,18 @@ a small {
   margin-top:-0.6em;
   display:block;
 }
+
+.btn {
+	font-size:18px;
+}
+a.kactive, a.kactive:hover, a.kactive:active, a.kactive:focus {
+	color: #022b6d;
+	border-bottom: 1px gray dotted;
+	padding: 0px 0px;
+	margin: 8px 12px;
+	text-decoration:none;
+}
+
 
 
 code, pre {

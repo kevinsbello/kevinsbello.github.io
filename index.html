@@ -4,55 +4,263 @@ title: Homepage
 page_name: Homepage
 ---
 
-<div id='index'>
-{% for post in paginator.posts %}
-  <div class="post">
-    <h3 class="post-title"><a href="{{ post.url }}"> {{ post.title }}</a></h3>
-    <small class="meta"><i class="fa fa-clock-o post-date"></i> Posted on {{ post.date | date:"%B %d, %Y" }}</small>
-    {{ post.excerpt }}
-    <a href="{{ post.url }}">... Continue reading</a>
-    <hr>
-  </div>
-{% endfor %}
-</div>
-{% if paginator.total_posts > 0 %}
-  <div class="text-center">
-    <ul class="pagination pagination-sm">
-      
-        {% if paginator.page == 1 %}
-          <li class="disabled"><a href="#">«</a></li>
-        {% else %}
-          {% if paginator.previous_page == 1 %}
-            <li><a href="/">«</a></li>
-          {% else %}
-            <li><a href="/page{{paginator.previous_page}}">«</a></li>
-          {% endif %}
-        {% endif %}
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>I recently finished a B.Sc. in Mechatronics Engineering at <a target="_blank" href="http://en.wikipedia.org/wiki/National_University_of_Engineering">Universidad Nacional de Ingenieria</a> in Lima, Peru.
 
-        {% for i in (1..paginator.total_pages) %}
-          {% if paginator.page == i %}
-            {% if i == 1 %}
-              <li class="active"><a href="#">{{ i }}</a></li>
-            {% else %}
-              <li class="active"><a href="#">{{ i }}</a></li>
-            {% endif %}
-          {% else %}
-            {% if i == 1 %}
-              <li><a href="/">{{ i }}</a></li>
-            {% else %}
-              <li><a href="/page{{i}}">{{ i }}</a></li>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
+I am the president of the Artificial Intelligence and Control Systems Research Group (GISCIA) at my university. There, my colleagues and I guide and lead new projects involving students from different Departments, but mostly from the Mechanical Department. The projects are mainly related to robotics and AI.
 
-        {% if paginator.next_page %}
-          <li><a href="/page{{paginator.next_page}}">»</a></li>
-        {% else %}
-          <li class="disabled"><a href="#">»</a></li>
-        {% endif %}
-
-    </ul>
-  </div>
-{% else %}
-  <h3> Under Construction (Basic information in the about page) </h3>
-{% endif %}
+Lately I've been doing research in ML and NLP advised by <a target="_blank" href="https://pe.linkedin.com/in/albertocoronado"> Alberto Coronado </a>. I also have a blog section where I write about some topics in those fields and about general stuff that I find interesting.</p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">    
+                                               
+                            <!--<div class="item featured text-center">
+                                <h3 class="title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">KickStarter - Velocity</a></h3>
+                                <p class="summary">A responsive Bootstrap template designed for digital products</p>
+                                <div class="featured-image">
+                                    <a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/projects/project-featured.png" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">New</div>
+                                        </div>
+                                    </div>
+                                    
+                                <div class="desc text-left">                                    
+                                    <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                                </div>
+                                <a class="btn btn-cta-secondary" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a>                 
+                            </div>
+                            <hr class="divider" /> -->
+                            <div class="item row">
+                                {% for post in site.posts %}
+                                  {% if post.categories contains 'projectk' %}
+                                    <div class="desc col-md-12 col-sm-12 col-xs-12">
+                                      <h3 class="title"><a href="{{ post.url}}">{{ post.title }}</a></h3>
+                                      {{ post.excerpt}}
+                                      <p><a class="more-link" href="{{ post.url}}"><i class="fa fa-external-link"></i> Find out more</a>
+                                      </p>
+                                    </div><!--//desc-->                          
+                                  {% endif %}
+                                {% endfor %}
+                            </div><!--//item-->
+                            
+                            
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                <!--
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Other Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="#">Project Title Cras Lacus</a></h3>
+                                <p class="summary">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</p>
+                                <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                            </div>
+                            <div class="item">
+                                <h3 class="title"><a href="#">Project Title Cras eget lacus</a> <span class="label label-theme">Open Source</span></h3>
+                                <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>
+                                <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                            </div>
+                            <div class="item">
+                                <h3 class="title"><a href="#">Project Title Maecenas Ornare</a> <span class="label label-theme">Open Source</span></h3>
+                                <p class="summary">Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.</p>
+                                <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                            </div>
+                            
+                            <a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fa fa-chevron-right"></i></a>
+                            
+                        </div>
+                    </div>
+                </section>
+                -->
+                <!--
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Co-Founder & Lead Developer - <span class="place"><a href="#">Startup Hub</a></span> <span class="year">(2014 - Present)</span></h3>
+                                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                            </div>
+                            <div class="item">
+                                <h3 class="title">Software Engineer - <span class="place"><a href="#">Google</a></span> <span class="year">(2013 - 2014)</span></h3>
+                                <p>Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+                            </div>
+                            
+                            <div class="item">
+                                <h3 class="title">Software Engineer - <span class="place"><a href="#">eBay</a></span> <span class="year">(2012 - 2013)</span></h3>
+                                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+                -->
+                
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Lima, Peru</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span>ksbm190493 [at] gmail [dot] com</li>
+                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="http://kevinbm.github.io">http://kevinbm.github.io</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Computational Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                Most important programming tools/languages I have used so far for competitive programming and machine learning algorithms. A complete list can be found in my CV.</p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">C/C++, Python, Matlab<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="95%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Java, R, SQL, OpenCV<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="90%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Apache Spark<span class="level-label">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5 &amp; CSS3<span class="level-label">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                <!--
+                <aside class="testimonials aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">                                  
+                                    <p><i class="fa fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
+                                </blockquote>                
+                                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>                                                             
+                            </div>
+                            
+                            <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Linkedin</a></p> 
+                            
+                        </div>
+                    </div>
+                </aside>-->
+                
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> BSc Mechatronics Engineering</h3>
+                                <h4 class="university">National University of Engineering, Peru <span class="year">(2009-2015)</span></h4>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Professional Proficiency <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Spanish:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="blog aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Blog Posts</h2>
+                        <div class="item">
+                           {% for post in site.posts %}
+                              {% if post.categories contains 'postk' %}
+                                <h3 class="title"><a href="{{ post.url }}"> {{ post.title }}</a><br><small class="meta"><i class="fa fa-clock-o post-date"></i> Posted on {{ post.date | date:"%B %d, %Y" }}</small></h3>
+                               {% endif %}
+                           {% endfor %}
+                        </div>
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                
+                <aside class="list conferences aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Conferences/Schools</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-calendar"></i> <a href="http://www.conimera.org.pe/" target="_blank">CONIMERA 2015</a> (June 24-26, Peru)</li>
+                                <li><i class="fa fa-calendar"></i> <a href="https://gecamin.com/maplemin/english/">MAPLEMIN 2015</a> (July 1-3, Lima, Peru)</li>
+                                <li><i class="fa fa-calendar"></i> <a href="http://www.iip.ist.i.kyoto-u.ac.jp/mlss15/doku.php">MLSS 2015</a> (Aug. 23-Sep. 04, Kyoto, Japan)</li>
+                                <li><i class="fa fa-calendar"></i> <a href="http://www.asmeconferences.org/IMECE2015/">IMECE 2015</a> (Nov. 13-19, Houston, TX)</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    
+    
+ 
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="/assets/plugins/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="/assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- custom js -->
+    <script type="text/javascript" src="/assets/js/main.js"></script>            
