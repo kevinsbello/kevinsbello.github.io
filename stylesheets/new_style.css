@@ -9,7 +9,7 @@ body {
 
 .site-title {
   font:32px/1 Varela Round, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#222;
+  color:#000;
   font-weight:500;
 }
 
@@ -22,8 +22,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu-cat{
   font:22px/1 Varela Round, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#333;
-  border-bottom: 1px solid gray;
+  color:#111;
+  border-bottom: 1px solid black;
   margin-top: 0.8em;
   padding-top: 0.2em;
   padding-bottom: 0.1em;
@@ -57,14 +57,16 @@ a small {
 	font-size:18px;
 }
 a.kactive, a.kactive:hover, a.kactive:active, a.kactive:focus {
-	color: #022b6d;
+	color: #5A0098;
 	border-bottom: 1px gray dotted;
 	padding: 0px 0px;
 	margin: 8px 12px;
 	text-decoration:none;
 }
 
-
+.barlink{
+	color: #114EBA;
+}
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
@@ -152,7 +154,8 @@ a.dotted-link:hover {
   padding-bottom: 60px;
 }
 .section {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .section .section-inner {
   background: rgba(240,240,240,0.3);
