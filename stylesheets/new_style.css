@@ -1,16 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900);
 
 body {
-  font:20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#111;
-  font-weight:500;
+  /*font: 20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #3f3c30;
+  line-height: 30px;
+}
+
+strong{
+  font-weight: 600;
 }
 
 .site-title {
-  font:32px/1 Varela Round, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#000;
-  font-weight:500;
+  font: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #e3dfd5;
+  font-weight: 700;
 }
 
 
@@ -21,17 +29,23 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .menu-cat{
-  font:22px/1 Varela Round, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#111;
-  border-bottom: 1px solid black;
+  font: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#e3dfd5;
+  border-bottom: 1px solid #e3dfd5;
   margin-top: 0.8em;
   padding-top: 0.2em;
   padding-bottom: 0.1em;
+  font-weight: 400;
+}
 
+.btn-link, .btn-link:hover, .btn-link:focus{
+  color: #e3dfd5;
 }
+
 .MathJax{
-	color: #555;
+	color: #3f3c30;
 }
+
 h2 {
   color:#393939;
 }
@@ -40,37 +54,62 @@ h3, h4, h5, h6 {
   color:#494949;
 }
 
-a {
-  //color:#39c;
-  font-weight:400;
-  text-decoration:none;
+a, a:hover, a:focus {
+  color: #820000;
+  font-weight: 400;
+}
+
+p>a{
+  color: #827252;
 }
 
 a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.6em;
-  display:block;
+  font-size: 11px;
+  color: #820000;
+  margin-top: -0.6em;
+  display: block;
+}
+
+h3 small{
+  color: #aca68d;
 }
 
 .btn {
 	font-size:18px;
+  font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.btn-default:hover{
+  background-color: #f5f4ef;
+}
+
 a.kactive, a.kactive:hover, a.kactive:active, a.kactive:focus {
-	color: #5A0098;
-	border-bottom: 1px gray dotted;
-	padding: 0px 0px;
-	margin: 8px 12px;
+	color: #820000;
+  background: #f5f4ef;
+  border-radius: 10px;
+  font-weight: 600;
+	padding: 2px 6px;
+  text-shadow: none;
+	margin: 2px 2px;
 	text-decoration:none;
 }
 
 .barlink{
-	//color: #114EBA;
+	padding: 2px 6px;
+  margin: 2px 2px;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #8C1515;
+  border-color: #8C1515;
+  cursor: default;
 }
 
 code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#333;
+  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+  color:#3f3c30;
   font-size:12px;
 }
 
@@ -98,12 +137,7 @@ ins {
 /*************************
 **************************/
 
-body {
-  //background: #dae3e7;
-  font-size: 20px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 
 a.btn-cta-primary,
 .btn-cta-primary {
@@ -158,13 +192,14 @@ a.dotted-link:hover {
   margin-top: 15px;
 }
 .section .section-inner {
-  background: rgba(240,240,240,0.3);
+  background: #f2f1eb;
   padding: 30px;
+  border-bottom: 3px solid #c5beae;
 }
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #545e69;
+  color: #3f3c30;
   font-size: 24px;
 }
 .section .content .more-link .fa {
@@ -185,10 +220,10 @@ a.dotted-link:hover {
   font-size: 12px;
 }
 .latest .item .title a {
-  color: #778492;
+  color: #827252;
 }
 .latest .item .title a:hover {
-  color: #5f6b77;
+  color: #820000;
 }
 .latest .item .project-image:hover {
   -webkit-opacity: 0.8;
@@ -231,7 +266,7 @@ a.dotted-link:hover {
   overflow: hidden;
 }
 .latest .featured-image .ribbon .text {
-  font-family: 'Montserrat', sans-serif;
+  //font-family: 'Montserrat', sans-serif;
   position: relative;
   left: -8px;
   top: 18px;
@@ -318,7 +353,7 @@ a.dotted-link:hover {
 /* Info Section */
 .info .fa {
   margin-right: 15px;
-  color: #ccd1d6;
+  //color: #ccd1d6;
 }
 .info .fa.fa-envelope-o {
   font-size: 14px;
@@ -331,6 +366,12 @@ a.dotted-link:hover {
 }
 .info li:last-child {
   margin-bottom: 0;
+}
+.info a {
+  color: #827252;
+}
+.info a:hover, a:focus{
+  color: #820000;
 }
 /* Skills Section */
 .skills .intro {
@@ -403,9 +444,9 @@ a.dotted-link:hover {
   margin-top: 0;
 }
 .education .item .university {
-  font-family: "Lato", arial, sans-serif;
-  font-size: 13px;
-  color: #777777;
+  //font-family: "Lato", arial, sans-serif;
+  font-size: 14px;
+  color: #8a887d;
   font-weight: 600;
   padding-left: 25px;
 }
@@ -438,10 +479,10 @@ a.dotted-link:hover {
   line-height: 1.3;
 }
 .blog .item .title a {
-  color: #778492;
+  color: #827252;
 }
 .blog .item .title a:hover {
-  color: #5f6b77;
+  color: #820000;
 }
 .blog .item:last-child {
   margin-bottom: 0;
@@ -454,10 +495,10 @@ a.dotted-link:hover {
   margin-right: 5px;
 }
 .list ul li a {
-  color: #778492;
+  color: #827252;
 }
 .list ul li a:hover {
-  color: #49515a;
+  color: #820000;
 }
 /* Credits */
 .credits ul li {
@@ -517,7 +558,7 @@ a.dotted-link:hover {
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .container {
     width: 1360px;
   }

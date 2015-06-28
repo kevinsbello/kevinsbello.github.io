@@ -1,7 +1,7 @@
 permalink: pretty
 paginate: 5
 paginate_path: "/blog/page:num/"
-exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'run', '_drafts/*.R', '_drafts/*.Rmd']
+exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'run', 'blog/_drafts/*.R', 'blog/_drafts/*.Rmd']
 excerpt_separator: <!--more-->
 categories: [projectk, postk, publick]
 production_url: http://kevinbm.github.io

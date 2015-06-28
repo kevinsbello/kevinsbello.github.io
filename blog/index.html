@@ -29,7 +29,7 @@ page_name: Blog
           {% if paginator.previous_page == 1 %}
             <li><a href="/">«</a></li>
           {% else %}
-            <li><a href="/page{{paginator.previous_page}}">«</a></li>
+            <li><a href="/blog/page{{ paginator.previous_page }}">«</a></li>
           {% endif %}
         {% endif %}
 
@@ -44,13 +44,13 @@ page_name: Blog
             {% if i == 1 %}
               <li><a href="/">{{ i }}</a></li>
             {% else %}
-              <li><a href="/page{{i}}">{{ i }}</a></li>
+              <li><a href="/blog/page{{ i }}">{{ i }}</a></li>
             {% endif %}
           {% endif %}
         {% endfor %}
 
         {% if paginator.next_page %}
-          <li><a href="/page{{paginator.next_page}}">»</a></li>
+          <li><a href="/blog/page{{ paginator.next_page }}">»</a></li>
         {% else %}
           <li class="disabled"><a href="#">»</a></li>
         {% endif %}
