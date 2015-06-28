@@ -27,6 +27,9 @@ h1, h2, h3, h4, h5, h6 {
   /*margin:20 20 20px;*/
 }
 
+.mooc a{
+  color: #827252;
+}
 
 .menu-cat{
   font: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -79,8 +82,15 @@ h3 small{
   font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.btn-default:hover{
-  background-color: #f5f4ef;
+.btn-default{
+  background-color: #f2f1eb;
+  border-color: #820000;
+  color: #820000;
+}
+.btn-default:hover, .btn-default:focus{
+  background-color: #f2f1eb;
+  border-color: #820000;
+  color: #820000;
 }
 
 a.kactive, a.kactive:hover, a.kactive:active, a.kactive:focus {
@@ -440,12 +450,12 @@ a.dotted-link:hover {
   margin-bottom: 0;
 }
 .education .item .title {
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 0;
 }
 .education .item .university {
   //font-family: "Lato", arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #8a887d;
   font-weight: 600;
   padding-left: 25px;
@@ -475,7 +485,7 @@ a.dotted-link:hover {
   margin-bottom: 30px;
 }
 .blog .item .title {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.3;
 }
 .blog .item .title a {
@@ -565,11 +575,15 @@ a.dotted-link:hover {
 }
 
 h3.title > a{
-	font-weight: 700;
+	font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-
-
+.nothome .section-inner{
+  padding: 8px 30px 30px 30px;
+}
 
 
 

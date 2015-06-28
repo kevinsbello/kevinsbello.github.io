@@ -3,3 +3,23 @@ layout: default
 title: MOOC
 page_name: MOOC
 ---
+<section class="about section nothome">
+    <div class="section-inner">
+		<div id="Mooc" class="mooc">
+			
+		</div>
+	</div>
+</section>
+
+
+<script>
+$(function() {
+	$('#Mooc').CSVToTable('/mooc/mooc.csv',
+        {
+            startLine: 0,
+            loadingText: 'Loading MOOC...',
+            tableClass: 'table table-striped'
+        });  
+});
+
+</script>
