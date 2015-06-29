@@ -210,7 +210,7 @@ a.dotted-link:hover {
   margin-top: 0;
   margin-bottom: 30px;
   color: #3f3c30;
-  font-size: 24px;
+  font-size: 28px;
 }
 .section .content .more-link .fa {
   margin-right: 5px;
@@ -579,6 +579,7 @@ h3.title > a{
 }
 h1, h2, h3, h4, h5, h6{
   font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #3f3c30;
 }
 
 .nothome .section-inner{
