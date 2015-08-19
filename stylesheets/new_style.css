@@ -7,7 +7,7 @@ body {
   font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
-  color: #3f3c30;
+  color: #2e2d29;
   line-height: 30px;
 }
 
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .MathJax{
-	color: #3f3c30;
+	color: #565347;
 }
 
 h2 {
@@ -63,6 +63,7 @@ h3, h4, h5, h6 {
 a, a:hover, a:focus {
   color: #820000;
   font-weight: 400;
+  text-decoration: none;
 }
 
 p>a{
@@ -96,6 +97,9 @@ h3 small{
   color: #820000;
 }
 
+.btn-blog{
+  padding: 6px 8px;
+}
 a.kactive, a.kactive:hover, a.kactive:active, a.kactive:focus {
 	color: #820000;
   background: #f5f4ef;
@@ -135,8 +139,8 @@ pre {
 }
 
 .table-striped>tbody>tr:nth-of-type(odd) {
-  //background-color: rgba(69, 130, 236,0.05);
-  background-color: whitesmoke;
+  background-color: rgba(69, 130, 236,0.05);
+  background-color: rgba(248, 246, 234, 0.81);
  
 }
 
@@ -146,6 +150,10 @@ del {
 ins {
 	color: green;
 }
+h4 > a{
+  color: #827252;
+}
+
 
 /*************************
 **************************/
@@ -205,7 +213,8 @@ a.dotted-link:hover {
   margin-top: 15px;
 }
 .section .section-inner {
-  background: #f2f1eb;
+  //background: #f2f1eb;
+  background: rgba(242, 242, 242, 1);
   padding: 30px;
   border-bottom: 3px solid #c5beae;
 }
@@ -460,7 +469,7 @@ a.dotted-link:hover {
   //font-family: "Lato", arial, sans-serif;
   font-size: 16px;
   color: #8a887d;
-  font-weight: 600;
+  font-weight: 500;
   padding-left: 25px;
 }
 .education .item .university .year {

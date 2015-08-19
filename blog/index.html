@@ -12,7 +12,7 @@ page_name: Blog
       <h3><a href="{{ post.url }}"> {{ post.title }}</a><br><small class="meta"><i class="fa fa-clock-o post-date"></i> Posted on {{ post.date | date:"%B %d, %Y" }}</small></h3>
       
       <div class="content">{{ post.excerpt }} </div>
-      <a href="{{ post.url }}" class="btn btn-default">Read More</a>
+      <a href="{{ post.url }}" class="btn btn-default btn-blog">Read More</a>
     </div>
   </section>
   {% endif %}
@@ -27,7 +27,7 @@ page_name: Blog
           <li class="disabled"><a href="#">«</a></li>
         {% else %}
           {% if paginator.previous_page == 1 %}
-            <li><a href="/">«</a></li>
+            <li><a href="/blog/">«</a></li>
           {% else %}
             <li><a href="/blog/page{{ paginator.previous_page }}">«</a></li>
           {% endif %}
@@ -42,7 +42,7 @@ page_name: Blog
             {% endif %}
           {% else %}
             {% if i == 1 %}
-              <li><a href="/">{{ i }}</a></li>
+              <li><a href="/blog/">{{ i }}</a></li>
             {% else %}
               <li><a href="/blog/page{{ i }}">{{ i }}</a></li>
             {% endif %}
