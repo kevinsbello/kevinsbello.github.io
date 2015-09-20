@@ -153,8 +153,21 @@ ins {
 h4 > a{
   color: #827252;
 }
-
-
+.papers li > a{
+  color: #827252; 
+}
+.quick li{
+  margin-bottom: 10px;
+}
+.quick li > a{
+  color: #827252;
+}
+.quick li .fa{
+  padding-right: 5px;
+}
+.item p .fa{
+  padding-right: 5px;
+}
 /*************************
 **************************/
 

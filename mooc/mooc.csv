@@ -1,6 +1,11 @@
 Course,Institution,Professors,Platform,Status,Grade,Honor
-"Algorithms: Design and Analysis, Part 1",Stanford University,Tim Roughgarden,Coursera,Completed,100.0%,<a href="/files/algo1.pdf">pdf</a>
-"Algorithms: Design and Analysis, Part 2",Stanford University,Tim Roughgarden,Coursera,Completed,93.4%,<a href="/files/algo2.pdf">pdf</a>
-"Machine Learning", Stanford University, Andrew Ng, Coursera, Completed, 100.0%, <a href="/files/ml_ng.pdf">pdf</a>
-"Statistical Inference", Johns Hopkins University, Brian Caffo, Coursera, Completed, 100.0%, <a href="/files/statinference.pdf">pdf</a>
-"Introduction to Linear Models and Matrix Algebra", HarvardX, Rafael A. Irizarry, EdX, Completed, 100.0%, <a href="/files/lmma.pdf">pdf</a>
+"Algorithms: Design and Analysis, Part 1",Stanford University,Tim Roughgarden,Coursera,Completed,100.0%,"<a href=""/files/algo1.pdf"">pdf</a>"
+"Algorithms: Design and Analysis, Part 2",Stanford University,Tim Roughgarden,Coursera,Completed,93.4%,"<a href=""/files/algo2.pdf"">pdf</a>"
+Machine Learning, Stanford University, Andrew Ng, Coursera,Completed, 100.0%," <a href=""/files/ml_ng.pdf"">pdf</a>"
+Statistical Inference, Johns Hopkins University, Brian Caffo, Coursera,Completed, 100.0%," <a href=""/files/statinference.pdf"">pdf</a>"
+Introduction to Linear Models and Matrix Algebra, Harvard University, Rafael A. Irizarry, EdX,Completed, 100.0%," <a href=""/files/lmma.pdf"">pdf</a>"
+Probabilistic Graphical Models,Stanford University,Daphne Koller,Coursera,Completed,None,None
+Convex Optimization,Stanford University,Stephen Boyd,Stanford Lagunita,Completed,None,None
+Statistical Learning,Stanford University,T. Hastie & R. Tibishirani,Stanford Lagunita,Completed,None,None
+Introduction to Big Data with Apache Spark,"University of California, Berkeley",Anthony D. Joseph,EdX,Completed,100.0%," <a href=""/files/BigDatawithApacheSpark.pdf"">pdf</a>"
+Scalable Machine Learning,"University of California, Berkeley",Ameet Talwalkar,EdX,Completed,None,None
