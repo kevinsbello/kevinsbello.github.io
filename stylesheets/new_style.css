@@ -140,7 +140,7 @@ pre {
 
 .table-striped>tbody>tr:nth-of-type(odd) {
   background-color: rgba(69, 130, 236,0.05);
-  background-color: rgba(248, 246, 234, 0.81);
+  background-color: rgba(231, 231, 231, 0.57)
  
 }
 
