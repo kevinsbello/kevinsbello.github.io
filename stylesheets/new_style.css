@@ -65,7 +65,9 @@ a, a:hover, a:focus {
   font-weight: 400;
   text-decoration: none;
 }
-
+.log_link{
+  color: #827252;
+}
 p>a{
   color: #827252;
 }
@@ -162,6 +164,9 @@ h4 > a{
 .quick li > a{
   color: #827252;
 }
+.quick li > a:hover, a:focus{
+  color: #820000;
+}
 .quick li .fa{
   padding-right: 5px;
 }
@@ -227,7 +232,7 @@ a.dotted-link:hover {
 }
 .section .section-inner {
   //background: #f2f1eb;
-  background: rgba(242, 242, 242, 1);
+  background: rgba(247, 247, 247, 1);
   padding: 30px;
   border-bottom: 3px solid #c5beae;
 }
