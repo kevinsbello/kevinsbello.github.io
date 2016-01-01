@@ -1,14 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900);
 
 body {
   /*font: 20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
-  color: #2e2d29;
-  line-height: 30px;
+  color: #333332;
+  //line-height: 145%;
+}
+
+.normal_size{
+	font-size:16px;
 }
 
 strong{
@@ -22,14 +25,8 @@ strong{
   font-weight: 700;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  /*margin:20 20 20px;*/
-}
-
 .mooc a{
-  color: #827252;
+  color: #820000;
 }
 
 .menu-cat{
@@ -52,24 +49,17 @@ h1, h2, h3, h4, h5, h6 {
 	color: #565347;
 }
 
-h2 {
-  color:#393939;
-}
-
-h3, h4, h5, h6 {
-  color:#494949;
-}
 
 a, a:hover, a:focus {
   color: #820000;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration: none;
 }
 .log_link{
   color: #827252;
 }
 p>a{
-  color: #827252;
+  color: #820000;
 }
 
 a small {
@@ -84,7 +74,7 @@ h3 small{
 }
 
 .btn {
-	font-size:18px;
+  font-size:16px;
   font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -140,11 +130,11 @@ pre {
   overflow-x: auto;
 }
 
-.table-striped>tbody>tr:nth-of-type(odd) {
+/*.table-striped>tbody>tr:nth-of-type(odd) {
   background-color: rgba(69, 130, 236,0.05);
   background-color: rgba(231, 231, 231, 0.57)
  
-}
+}*/
 
 del {
 	color: red;
@@ -155,8 +145,9 @@ ins {
 h4 > a{
   color: #827252;
 }
-.papers li > a{
-  color: #827252; 
+.papers li{
+  padding-bottom: 10px; 
+  font-size: 16px;
 }
 .quick li{
   margin-bottom: 10px;
@@ -556,23 +547,7 @@ a.dotted-link:hover {
 .credits .btn {
   margin-bottom: 15px;
 }
-/* ======= Footer ======= */
-.footer {
-  background: #32383e;
-  color: #fff;
-  padding: 10px 0;
-}
-.footer .copyright {
-  line-height: 1.6;
-  color: #a1aab4;
-  font-size: 14px;
-}
-.footer a {
-  color: #fff;
-}
-.footer .fa-heart {
-  color: #fb866a;
-}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header {
@@ -610,10 +585,6 @@ h3.title > a{
 h1, h2, h3, h4, h5, h6{
   font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #3f3c30;
-}
-
-.nothome .section-inner{
-  padding: 8px 30px 30px 30px;
 }
 
 

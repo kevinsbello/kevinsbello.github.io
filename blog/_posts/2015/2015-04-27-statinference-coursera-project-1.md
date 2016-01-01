@@ -3,7 +3,7 @@ title: Coursera Statistical Inference Project Part 1
 layout: post
 tags: [statistical inference, coursera, moocs, statistics]
 author_name: Kevin Bello
-author_uri: http://twitter.com/kbellomedina
+author_uri: http://twitter.com/keffbello
 categories: [postk]
 ---
 

@@ -1,13 +1,13 @@
 ---
 title: Codeforces Round 293 - Problem D
-author_uri: "http://twitter.com/kbellomedina"
+author_uri: "http://twitter.com/keffbello"
 layout: post
 tags: [programming, probabilities, expected value, codeforces]
 categories: [postk]
 author_name: Kevin Bello
 ---
 
-[Link][52a5d5eb]
+[Link to problem][52a5d5eb]
 
 [52a5d5eb]: http://codeforces.com/problemset/problem/518/D "Ilya and Escalator"
 

@@ -3,246 +3,37 @@ layout: default
 title: Homepage
 page_name: Homepage
 ---
+	<section id="about">
+		<div class="container center">
+			<span id="face-wrapper">
+				<img src="/images/me.png" alt="Me" class="img-circle face" width="150px" height="150px"><br>
+			</span>
+			<h4 style="margin-top:10px;">Welcome to my personal page!</h4>
 
-        <div class="row">
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">Quick Facts</h2>
-                        <div class="content">
-                            <ul class="list-unstyled quick">
-                                <li><i class="fa fa-bolt"></i> I received a BSc in Mechatronics Engineering from the <a href="https://en.wikipedia.org/wiki/National_University_of_Engineering">National University of Engineering</a> (UNI) and ranked 1st in my class. </li>
-                                <li><i class="fa fa-bolt"></i> I am the current president of <a href="http://giscia.github.io/" target="_blank">GISCIA Lab</a>, a Control Systems and Artificial Intelligence research laboratory at <a href="https://en.wikipedia.org/wiki/National_University_of_Engineering">UNI</a>.</li>
-                                <li><i class="fa fa-bolt"></i> Although most of the courses I took during my undergrade were related to electrical and mechanical engineering (which were really enjoyable), the few courses I took related to computer science were the ones that intrigued me the most. Now my interests are inside the AI field.</li>
-                                <li><i class="fa fa-bolt"></i> I like to participate in programming competitions because I enjoy coding and thinking how to hack some tricky algorithmic problems.</li>
-                            </ul>    
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-              
-              <section class="projects section">
-                    <div class="section-inner">
-                        <h2 class="heading">News</h2>
-                        <div class="content">
-                            <div class="item">
-                                <p><i class="fa fa-newspaper-o fa-1"></i>
-                                <strong>September 2015:</strong> The Machine Learning Summer School (<a href="http://www.iip.ist.i.kyoto-u.ac.jp/mlss15/doku.php?id=speaker" target="_blank">MLSS'15</a>) is over. Awesome lectures, poster presented and really glad to have met many talented people with the same interests ☺.
-                                </p>
-                            </div>
-                            <div class="item">
-                                <p><i class="fa fa-newspaper-o fa-1"></i>
-                                <strong>June 2015:</strong> I'm so excited about attending the Machine Learning Summer School (<a href="http://www.iip.ist.i.kyoto-u.ac.jp/mlss15/doku.php?id=speaker" target="_blank">MLSS'15</a>). Many advanced topics will be discussed in the lectures that will help me to get a better understanding of ML ☺. Moreover, I'am going to present a poster about an application of topic models to education. Can't wait to meet outstanding people there!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-               <!--
-               <section class="latest section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest Projects</h2>
-                        <div class="content">    
-                          {% for post in site.posts %}
-                            {% if post.categories contains 'projectk' %}    
-                              <div class="item">
-                                  <h3 class="title"><i class="fa fa-pencil-square-o"></i><a href="{{ post.url}}"> {{ post.title }}</a></h3>
-                              </div>
-                            {% endif %}
-                          {% endfor %}
-                        </div>
-                    </div>
-                </section>-->
+			<p>I am <strong>Kevin Bello</strong>, a prospective graduate student interested in doing research in Machine Learning and its diverse range of applications. I received a BSc in Mechatronics Engineering from the <a target="_blank" href="http://en.wikipedia.org/wiki/National_University_of_Engineering">National University of Engineering</a> (UNI, Peru) in 2014. There I have been doing research in Machine Learning and Natural Langauge Processing advised by <a target="_blank" href="https://pe.linkedin.com/in/albertocoronado">Alberto Coronado</a>.</p>
+
+			<p>Currently, I am the president of the Artificial Intelligence and Control Systems Research Laboratory (<a href="http://giscia.github.io/" target="_blank">GISCIA</a>) at UNI. The lab is leaded by UNI students who are interested in following a research career. We have published several papers, being recognized as one of the best student labs at UNI. In addition, we try to motivate undergraduate students to get involved in research. The main research topics at GISCIA are related to Robotics, Machine Learning for Natural Language, Computer Vision and Finance but we are always excited to do other kinds of multidisciplinary work. To know more about the lab, take a look at the lab's <a href="http://giscia.github.io/" target="_blank">webpage</a>.</p>
+			<p>I like to participate in programming competitions from time to time. Here is my topcoder profile: <a href="https://www.topcoder.com/members/kevinbm/" target="_blank">kevinbm</a>. </p>
+			<p>Contact me at: <a href="http://twitter.com/keffbello" target="_blank">@keffbello</a> or by email at: ksbm190493 [at] gmail [dot] com.</p>
+			<p>Thanks for visiting!</p>
+		</div>
+		
+
+      <div class="container">
+          <h3 class="heading">News</h3>
+              <div class="item">
+                  <p><i class="fa fa-newspaper-o fa-1"></i>
+                  <strong>09/2015:</strong> The Machine Learning Summer School (<a href="http://www.iip.ist.i.kyoto-u.ac.jp/mlss15/doku.php?id=speaker" target="_blank">MLSS'15</a>) is over. Awesome lectures, poster presented and really glad to have met many talented people with the same interests ☺.
+                  </p>
+              </div>
+              <div class="item">
+                  <p><i class="fa fa-newspaper-o fa-1"></i>
+                  <strong>06/2015:</strong> I will be attending the Machine Learning Summer School (<a href="http://www.iip.ist.i.kyoto-u.ac.jp/mlss15/doku.php?id=speaker" target="_blank">MLSS'15</a>) in August. Many advanced topics will be covered, this will help me to get a better grasp of the state-of-the-art ML. Also, I am going to present a poster about an application of topic models to education. Can't wait to meet outstanding people there!
+                  </p>
+          	 </div>
+      </div>
+
+		  
+	</section>
                 
-                <section class="latest section">
-                    <div class="section-inner">
-                        <h2 class="heading">Research Interests</h2>
-                        <div class="content">    
-                        My current research interests are:
-                        <ul>
-                            <li>Graphical Models, Deep Learning, Neural Networks.</li>
-                            <li>Support Vector Machines, Gaussian Processes, i.e. Kernel methods.</li>
-                            <li>Scalable Machine Learning. I like Machine Learning because I enjoy doing all the math behind it. Furthermore, what makes it more interesting for me is that almost the same algorithms can be applied to problems from different fields. However, nowadays one has to deal with huge amounts of data and I'm interested in developing methods that can process huge quantity of data as fast as possible without losing generalization.</li>
-                            <li>All sort of applications. For instance in: natural language (information extraction and retrieval, topic modeling), computer vision (image recognition and retrieval), biology, spacecraft, etc.</li>
-                        </ul>
-                        </div>
-                    </div>
-                </section>
-                
-                <!--
-                <section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Co-Founder & Lead Developer - <span class="place"><a href="#">Startup Hub</a></span> <span class="year">(2014 - Present)</span></h3>
-                                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-                            </div>
-                            <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="#">Google</a></span> <span class="year">(2013 - 2014)</span></h3>
-                                <p>Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
-                            </div>
-                            
-                            <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="#">eBay</a></span> <span class="year">(2012 - 2013)</span></h3>
-                                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </section>
-                -->
-                
-            </div><!--//primary-->
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Lima, Peru</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span>ksbm190493 [at] gmail [dot] com</li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="http://kevinbm.github.io">Kevin Bello</a></li>
-                            </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//aside-->
-                <!--
-                <aside class="skills aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Computational Skills</h2>
-                        <div class="content">
-                            <p class="intro">
-                                Most important programming tools/languages I have used so far for competitive programming and machine learning algorithms. A complete list can be found in my CV.</p>
-                            
-                            <div class="skillset">
-                               
-                                <div class="item">
-                                    <h3 class="level-title">C/C++, Python, Matlab<span class="level-label">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="95%">
-                                        </div>                                      
-                                    </div>
-                                </div>
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Java, R, SQL, OpenCV<span class="level-label">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="90%">
-                                        </div>                                      
-                                    </div>
-                                </div>
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Apache Spark<span class="level-label">Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="85%">
-                                        </div>                                      
-                                    </div>
-                                </div>
-                                
-                                <div class="item">
-                                    <h3 class="level-title">HTML5 &amp; CSS3<span class="level-label">Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="85%">
-                                        </div>                                      
-                                    </div>
-                                </div>
-                                
-                            </div>              
-                        </div>
-                    </div>
-                </aside>
-                -->
-                <!--
-                <aside class="testimonials aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Testimonials</h2>
-                        <div class="content">
-                            <div class="item">
-                                <blockquote class="quote">                                  
-                                    <p><i class="fa fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
-                                </blockquote>                
-                                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>                                                             
-                            </div>
-                            
-                            <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Linkedin</a></p> 
-                            
-                        </div>
-                    </div>
-                </aside>-->
-                
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">                      
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> BSc Mechatronics Engineering</h3>
-                                <h4 class="university"><a href="https://en.wikipedia.org/wiki/National_University_of_Engineering"><strong>National University of Engineering</strong></a><span class="year"> (Class of 2015-1)</span></h4>
-                            </div><!--//item-->
-                            
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                <!--
-                <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Professional Proficiency <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i> </span>
-                                </li>
-                                <li class="item">
-                                    <span class="title"><strong>Spanish:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </aside>
-                -->
-                <aside class="blog aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest Blog Posts</h2>
-                        <div class="item">
-                           {% for post in site.posts %}
-                              {% if post.categories contains 'postk' %}
-                                <h3 class="title"><a href="{{ post.url }}"> {{ post.title }}</a><br><small class="meta"><i class="fa fa-clock-o post-date"></i> Posted on {{ post.date | date:"%B %d, %Y" }}</small></h3>
-                               {% endif %}
-                           {% endfor %}
-                        </div>
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-                
-                <aside class="list conferences aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Conferences / Schools</h2>
-                        <div class="content">
-                            <div class = "upcoming">
-                                <h3 style="font-size: 24px;">Upcoming</h3>
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-calendar"></i> <a href="http://www.asmeconferences.org/IMECE2015/" target="_blank">IMECE 2015</a> (Nov. 13-19, Houston, TX)</li>
-                                </ul>
-                            </div>
-                            <div class = "past">
-                                <h3 style="font-size: 24px;">Past</h3>
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-calendar"></i> <a href="http://www.iip.ist.i.kyoto-u.ac.jp/mlss15/doku.php" target="_blank">MLSS 2015</a> (Aug. 23-Sep. 04, Kyoto, Japan)</li>
-                                    <li><i class="fa fa-calendar"></i> <a href="http://www.conimera.org.pe/" target="_blank">CONIMERA 2015</a> (June 24-26, Lima, Peru)</li>
-                                    <li><i class="fa fa-calendar"></i> <a href="https://gecamin.com/maplemin/english/" target="_blank">MAPLEMIN 2015</a> (July 1-3, Lima, Peru)</li>
-                                </ul>
-                            </div>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-              
-            </div><!--//secondary-->    
-        </div><!--//row-->
-    
-    
- 
- 
-              
+               

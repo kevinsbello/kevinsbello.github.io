@@ -4,17 +4,17 @@ title: Blog
 page_name: Blog
 ---
 
-<div id='index'>
+<div class="container">
 {% for post in paginator.posts %}
   {% if post.categories contains 'postk' %}
-  <section class="about section nothome">
-    <div class="section-inner">
-      <h3><a href="{{ post.url }}"> {{ post.title }}</a><br><small class="meta"><i class="fa fa-clock-o post-date"></i> Posted on {{ post.date | date:"%B %d, %Y" }}</small></h3>
+      <h3><a href="{{ post.url }}"> {{ post.title }}</a>
+		  <br>
+		  <small class="meta"><i class="fa fa-clock-o post-date"></i> Posted on {{ post.date | date:"%B %d, %Y" }}</small>
+	  </h3>
       
       <div class="content">{{ post.excerpt }} </div>
-      <a href="{{ post.url }}" class="btn btn-default btn-blog">Read More</a>
-    </div>
-  </section>
+      <a href="{{ post.url }}">Continue reading...</a>
+	  <hr>
   {% endif %}
 {% endfor %}
 </div>

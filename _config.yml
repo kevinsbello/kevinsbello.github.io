@@ -1,5 +1,6 @@
 hightlighter: pygments
 permalink: pretty
+permalink: /404.html
 paginate: 5
 paginate_path: "/blog/page:num/"
 exclude: ['Rakefile', 'Gemfile', 'Gemfile.lock', 'run', 'blog/_drafts/*.R', 'blog/_drafts/*.Rmd']
@@ -10,12 +11,9 @@ kramdown:
   input: GFM
   
 # edit here to achieve your personal greatness
-url: http://kevinbm.github.io
-baseurl: /
 author: Kevin Bello
 description: Personal information and blog
-avatar: profile.png
-email: kbellom@uni.pe
+email: "kbellom@uni.pe"
 github: kevinbm
 
 
