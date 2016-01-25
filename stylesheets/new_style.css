@@ -1,25 +1,29 @@
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900);
+/*@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900);*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,400italic,500,700);
 
 body {
-  /*font: 20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font: 20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
   font-weight: 300;
-  color: #333333;
-  //line-height: 145%;
+  color: #333;
+  line-height: 1.5;
 }
 
 .normal_size{
 	font-size:16px;
 }
 
+.post > p {
+	text-align: justify;
+}
 strong{
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .site-title {
-  font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
   //color: #e3dfd5;
   color: #820000;
   font-weight: 700;
@@ -30,7 +34,6 @@ strong{
 }
 
 .menu-cat{
-  font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
   //color:#e3dfd5;
   color: #820000;
   border-bottom: 1px solid #820000;
@@ -52,7 +55,7 @@ strong{
 
 a, a:hover, a:focus {
   color: #820000;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
 }
 .log_link{
@@ -75,7 +78,7 @@ h3 small{
 
 .btn {
   font-size:16px;
-  font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
 
 .btn-default{
@@ -96,7 +99,7 @@ a.kactive, a.kactive:hover, a.kactive:active, a.kactive:focus {
 	color: #820000;
   background: #ECD19F;
   border-radius: 10px;
-  font-weight: 600;
+  font-weight: 500;
 	padding: 2px 6px;
   text-shadow: none;
 	margin: 2px 2px;
@@ -174,7 +177,7 @@ a.btn-cta-primary,
   background: #54ba4e;
   border: 1px solid #54ba4e;
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
@@ -188,7 +191,7 @@ a.btn-cta-secondary,
   background: #479fc8;
   border: 1px solid #479fc8;
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
 }
 a.btn-cta-secondary:hover,
@@ -371,7 +374,7 @@ a.dotted-link:hover {
 }
 /* Git section */
 .ghfeed {
-  height: 600px;
+  height: 500px;
 }
 .ghfeed,
 .ghfeed *,
@@ -458,7 +461,7 @@ a.dotted-link:hover {
 }
 .testimonials .item .source .name {
   color: #939ea9;
-  font-weight: 600;
+  font-weight: 500;
 }
 .testimonials .item .source .title {
   color: #777777;
@@ -583,7 +586,6 @@ h3.title > a{
 	font-weight: 400;
 }
 h1, h2, h3, h4, h5, h6{
-  font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #3f3c30;
 }
 

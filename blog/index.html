@@ -12,7 +12,7 @@ page_name: Blog
 		  <small class="meta"><i class="fa fa-clock-o post-date"></i> Posted on {{ post.date | date:"%B %d, %Y" }}</small>
 	  </h3>
       
-      <div class="content">{{ post.excerpt }} </div>
+      <div class="content post">{{ post.excerpt }} </div>
       <a href="{{ post.url }}">Continue reading...</a>
 	  <hr>
   {% endif %}
@@ -58,5 +58,5 @@ page_name: Blog
     </ul>
   </div>
 {% else %}
-  <h3> Under Construction (Basic information in the about page) </h3>
+  <h3>Under Construction</h3>
 {% endif %}

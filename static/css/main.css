@@ -27,9 +27,10 @@ body {
   margin-bottom: 10px;
 }
 .navbar-default {
-	font-size:16px;
+  font-size:16px;
   background-color: #ffffff;
-  border-color: #ffffff;
+  border-right-color: #ffffff;
+  border-left-color: #ffffff;
 }
 .navbar-default .navbar-brand {
   color: #820000;
@@ -91,7 +92,7 @@ body {
 
 .container {
   width: auto;
-  max-width: 820px;
+  max-width: 850px;
 }
 .center{
   text-align: center;

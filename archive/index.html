@@ -15,12 +15,12 @@ page_name: Log
 			    {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 			    {% if forloop.first %}
   				<div class="row">
-  					 <div class="col-sm-4 col-md-4 col-lg-4">
+  					 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
   						 <h4 style="text-align: right">
   						 	{{ this_year }}
   						 </h4>
   					 </div>
-  					 <div class="col-sm-8 col-md-8 col-lg-8">
+  					 <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
   						 <h4 style="text-align: left">
 
   						 </h4>
@@ -28,12 +28,12 @@ page_name: Log
   				</div>
 			    {% endif %}
 				<div class="row">
-					 <div class="col-sm-4 col-md-4 col-lg-4">
+					 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 						 <h5 style="text-align: right">
 						 	{{ post.date | date: "%B %e" }}
 						 </h5>
 					 </div>
-					 <div class="col-sm-8 col-md-8 col-lg-8">
+					 <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
 						 <h5 style="text-align: left">
 						 	<strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
 						 </h5>
@@ -44,12 +44,12 @@ page_name: Log
 			      {% if this_year != next_year %}
 				    <br>
 	  				<div class="row">
-	  					 <div class="col-sm-4 col-md-4 col-lg-4">
+	  					 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 	  						 <h4 style="text-align: right">
 	  						 	{{ next_year }}
 	  						 </h4>
 	  					 </div>
-	  					 <div class="col-sm-8 col-md-8 col-lg-8">
+	  					 <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
 	  						 <h4 style="text-align: left">
 
 	  						 </h4>
