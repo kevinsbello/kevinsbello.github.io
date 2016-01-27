@@ -148,6 +148,13 @@ ins {
 h4 > a{
   color: #827252;
 }
+.justify {
+	text-align: justify;
+}
+.papers {
+	line-height: normal;
+	text-align: justify;
+}
 .papers li{
   padding-bottom: 10px; 
   font-size: 16px;
