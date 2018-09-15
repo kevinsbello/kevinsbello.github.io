@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<title>Kevin Bello | {{ page.title }} </title>
+	<title>K. Bello | {{ page.title }} </title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Kevin Bello's Personal Page">
-    <meta name="keywords" content="kevin, bello, ksbm, kevinbm, machine learning, giscia, probabilities, statistics, learning, computer science, uni, mechatronics, algorithms">
+    <meta name="keywords" content="kevin bello, kevin, bello, ksbm, kevinbm, kevinsbello, machine learning, statistics, learning, computer science, purdue, mechatronics, algorithms">
     <meta name="author" content="Kevin Bello">
 
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-	
+    <!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 	
@@ -40,10 +40,10 @@
   		 z-index: 1;
   		 -moz-box-shadow: 0px 0px 2px 1px #820000; /* Firefox */  
   	   	 -webkit-box-shadow: 0px 0px 2px 1px #820000; /* Safari, Chrome */  
-  		 box-shadow: 0px 0px 2px 1px #820000; /* CSS3 */
+  		 box-shadow: 0 0 5px #828282; /* CSS3 */
   		}
   		.img-circle {
-			z-index:
+			z-index: 0;
   			-webkit-border-radius: 500px;
   			-moz-border-radius: 500px;
   			border-radius: 500px;
@@ -54,36 +54,38 @@
   
   <!-- Main Body-->
   <body>
-  <!-- Wrap all page content here -->
-  <div id="wrap">
-    <!-- Navbar header -->
-	<nav class="navbar navbar-default">
-	  <div class="container">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" href="/"><i class="fa fa-home"></i></a>
-	    </div>
-	    <div id="navbar">
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="/research">RESEARCH</a></li>
-			<li><a href="/blog">BLOG</a></li>
-			<li><a href="/archive">ARCHIVE</a></li>
-	        <li><a href="/mooc">MOOCS</a></li>
-	      </ul>
-	    </div>
-	  </div>
-	</nav>
-    {{ content }}
+      <!-- Wrap all page content here -->
+      <div id="wrap">
+        <!-- Navbar header -->
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="/"><i class="fa fa-home"></i></a>
+            </div>
+            <div id="navbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/#ref-publications">Publications</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/archive">Archive</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 
-  </div>
-  <!-- Footer -->
-<footer>
-    <div id="footer">
-        <div class="container center">
-            <p class="text-muted" style="font-size:14px">© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> </p>
+        {{ content }}
+
+      </div>
+
+      <hr>
+    <!-- Footer -->
+    <footer>
+        <div id="footer">
+
+                <p class="text-muted center" style="font-size:14px; margin: 20px;">© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> </p>
+
         </div>
-    </div>
-</footer>
-<div class="footer"></div>
+    </footer>
+    <div class="footer"></div>
 
     <!-- Bootstrap core JavaScript -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -93,9 +95,7 @@
     <script src="/static/js/ie10-viewport-bug-workaround.js"></script>
 	
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-	
-    
-	
+
 	<!--Google Analytics-->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

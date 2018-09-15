@@ -20,7 +20,7 @@ body {
 	text-align: justify;
 }
 strong{
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .site-title {
@@ -55,7 +55,7 @@ strong{
 
 a, a:hover, a:focus {
   color: #820000;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
 }
 .log_link{
@@ -153,10 +153,10 @@ h4 > a{
 }
 .papers {
 	line-height: 1.25;
-	text-align: justify;
+	text-align: left;
 }
 .papers li{
-  padding-bottom: 5px; 
+  padding-bottom: 15px;
 }
 .quick li{
   margin-bottom: 10px;
@@ -591,6 +591,19 @@ a.dotted-link:hover {
 h3.title > a{
 	font-weight: 400;
 }
+
+.home-title{
+    font-weight: 500;
+}
+.home-subtitle{
+    font-weight: 100;
+}
+.home-info{
+    font-weight: 100;
+    font-family: monospace;
+    /*text-align: left;*/
+}
+
 h1, h2, h3, h4, h5, h6{
   color: #3f3c30;
 }
