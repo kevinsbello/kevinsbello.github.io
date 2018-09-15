@@ -1,4 +1,4 @@
-hightlighter: pygments
+hightlighter: rouge
 permalink: pretty
 
 paginate: 5
@@ -9,6 +9,15 @@ categories: [projectk, postk, publick]
 markdown: kramdown
 kramdown:
   input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+lsi: false
+safe: true
+incremental: false
+gist:
+  noscript: false
+
   
 # edit here to achieve your personal greatness
 author: Kevin Bello
