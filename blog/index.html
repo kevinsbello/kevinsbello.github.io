@@ -9,7 +9,7 @@ page_name: Blog
   {% if post.categories contains 'postk' %}
       <h3><a href="{{ post.url }}"> {{ post.title }}</a>
 		  <br>
-		  <small class="meta"><i class="fa fa-clock-o post-date"></i> Posted on {{ post.date | date:"%B %d, %Y" }}</small>
+		  <small class="meta"><i class="far fa-clock"></i> Posted on {{ post.date | date:"%B %d, %Y" }}</small>
 	  </h3>
       
       <div class="content post">{{ post.excerpt }} </div>

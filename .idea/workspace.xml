@@ -2,138 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70dee73b-d484-436d-9cc2-cf073588d5f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/compatibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/compatibility.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/example.local.css" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/example.local.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/images/kogmbh.png" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/images/kogmbh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/images/nlnet.png" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/images/nlnet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/images/texture.png" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/images/texture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-download.png" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-download.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-fullscreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-fullscreen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-menuArrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-menuArrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-pageDown.png" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-pageDown.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-pageUp.png" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-pageUp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-presentation.png" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-presentation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-zoomIn.png" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-zoomIn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-zoomOut.png" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/images/toolbarButton-zoomOut.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/pdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/pdf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/pdf.worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/pdf.worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/pdfjsversion.js" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/pdfjsversion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/text_layer_builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/text_layer_builder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/ui_utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/ui_utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViewerJS/webodf.js" beforeDir="false" afterPath="$PROJECT_DIR$/ViewerJS/webodf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default_backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default_backup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post_backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post_backup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_plugins/redcarpet_pygments.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/redcarpet_pygments.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/base.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/base.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/responsive.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/responsive.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/styles.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/styles.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/less/theme-default.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/less/theme-default.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/bootstrap/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/bootstrap/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/animated.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/core.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/larger.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/list.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/path.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/stacked.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_path.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/jquery-1.11.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/jquery-1.11.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plugins/jquery-migrate-1.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/jquery-migrate-1.2.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/_posts/2015/2015-03-12-codeforces-round-293-problem-d.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/_posts/2015/2015-03-12-codeforces-round-293-problem-d.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/_posts/2015/2015-04-27-statinference-coursera-project-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/_posts/2015/2015-04-27-statinference-coursera-project-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/_posts/2015/2015-05-29-PowPow.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/_posts/2015/2015-05-29-PowPow.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/BigDatawithApacheSpark.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/BigDatawithApacheSpark.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/algo1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/algo1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/algo2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/algo2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/lmma.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/lmma.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/ml_ng.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/ml_ng.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/papers/shallow_parsing_topic_models.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/papers/shallow_parsing_topic_models.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/resweb.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/resweb.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/statinference.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/statinference.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/404.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/404.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg-main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg-main.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/me.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/me.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/me.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/statinference1-unnamed-chunk-4-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/statinference1-unnamed-chunk-4-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/jqBootstrapValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/jqBootstrapValidation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/jquery.csvToTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/jquery.csvToTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/jquery.tablesorter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/jquery.tablesorter.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/scale.fix.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/scale.fix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mooc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mooc/mooc.csv" beforeDir="false" afterPath="$PROJECT_DIR$/mooc/mooc.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/params.json" beforeDir="false" afterPath="$PROJECT_DIR$/params.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/research/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/software/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/software/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/bootstrap-theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/codekevin.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/codekevin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/new_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/new_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/pygment_trac.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/pygment_trac.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -155,29 +25,31 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
-          <entry key="html" value="4" />
+          <entry key="html" value="6" />
           <entry key="json" value="1" />
+          <entry key="md" value="2" />
           <entry key="rnc" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="6" />
           <entry key="JSON" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="152" />
-          <entry key="html" value="1661" />
+          <entry key="html" value="1662" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="152" />
-          <entry key="HTML" value="1661" />
+          <entry key="HTML" value="1662" />
         </counts>
       </usages-collector>
     </session>
@@ -225,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="598">
@@ -233,6 +105,24 @@
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -259,6 +149,9 @@
         <option value="$PROJECT_DIR$/stylesheets/new_style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/blog/_posts/2015/2015-03-12-codeforces-round-293-problem-d.md" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/blog/index.html" />
       </list>
     </option>
   </component>
@@ -297,6 +190,11 @@
               <item name="kevinbm.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="kevinbm.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kevinbm.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kevinbm.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kevinbm.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -354,12 +252,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536818957974</updated>
-      <workItem from="1536818959059" duration="16738000" />
+      <workItem from="1536818959059" duration="17528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16738000" />
+    <option name="totallyTimeSpent" value="17528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
@@ -448,6 +346,28 @@
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/_posts/2015/2015-03-12-codeforces-round-293-problem-d.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
         </state>
       </provider>
     </entry>
