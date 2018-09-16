@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70dee73b-d484-436d-9cc2-cf073588d5f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +24,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
-          <entry key="html" value="10" />
+          <entry key="html" value="11" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="2" />
           <entry key="json" value="1" />
@@ -39,7 +39,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="10" />
+          <entry key="HTML" value="11" />
           <entry key="Image" value="5" />
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="2" />
@@ -51,7 +51,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="152" />
-          <entry key="html" value="1694" />
+          <entry key="html" value="1695" />
           <entry key="lock" value="12" />
           <entry key="yml" value="11" />
         </counts>
@@ -59,7 +59,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="152" />
-          <entry key="HTML" value="1694" />
+          <entry key="HTML" value="1695" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="YAML" value="11" />
         </counts>
@@ -109,14 +109,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="1187">
               <caret line="96" column="44" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -148,11 +157,11 @@
         <option value="$PROJECT_DIR$/stylesheets/new_style.css" />
         <option value="$PROJECT_DIR$/blog/_posts/2015/2015-03-12-codeforces-round-293-problem-d.md" />
         <option value="$PROJECT_DIR$/blog/index.html" />
-        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
       </list>
     </option>
   </component>
@@ -237,12 +246,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536818957974</updated>
-      <workItem from="1536818959059" duration="22672000" />
+      <workItem from="1536818959059" duration="22711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22672000" />
+    <option name="totallyTimeSpent" value="22711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
@@ -320,13 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -387,11 +389,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="1187">
           <caret line="96" column="44" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
