@@ -26,33 +26,18 @@ Combining them we can easily calculate the state where there are \\(i\\) people 
 
 A final remark: when \\(i = n\\), the second term of the sum is no longer valid because there is no \\(n+1\\) person trying to enter. Thus, the set of all possible states considering base cases is:
 
-<div> $$ \mathrm{Pr[X_{j}}=i\mathrm{]} = \begin{cases}  
+<div> $$
+\mathrm{Pr[X_{j}}=i\mathrm{]} = \begin{cases}  
 1 & i = 0, j = 0 \\
 0 &  i \gt 0, j = 0 \\
 (1-p)^{j} &  i = 0, j \gt 0 \\
 \mathrm{Pr[X_{j-1}}=i-1\mathrm{]} * p + \mathrm{Pr[X_{j-1}}=i\mathrm{]} & i=n\\
 \mathrm{Pr[X_{j-1}}=i-1\mathrm{]} * p + \mathrm{Pr[X_{j-1}}=i\mathrm{]} * (1-p) & \text{otherwise}
-\end{cases} $$ </div>
+\end{cases} 
+$$ </div>
 
 As we can observe, finding the probabilities has a complexity of \\(O\(n*t\)\\). Thus being feasible to pass the time constraints. Once the probabilities are calculated, we just need to sum up and multiply to get the expected value.
 
 Code snippet in C++:
 
-{% highlight cpp linenos %}
-double prob[2001][2001];
-prob[0][0] = 1; // base case
-for ( int j = 1; j <= t; j++ ) // base case
-	prob[j][0] = (1-p) * prob[j-1][0];
-for ( int j = 1; j <= t; j++ ) {
-	for ( int i = 1; i <= n; i++ ) {
-		if( i == n )
-			prob[j][i] += prob[j-1][i-1] * p + prob[j-1][i];
-		else
-			prob[j][i] +=  prob[j-1][i-1] * p + prob[j-1][i] * (1-p);
-	}
-}
-double ans = 0;
-for ( int i = 1; i <= n; i++ )
-	ans +=  i * prob[t][i];
-// ans contains the expected value
-{% endhighlight %}
+<script src="https://gist.github.com/kevinbm/a7a3c0460ed81e6c5420344163f1814f.js"></script>
