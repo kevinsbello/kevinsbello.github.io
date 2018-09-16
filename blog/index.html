@@ -5,18 +5,18 @@ page_name: Blog
 ---
 
 <div class="container">
-{% for post in paginator.posts %}
-  {% if post.categories contains 'postk' %}
-      <h3><a href="{{ post.url }}"> {{ post.title }}</a>
-		  <br>
-		  <small class="meta"><i class="far fa-clock"></i> Posted on {{ post.date | date:"%B %d, %Y" }}</small>
-	  </h3>
-      
-      <div class="content post">{{ post.excerpt }} </div>
-      <a href="{{ post.url }}">Continue reading...</a>
-	  <hr>
-  {% endif %}
-{% endfor %}
+    {% for post in paginator.posts %}
+        {% if post.categories contains 'postk' %}
+            <h3><a href="{{ post.url }}"> {{ post.title }}</a>
+              <br>
+              <small class="meta"><i class="far fa-clock"></i> Posted on {{ post.date | date:"%B %d, %Y" }}</small>
+            </h3>
+
+            <div class="content post">{{ post.excerpt }} </div>
+            <a href="{{ post.url }}">Continue reading...</a>
+            <hr>
+        {% endif %}
+    {% endfor %}
 </div>
 
 {% if paginator.total_posts > 0 %}
@@ -58,5 +58,5 @@ page_name: Blog
     </ul>
   </div>
 {% else %}
-  <h3>Under Construction</h3>
+  <h3 class="center">Under Construction</h3>
 {% endif %}
