@@ -1,32 +1,30 @@
-/*@import url(http://fonts.googleapis.com/css?family=Varela+Round);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900);*/
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700);
+@font-face {
+  font-family:"LiberationSerifRegular";
+  src: url("/fonts/LiberationSerif-Regular.ttf")
+}
 
 body {
-  /*font: 20px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-family: Source Sans Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: Roboto, Arial, sans-serif;
+  font-family: LiberationSerifRegular, serif;
   font-size: 16px;
-  font-weight: 300;
-  color: #333;
+  font-weight: 400;
+  color: #000;
   line-height: 1.5;
 }
 
 .normal_size{
-	font-size:16px;
+	font-size: 16px;
 }
 
 .post > p {
 	text-align: justify;
 }
 strong{
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .site-title {
-  //color: #e3dfd5;
   color: #b1040e;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .mooc a{
@@ -34,17 +32,15 @@ strong{
 }
 
 .menu-cat{
-  //color:#e3dfd5;
   color: #b1040e;
   border-bottom: 1px solid #b1040e;
   margin-top: 0.8em;
   padding-top: 0.2em;
   padding-bottom: 0.1em;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .btn-link, .btn-link:hover, .btn-link:focus{
-  //color: #e3dfd5;
   color: #b1040e;
 }
 
@@ -55,13 +51,13 @@ strong{
 
 a {
   color: #b1040e;
-  font-weight: 400;
+  font-weight: bold;
   text-decoration: none;
 }
 
 a:hover, a:focus{
   color: #b1040e;
-  font-weight: 400;
+  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -106,7 +102,7 @@ a.kactive, a.kactive:hover, a.kactive:active, a.kactive:focus {
 	color: #b1040e;
   background: #ECD19F;
   border-radius: 10px;
-  font-weight: 500;
+  font-weight: bold;
 	padding: 2px 6px;
   text-shadow: none;
 	margin: 2px 2px;
@@ -190,7 +186,7 @@ a.btn-cta-primary,
   background: #54ba4e;
   border: 1px solid #54ba4e;
   color: #fff;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
@@ -204,7 +200,7 @@ a.btn-cta-secondary,
   background: #479fc8;
   border: 1px solid #479fc8;
   color: #fff;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: uppercase;
 }
 a.btn-cta-secondary:hover,
@@ -253,150 +249,7 @@ a.dotted-link:hover {
   margin-right: 5px;
   font-size: 14px;
 }
-/* About Section */
-/* Latest Section */
-.latest .item {
-  margin-bottom: 30px;
-}
-.latest .item .title {
-  font-size: 18px;
-  margin-top: 0;
-}
-.latest .item .title .label {
-  margin-left: 5px;
-  font-size: 12px;
-}
-.latest .item .title a {
-  color: #827252;
-}
-.latest .item .title a:hover {
-  color: #b1040e;
-}
-.latest .item .project-image:hover {
-  -webkit-opacity: 0.8;
-  -moz-opacity: 0.8;
-  opacity: 0.8;
-}
-.latest .divider {
-  margin-bottom: 60px;
-}
-.latest .featured {
-  margin-bottom: 60px;
-}
-.latest .featured .title {
-  margin-bottom: 5px;
-  font-size: 20px;
-}
-.latest .featured .summary {
-  margin-bottom: 30px;
-  color: #778492;
-}
-.latest .featured img {
-  margin-bottom: 30px;
-}
-.latest .featured .desc {
-  margin-bottom: 30px;
-}
-.latest .featured-image {
-  position: relative;
-}
-.latest .featured-image .text {
-  background: #3aaa64;
-  color: #fff;
-}
-.latest .featured-image .ribbon {
-  position: absolute;
-  top: -4px;
-  right: -4px;
-  width: 110px;
-  height: 110px;
-  overflow: hidden;
-}
-.latest .featured-image .ribbon .text {
-  //font-family: 'Montserrat', sans-serif;
-  position: relative;
-  left: -8px;
-  top: 18px;
-  width: 158px;
-  padding: 10px 10px;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-  background-color: #479fc8;
-  -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
-  -moz-transform: rotate(45deg) translate3d(0, 0, 0);
-  -ms-transform: rotate(45deg) translate3d(0, 0, 0);
-  -o-transform: rotate(45deg) translate3d(0, 0, 0);
-}
-.latest .featured-image .ribbon .text:before,
-.latest .featured-image .ribbon .text:after {
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  border-top: 5px solid #276582;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-}
-.latest .featured-image .ribbon .text:before {
-  left: 0;
-}
-.latest .featured-image .ribbon .text:after {
-  right: 0;
-}
-/* Projects Section */
-.projects .item {
-  margin-bottom: 30px;
-}
-.projects .item .title {
-  font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 5px;
-  line-height: 1.5;
-}
-.projects .item .title a {
-  color: #778492;
-}
-.projects .item .title a:hover {
-  color: #5f6b77;
-}
-/* Work Section */
-.experience .item {
-  margin-bottom: 30px;
-}
-.experience .item .title {
-  font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 5px;
-  line-height: 1.5;
-}
-.experience .item .title .place {
-  color: #777777;
-  font-weight: normal;
-}
-.experience .item .title .place a {
-  color: #777777;
-}
-.experience .item .title .place a:hover {
-  color: #666666;
-}
-.experience .item .title .year {
-  color: #777777;
-  font-weight: normal;
-}
-/* Git section */
-.ghfeed {
-  height: 500px;
-}
-.ghfeed,
-.ghfeed *,
-.ghfeed *:before,
-.ghfeed *:after {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-}
+
 /* Info Section */
 .info .fa {
   margin-right: 15px;
@@ -420,103 +273,7 @@ a.dotted-link:hover {
 .info a:hover, a:focus{
   color: #b1040e;
 }
-/* Skills Section */
-.skills .intro {
-  margin-bottom: 30px;
-}
-.skills .skillset .item {
-  margin-bottom: 30px;
-}
-.skills .skillset .level-title {
-  font-size: 16px;
-  position: relative;
-  margin-top: 0;
-  margin-bottom: 10;
-}
-.skills .skillset .level-title .level-label {
-  //color: #ccd1d6;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Lato", arial, sans-serif;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.skills .skillset .level-bar {
-  height: 15px;
-  background: #e8e8e8;
-}
-.skills .skillset .level-bar-inner {
-  height: 15px;
-  background: #66cb8c;
-}
-/* Testimonials section */
-.testimonials .item {
-  margin-bottom: 30px;
-}
-.testimonials .item:last-child {
-  margin-bottom: 0;
-}
-.testimonials .item .quote {
-  color: #666666;
-  font-size: 16px;
-  border-left-color: #9fdeb7;
-  margin-bottom: 15px;
-}
-.testimonials .item .quote .fa {
-  color: #79d19a;
-  margin-right: 15px;
-}
-.testimonials .item .source {
-  font-size: 14px;
-  padding-left: 30px;
-  font-weight: 500;
-}
-.testimonials .item .source .name {
-  color: #939ea9;
-  font-weight: 500;
-}
-.testimonials .item .source .title {
-  color: #777777;
-}
-/* Education section */
-.education .item {
-  margin-bottom: 30px;
-}
-.education .item:last-child {
-  margin-bottom: 0;
-}
-.education .item .title {
-  font-size: 18px;
-  margin-top: 0;
-}
-.education .item .university {
-  //font-family: "Lato", arial, sans-serif;
-  font-size: 16px;
-  color: #8a887d;
-  font-weight: 500;
-  padding-left: 25px;
-}
-.education .item .university .year {
-  color: #98959d;
-  font-weight: 500;
-}
-/* Language Section */
-.languages .item {
-  margin-bottom: 15px;
-}
-.languages .item .title {
-  color: #778492;
-}
-.languages .item .level {
-  color: #777777;
-}
-.languages .item:last-child {
-  margin-bottom: 0;
-}
-.languages .item .fa {
-  color: #79d19a;
-}
+
 /* Blog Section */
 .blog .item {
   margin-bottom: 30px;
@@ -600,24 +357,33 @@ h3.title > a{
 }
 
 .home-title{
-    font-weight: 500;
+    font-weight: bold;
 }
 .home-subtitle{
-    font-weight: 100;
+    font-weight: bold;
+    margin: 0.2em;
+    margin-left: 0em;
 }
 .home-info{
-    font-weight: 100;
-    font-family: monospace;
-    text-align: left;
-}
+    font-weight: normal;
+    margin: 0.1em;
+    margin-left: 0em;
+}                       
 
 .paper-title{
   color: #b1040e;
 }
 
 h1, h2, h3, h4, h5, h6{
-  color: #3f3c30;
+  color: #000;
 }
+
+h1{ font-size: 2em; font-weight: bold; }
+h2{ font-size: 1.5em; font-weight: bold; }
+h3{ font-size: 1.17em; font-weight: bold; }
+/*h4{ font-size: 2em; font-weight: bold; }*/
+/*h5{ font-size: 2em; font-weight: bold; }*/
+/*h6{ font-size: 2em; font-weight: bold; }*/
 
 
 
