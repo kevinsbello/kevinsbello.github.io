@@ -40,4 +40,4 @@ As we can observe, finding the probabilities has a complexity of \\(O\(n*t\)\\).
 
 Code snippet in C++:
 
-<script src="https://gist.github.com/kevinbm/a7a3c0460ed81e6c5420344163f1814f.js"></script>
+<script src="https://gist.github.com/kevinsbello/a7a3c0460ed81e6c5420344163f1814f.js"></script>
