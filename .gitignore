@@ -5,3 +5,4 @@ bootstrap/*
 research/_drafts/*
 blog/_drafts/*
 .DS_Store
+.idea/*
