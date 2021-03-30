@@ -6,3 +6,4 @@ research/_drafts/*
 blog/_drafts/*
 .DS_Store
 .idea/*
+Gemfile.lock

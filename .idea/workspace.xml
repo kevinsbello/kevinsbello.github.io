@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70dee73b-d484-436d-9cc2-cf073588d5f7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/cv_KevinBello.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/cv_KevinBello.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IMG_0230 3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/me.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mooc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mooc/mooc.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,9 @@
       <workItem from="1601146930286" duration="2343000" />
       <workItem from="1601181704564" duration="16000" />
       <workItem from="1608052656926" duration="348000" />
+      <workItem from="1613615800954" duration="4108000" />
+      <workItem from="1617084497789" duration="7000" />
+      <workItem from="1617084614882" duration="1844000" />
     </task>
     <servers />
   </component>
