@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70dee73b-d484-436d-9cc2-cf073588d5f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/cv_KevinBello.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/cv_KevinBello.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mooc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mooc/mooc.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +12,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1QTMyGtmBKnF54bBsX7YLreOnSz" />
   <component name="ProjectViewState">
@@ -55,7 +58,8 @@
       <workItem from="1608052656926" duration="348000" />
       <workItem from="1613615800954" duration="4108000" />
       <workItem from="1617084497789" duration="7000" />
-      <workItem from="1617084614882" duration="1844000" />
+      <workItem from="1617084614882" duration="2060000" />
+      <workItem from="1618334821811" duration="3025000" />
     </task>
     <servers />
   </component>
@@ -73,11 +77,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="817" y="336" key="SettingsEditor" timestamp="1596476585121">
-      <screen x="0" y="23" width="2560" height="1347" />
-    </state>
-    <state x="817" y="336" key="SettingsEditor/0.23.2560.1347/2560.331.1680.1027@0.23.2560.1347" timestamp="1596476585121" />
   </component>
 </project>
