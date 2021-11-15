@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Publications"
+    url: /publications/
+  - title: "Service"
+    url: /#academic-service
+  - title: "Teaching"
+    url: /teaching/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

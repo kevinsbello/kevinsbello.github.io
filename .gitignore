@@ -1,9 +1,4 @@
-_site/*
-_drafts/*
-*~
-bootstrap/*
-research/_drafts/*
-blog/_drafts/*
+_site
+.sass-cache
+.jekyll-metadata
 .DS_Store
-.idea/*
-Gemfile.lock
