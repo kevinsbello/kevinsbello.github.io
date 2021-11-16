@@ -8,13 +8,13 @@
 
 .sidebar {
   @include clearfix();
-  // @include breakpoint(max-width $large) {
-  //   /* fix z-index order of follow links */
-  //   position: relative;
-  //   z-index: 10;
-  //   -webkit-transform: translate3d(0, 0, 0);
-  //   transform: translate3d(0, 0, 0);
-  // }
+  @include breakpoint(max-width $large) {
+    /* fix z-index order of follow links */
+    position: relative;
+    z-index: 10;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 
   @include breakpoint($large) {
     float: left;
@@ -127,7 +127,7 @@
   }
 
   img {
-    max-width: 110px;
+    max-width: 140px;
     border-radius: 50%;
 
     @include breakpoint($large) {

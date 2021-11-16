@@ -6,12 +6,12 @@
 
 $intro-transition  : none;
 $global-transition : none;
-$text-color: #111;
+$text-color: #3e3e3e;
 // $link-color: #b1040e;
 $twitter-color: #000;
 $info-color: #c10000ec;
 $primary-color: #c10000ec;
-// $masthead-link-color : #b1040e;
+$masthead-link-color : #5d6368;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
