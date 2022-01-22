@@ -34,6 +34,8 @@ Before my PhD, I received a BSc in Mechatronics Engineering from the <a target="
 
 ## News
 <i class="far fa-newspaper"></i>
+01/22: One paper accepted at AISTATS.\\
+<i class="far fa-newspaper"></i>
 09/21: Started a joint postdoc at UChicago and CMU. I'll be working on projects that focus on causal discovery and learning invariant/causal representations.\\
 <i class="far fa-newspaper"></i>
 09/21: One paper accepted at NeurIPS.\\
@@ -71,9 +73,9 @@ Before my PhD, I received a BSc in Mechatronics Engineering from the <a target="
 
 - Chair of [LatinX AI Workshop][lxai_workshop]{:target="_blank"} at ICML 2020.
 - **Conferences (reviewer):**
-    ICLR 2022, AAAI 2022, NeurIPS 2021, ICML 2021, AISTATS 2021, ICLR 2021, NeurIPS 2020, IJCAI 2020, NeurIPS 2019.
+    ICML 2022, ICLR 2022, AAAI 2022, NeurIPS 2021, ICML 2021, AISTATS 2021, ICLR 2021, NeurIPS 2020, IJCAI 2020, NeurIPS 2019.
 - **Journals (reviewer):** 
-    JMLR 2021, IEEE TPAMI 2020.
+    JMLR, IEEE TPAMI.
 
 [lxai_workshop]: https://icml.cc/Conferences/2020/ScheduleMultitrack?event=7087
 

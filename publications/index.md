@@ -7,10 +7,6 @@ title: Publications
 
 ## Publications 
 
-0. **A View of Exact Inference in Graphs from the Degree-4 Sum-of-Squares Hierarchy.**
-    [[PDF][10]{:target="_blank"}] \\
-    K. Bello, C. Ke, J. Honorio \\
-    Under Review.
 0. **On the Fundamental Limits of Exact Inference in Structured Prediction.**
     [[PDF][9]{:target="_blank"}] \\
     H. Lee, K. Bello, J. Honorio\\
@@ -19,6 +15,10 @@ title: Publications
     [[PDF][8]{:target="_blank"}] \\
     A. Ghoshal, K. Bello, J. Honorio\\
     Under review.
+0. **A View of Exact Inference in Graphs from the Degree-4 Sum-of-Squares Hierarchy.**
+    [[PDF][10]{:target="_blank"}] \\
+    K. Bello, C. Ke, J. Honorio \\
+    **AISTATS'22**{: style="color: blue"}. International Conference on Artificial Intelligence and Statistics, 2022.
 0. **Inverse Reinforcement Learning in a Continuous State Space with Formal Guarantees.**
     [[PDF][7]{:target="_blank"}] \\
     G. Dexter, K. Bello, J. Honorio\\
