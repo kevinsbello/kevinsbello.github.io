@@ -6,44 +6,44 @@ title: Publications
 ---
 
 ## Publications 
-
-0. **On the Fundamental Limits of Exact Inference in Structured Prediction.**
-    [[PDF][9]{:target="_blank"}] \\
-    H. Lee, K. Bello, J. Honorio\\
-    Under Review.   
+ 
 0. **Direct Learning with Guarantees of the Difference DAG Between Structural Equation Models.**
     [[PDF][8]{:target="_blank"}] \\
     A. Ghoshal, K. Bello, J. Honorio\\
     Under review.
-0. **A View of Exact Inference in Graphs from the Degree-4 Sum-of-Squares Hierarchy.**
+1. **On the Fundamental Limits of Exact Inference in Structured Prediction.**
+      [[PDF][9]{:target="_blank"}] \\
+      H. Lee, K. Bello, J. Honorio\\
+      **ISIT'22**{: style="color: blue"}. IEEE International Symposium on Information Theory, 2022.
+2. **A View of Exact Inference in Graphs from the Degree-4 Sum-of-Squares Hierarchy.**
     [[PDF][10]{:target="_blank"}] \\
     K. Bello, C. Ke, J. Honorio \\
     **AISTATS'22**{: style="color: blue"}. International Conference on Artificial Intelligence and Statistics, 2022.
-0. **Inverse Reinforcement Learning in a Continuous State Space with Formal Guarantees.**
+3. **Inverse Reinforcement Learning in a Continuous State Space with Formal Guarantees.**
     [[PDF][7]{:target="_blank"}] \\
     G. Dexter, K. Bello, J. Honorio\\
     **NeurIPS'21**{: style="color: blue"}. Annual Conference on Neural Information Processing Systems, 2021.
-0. **A Le Cam Type Bound for Adversarial Learning and Applications.**
+4. **A Le Cam Type Bound for Adversarial Learning and Applications.**
     [[PDF][6]{:target="_blank"}] \\
     Q. Xu\*, K. Bello\*, J. Honorio. (* Equal contribution)\\
     **ISIT'21**{: style="color: blue"}. IEEE International Symposium on Information Theory, 2021.
-0. **Fairness Constraints can Help Exact Inference in Structured Prediction.**
+5. **Fairness Constraints can Help Exact Inference in Structured Prediction.**
     [[PDF][5]{:target="_blank"}] \\
     K. Bello, J. Honorio\\
     **NeurIPS'20**{: style="color: blue"}. Annual Conference on Neural Information Processing Systems, 2020.
-0. **Minimax Bounds for Structured Prediction Based on Factor Graphs.** 
+6. **Minimax Bounds for Structured Prediction Based on Factor Graphs.** 
     [[PDF][4]{:target="_blank"}] \\
     K. Bello, A. Ghoshal, J. Honorio\\
     **AISTATS'20**{: style="color: blue"}. International Conference on Artificial Intelligence and Statistics, 2020.
-0. **Exact Inference in Structured Prediction.**
+7. **Exact Inference in Structured Prediction.**
     [[PDF][3]{:target="_blank"}] \\
     K. Bello, J. Honorio\\
     **NeurIPS'19**{: style="color: blue"}. Annual Conference on Neural Information Processing Systems, 2019.
-0. **Learning Latent Variable Structured Prediction Models with Gaussian Perturbations.** 
+8. **Learning Latent Variable Structured Prediction Models with Gaussian Perturbations.** 
     [[PDF][2]{:target="_blank"}] \\
     K. Bello, J. Honorio\\
     **NeurIPS'18**{: style="color: blue"}. Annual Conference on Neural Information Processing Systems, 2018.
-0. **Computationally and Statistically Efficient Learning of Bayes Nets Using Path Queries.**
+9. **Computationally and Statistically Efficient Learning of Bayes Nets Using Path Queries.**
     [[PDF][1]{:target="_blank"}] \\
     K. Bello, J. Honorio\\
     **NeurIPS'18**{: style="color: blue"}. Annual Conference on Neural Information Processing Systems, 2018.
