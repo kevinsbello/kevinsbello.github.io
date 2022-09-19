@@ -6,11 +6,18 @@ title: Publications
 ---
 
 ## Publications 
- 
+
+0. **Improved Gradient-Based DAG Learning via Order Search.**\\
+   C. Deng, K. Bello, B. Aragam, P. Ravikumar\\
+   Under review.
 0. **Direct Learning with Guarantees of the Difference DAG Between Structural Equation Models.**
     [[PDF][8]{:target="_blank"}] \\
     A. Ghoshal, K. Bello, J. Honorio\\
     Under review.
+0. **DAGMA: Learning DAGs via M-matrices and a Log-Determinant Acyclicity Characterization.**
+   [[PDF][11]{:target="_blank"}] \\
+   K. Bello, B. Aragam, P. Ravikumar\\
+   **NeurIPS'22**{: style="color: blue"}. Annual Conference on Neural Information Processing Systems, 2022.
 1. **On the Fundamental Limits of Exact Inference in Structured Prediction.**
       [[PDF][9]{:target="_blank"}] \\
       H. Lee, K. Bello, J. Honorio\\
@@ -50,7 +57,7 @@ title: Publications
 {: reversed="reversed"}
 
 
-
+[11]: https://arxiv.org/abs/2209.08037
 [10]: https://arxiv.org/abs/2102.08019
 [9]:  https://arxiv.org/abs/2102.08895
 [8]:  https://arxiv.org/abs/1906.12024

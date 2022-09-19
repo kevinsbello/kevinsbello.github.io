@@ -34,17 +34,21 @@ Before my PhD, I received a BSc in Mechatronics Engineering from the <a target="
 
 ## News
 <i class="far fa-newspaper"></i>
-05/22: One paper accepted at ISIT.\\
+09/22: Our paper ["DAGMA: Learning DAGs via M-matrices and a Log-Determinant Acyclicity Characterization"][dagma]{:targer="_blank""} has been accepted to NeurIPS!\\
 <i class="far fa-newspaper"></i>
-01/22: One paper accepted at AISTATS.\\
+09/22: Will be presenting about DAGMA at the [Bay Area Machine Learning Symposium (BayLearn)][baylearn] on Oct. 20!\\
+<i class="far fa-newspaper"></i>
+05/22: One paper accepted to ISIT.\\
+<i class="far fa-newspaper"></i>
+01/22: One paper accepted to AISTATS.\\
 <i class="far fa-newspaper"></i>
 09/21: Started a joint postdoc at UChicago and CMU. I'll be working on projects that focus on causal discovery and learning invariant/causal representations.\\
 <i class="far fa-newspaper"></i>
-09/21: One paper accepted at NeurIPS.\\
+09/21: One paper accepted to NeurIPS.\\
 <i class="far fa-newspaper"></i>
 06/21: Excited to have been awarded the *[Computing Innovation Fellowship][cifellow]*! \\
 <i class="far fa-newspaper"></i>
-04/21: One paper accepted at ISIT.\\
+04/21: One paper accepted to ISIT.\\
 <i class="far fa-newspaper"></i> 
 04/21: Talk at Pradeep Ravikumar's lab at CMU on April 15.\\
 <i class="far fa-newspaper"></i> 
@@ -52,30 +56,34 @@ Before my PhD, I received a BSc in Mechatronics Engineering from the <a target="
 <i class="far fa-newspaper"></i> 
 04/21: Talk at Tomaso Poggio's lab at MIT CBMM on April 5.\\
 <i class="far fa-newspaper"></i> 
-03/21: I was awarded the *Bilsland Dissertation Fellowship* at Purdue!\\
+03/21: Honored to have been awarded the *Bilsland Dissertation Fellowship* at Purdue!\\
 <i class="far fa-newspaper"></i> 
 01/21: Talk at <a href="https://sites.google.com/view/spdl-2021/ponentes?authuser=0" target="_blank">Peru's 3rd Symposium of Deep Learning</a> on Jan 29.\\
 <i class="far fa-newspaper"></i> 
 09/20: Talk at <a href="https://www.techsuyo.org/" target="_blank">TECHSUYO'20</a> on October 29.\\
 <i class="far fa-newspaper"></i> 
-09/20: One paper accepted at NeurIPS.\\
+09/20: One paper accepted to NeurIPS.\\
 <i class="far fa-newspaper"></i> 
 05/20: Summer internship at Facebook AI.\\
 <i class="far fa-newspaper"></i> 
-01/20: One paper accepted at AISTATS.\\
+01/20: One paper accepted to AISTATS.\\
 <i class="far fa-newspaper"></i> 
-09/19: One paper accepted at NeurIPS.\\
+09/19: One paper accepted to NeurIPS.\\
 <i class="far fa-newspaper"></i> 
 05/19: Summer internship at Facebook Ads Ranking team.\\
 <i class="far fa-newspaper"></i> 
-09/18: Two papers accepted at NeurIPS.
+09/18: Two papers accepted to NeurIPS.
 
 [cifellow]: https://cifellows2021.org/2021-class/
+[baylearn]: https://baylearn.org/
+[dagma]: https://arxiv.org/abs/2209.08037
+
 ## Academic Service
 
 - Chair of [LatinX AI Workshop][lxai_workshop]{:target="_blank"} at ICML 2020.
 - **Conferences (reviewer):**
-  NeurIPS 2022, ICML 2022, ICLR 2022, AAAI 2022, NeurIPS 2021, ICML 2021, AISTATS 2021, ICLR 2021, NeurIPS 2020, 
+  ICLR 2023, NeurIPS 2022, ICML 2022, ICLR 2022, AAAI 2022, NeurIPS 2021, ICML 2021, AISTATS 2021, ICLR 2021, NeurIPS 
+  2020, 
   IJCAI 2020, NeurIPS 2019.
 - **Journals (reviewer):**  
   - Journal of Machine Learning Research (JMLR).
