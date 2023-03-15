@@ -61,7 +61,9 @@ Oct.
 <i class="far fa-newspaper"></i> 
 04/21: Talk at Pradeep Ravikumar's lab at CMU on April 15.\\
 <i class="far fa-newspaper"></i> 
-04/21: Talk at MIT CSAIL (<a href="https://calendar.csail.mit.edu/events/235397" target="blank">event</a>) on April 14.\\
+04/21: Talk at David Sontag's lab at MIT CSAIL (<a href="https://calendar.csail.mit.edu/events/235397" 
+target="blank">event</a>)
+on April 14.\\
 <i class="far fa-newspaper"></i> 
 04/21: Talk at Tomaso Poggio's lab at MIT CBMM on April 5.\\
 <i class="far fa-newspaper"></i> 
