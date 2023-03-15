@@ -38,12 +38,14 @@ Peru.
 
 ## News
 <i class="far fa-newspaper"></i>
-12/22: [Code][software] for [DAGMA][dagma] is now available on GitHub: Continuous optimization for 
+12/22: [Code][software] for [DAGMA][dagma]{:target="_blank"} is now available on GitHub: Continuous optimization for 
 structure learning with faster and more accurate log-det constraint.\\
 <i class="far fa-newspaper"></i>
-09/22: Our paper ["DAGMA: Learning DAGs via M-matrices and a Log-Determinant Acyclicity Characterization"][dagma]{:target="_blank"} has been accepted to NeurIPS.\\
+09/22: Presenting [DAGMA][dagma]{:target="_blank"} at the [Bay Area Machine Learning Symposium (BayLearn)][baylearn]{:target="_blank"} on 
+Oct. 
+20!\\
 <i class="far fa-newspaper"></i>
-09/22: Presenting DAGMA at the [Bay Area Machine Learning Symposium (BayLearn)][baylearn]{:target="_blank"} on Oct. 20!\\
+09/22: Our paper ["DAGMA: Learning DAGs via M-matrices and a Log-Determinant Acyclicity Characterization"][dagma]{:target="_blank"} has been accepted to NeurIPS.\\
 <i class="far fa-newspaper"></i>
 05/22: One paper accepted to ISIT.\\
 <i class="far fa-newspaper"></i>
