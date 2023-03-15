@@ -6,7 +6,7 @@ main:
     url: /#academic-service
   - title: "Teaching"
     url: /teaching/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Software"
+    url: /software/
   # - title: "Sitemap"
   #   url: /sitemap/

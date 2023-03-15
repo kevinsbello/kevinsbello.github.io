@@ -117,6 +117,10 @@ author:
       icon: "ai ai-google-scholar-square"
       url: "https://scholar.google.com/citations?user=pCS09UsAAAAJ"
 
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kevinsbello"
+
     - label: "Twitter"
       icon: "fab fa-twitter-square"
       # url: "https://twitter.com/kevinsbello"
@@ -129,9 +133,6 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
