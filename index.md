@@ -42,7 +42,7 @@ Peru.
 04/23: One paper accepted to ICML.\\
 <i class="far fa-newspaper"></i>
 04/23: Selected as a [DAAD AInet fellow][daad]! 
-Thank you to DAAD for supporting a one-week visit to German institutions.\\
+Many thanks to DAAD for supporting a one-week visit to German institutions.\\
 <i class="far fa-newspaper"></i>
 12/22: [Code][dagma-code]{:target="_blank"} for [DAGMA][dagma]{:target="_blank"} is now available on GitHub: Continuous optimization for 
 structure learning with faster and more accurate log-det constraint.\\
