@@ -33,12 +33,18 @@ Peru.
 [neurips19]: https://papers.nips.cc/paper/8627-exact-inference-in-structured-prediction.pdf
 [aistats20]: http://proceedings.mlr.press/v108/bello20a.html
 [neurips18]: http://papers.neurips.cc/paper/7577-learning-latent-variable-structured-prediction-models-with-gaussian-perturbations.pdf
-[software]: /software
-
+[dagma-code]: https://github.com/kevinsbello/dagma
+[daad]: https://www.daad.de/en/the-daad/postdocnet/about/
+                                                         
 
 ## News
 <i class="far fa-newspaper"></i>
-12/22: [Code][software] for [DAGMA][dagma]{:target="_blank"} is now available on GitHub: Continuous optimization for 
+04/23: One paper accepted to ICML.\\
+<i class="far fa-newspaper"></i>
+04/23: Selected as a [DAAD AInet fellow][daad]! 
+Thank you to DAAD for supporting a one-week visit to German institutions.\\
+<i class="far fa-newspaper"></i>
+12/22: [Code][dagma-code]{:target="_blank"} for [DAGMA][dagma]{:target="_blank"} is now available on GitHub: Continuous optimization for 
 structure learning with faster and more accurate log-det constraint.\\
 <i class="far fa-newspaper"></i>
 09/22: Presenting [DAGMA][dagma]{:target="_blank"} at the [Bay Area Machine Learning Symposium (BayLearn)][baylearn]{:target="_blank"} on 
@@ -93,7 +99,9 @@ on April 14.\\
 
 - Chair of [LatinX AI Workshop][lxai_workshop]{:target="_blank"} at ICML 2020.
 - **Conferences (reviewer):**
-  ICML 2023, ICLR 2023, LATIN Symposium 2022, NeurIPS 2022, ICML 2022, ICLR 2022, AAAI 2022, NeurIPS 2021, ICML 2021, 
+  NeurIPS 2023, ICML 2023, ICLR 2023, LATIN Symposium 2022, NeurIPS 2022, ICML 2022, ICLR 2022, AAAI 2022, NeurIPS 
+  2021, ICML 
+  2021, 
   AISTATS 2021, ICLR 2021,  NeurIPS 2020, IJCAI 2020, NeurIPS 2019.
 - **Journals (reviewer):**  
   - Journal of Machine Learning Research (JMLR).
