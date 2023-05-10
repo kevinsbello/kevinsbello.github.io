@@ -7,9 +7,6 @@ title: Publications
 
 ## Publications 
 
-0. [Direct Learning with Guarantees of the Difference DAG Between Structural Equation Models.][8]{:target="_blank"} \\
-   A. Ghoshal, K. Bello, J. Honorio\\
-   Under review.
 0. NOTEARS²: Optimizing NOTEARS Objectives via Topological Swaps.\\
    C. Deng, K. Bello, B. Aragam, P. Ravikumar\\
    <span style="color: blue">ICML'23</span>. International Conference on Machine Learning, 2023.
@@ -23,6 +20,9 @@ title: Publications
     K. Bello, C. Ke, J. Honorio \\
    <span style="color: blue">AISTATS'22</span>. International Conference on Artificial Intelligence and Statistics, 
     2022.
+0. [Direct Learning with Guarantees of the Difference DAG Between Structural Equation Models.][8]{:target="_blank"} \\
+   A. Ghoshal, K. Bello, J. Honorio\\
+   Under review.
 0. [Inverse Reinforcement Learning in a Continuous State Space with Formal Guarantees.][7]{:target="_blank"} \\
     G. Dexter, K. Bello, J. Honorio\\
    <span style="color: blue">NeurIPS'21</span>. Annual Conference on Neural Information Processing Systems, 2021.
