@@ -7,7 +7,7 @@ title: Publications
 
 ## Publications 
 
-0. NOTEARS²: Optimizing NOTEARS Objectives via Topological Swaps.\\
+0. [Optimizing NOTEARS Objectives via Topological Swaps.][12]{:target="_blank""}\\
    C. Deng, K. Bello, B. Aragam, P. Ravikumar\\
    <span style="color: blue">ICML'23</span>. International Conference on Machine Learning, 2023.
 0. [DAGMA: Learning DAGs via M-matrices and a Log-Determinant Acyclicity Characterization.][11]{:target="_blank"} \\
@@ -47,7 +47,7 @@ title: Publications
    <span style="color: blue">NeurIPS'18</span>. Annual Conference on Neural Information Processing Systems, 2018.
 {: reversed="reversed"}
 
-
+[12]: https://arxiv.org/pdf/2305.17277.pdf
 [11]: https://arxiv.org/abs/2209.08037
 [10]: https://arxiv.org/abs/2102.08019
 [9]:  https://arxiv.org/abs/2102.08895
