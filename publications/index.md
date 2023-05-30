@@ -47,7 +47,7 @@ title: Publications
    <span style="color: blue">NeurIPS'18</span>. Annual Conference on Neural Information Processing Systems, 2018.
 {: reversed="reversed"}
 
-[12]: https://arxiv.org/pdf/2305.17277.pdf
+[12]: https://arxiv.org/abs/2305.17277
 [11]: https://arxiv.org/abs/2209.08037
 [10]: https://arxiv.org/abs/2102.08019
 [9]:  https://arxiv.org/abs/2102.08895
