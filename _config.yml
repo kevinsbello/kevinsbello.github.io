@@ -110,7 +110,7 @@ author:
   email            : 
   links:
     - label: "CV"
-      icon: "far fa-file-alt"
+      icon: "fa-regular fa-file-lines"
       url: "/files/cv_KevinBello.pdf"
 
     - label: "Scholar"
@@ -118,7 +118,7 @@ author:
       url: "https://scholar.google.com/citations?user=pCS09UsAAAAJ"
 
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-brands fa-github"
       url: "https://github.com/kevinsbello"
 
     - label: "Twitter"
