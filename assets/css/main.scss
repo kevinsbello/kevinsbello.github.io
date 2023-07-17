@@ -6,7 +6,7 @@
 
 $intro-transition  : none;
 $global-transition : none;
-$text-color: #3e3e3e;
+$text-color: #323232;
 // $link-color: #b1040e;
 $twitter-color: #000;
 $info-color: #c10000ec;
@@ -15,3 +15,19 @@ $masthead-link-color : #5d6368;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+.service {
+  ul li{ margin-bottom: 0em }
+  li ul{ margin-top: 0em }
+}
+.bf-500 {
+  font-weight: 500;
+}
+.bf-400 {
+  font-weight: 400;
+}
+.highlight {
+  //color: #007bb6;
+  font-style: italic;
+}

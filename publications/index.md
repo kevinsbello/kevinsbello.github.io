@@ -5,8 +5,14 @@ classes: wide
 title: Publications
 ---
 
-## Publications 
+## Publications
 
+0. [iSCAN: Identifying Causal Mechanism Shifts among Nonlinear Additive Noise Models.][14]{:target="_blank""}\\
+   T. Chen, K. Bello, B. Aragam, P. Ravikumar\\
+   Preprint 2023.
+0. [Global Optimality in Bivariate Gradient-based DAG Learning.][13]{:target="_blank""}\\
+   C. Deng, K. Bello, B. Aragam, P. Ravikumar\\
+   Preprint 2023.
 0. [Optimizing NOTEARS Objectives via Topological Swaps.][12]{:target="_blank""}\\
    C. Deng, K. Bello, B. Aragam, P. Ravikumar\\
    <span style="color: blue">ICML'23</span>. International Conference on Machine Learning, 2023.
@@ -22,7 +28,7 @@ title: Publications
     2022.
 0. [Direct Learning with Guarantees of the Difference DAG Between Structural Equation Models.][8]{:target="_blank"} \\
    A. Ghoshal, K. Bello, J. Honorio\\
-   Under review.
+   Preprint 2021.
 0. [Inverse Reinforcement Learning in a Continuous State Space with Formal Guarantees.][7]{:target="_blank"} \\
     G. Dexter, K. Bello, J. Honorio\\
    <span style="color: blue">NeurIPS'21</span>. Annual Conference on Neural Information Processing Systems, 2021.
@@ -47,6 +53,8 @@ title: Publications
    <span style="color: blue">NeurIPS'18</span>. Annual Conference on Neural Information Processing Systems, 2018.
 {: reversed="reversed"}
 
+[14]: https://arxiv.org/abs/2306.17361 
+[13]: https://arxiv.org/abs/2306.17378
 [12]: https://arxiv.org/abs/2305.17277
 [11]: https://arxiv.org/abs/2209.08037
 [10]: https://arxiv.org/abs/2102.08019
