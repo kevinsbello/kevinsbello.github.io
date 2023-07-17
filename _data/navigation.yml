@@ -2,11 +2,7 @@
 main:
   - title: "Publications"
     url: /publications/
-  - title: "Service"
-    url: /#academic-service
-  - title: "Teaching"
-    url: /teaching/
   - title: "Software"
     url: /software/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Teaching"
+    url: /teaching/
