@@ -6,6 +6,7 @@ input[type='checkbox'] {
     color: $link-color;
     font-weight: 400;
     transition: all 0.35s ease-out;
+    margin-top: .9em;
 }
 
 .lbl-toggle:hover {
@@ -31,7 +32,6 @@ input[type='checkbox'] {
 .collapsible-content {
     max-height: 0px;
     font-weight: 300;
-    font-size: 0.9em;
     overflow: hidden;
     transition: max-height .35s ease-in-out;
 }

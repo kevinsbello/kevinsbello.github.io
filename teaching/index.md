@@ -5,6 +5,8 @@ classes: wide
 title: Teaching
 ---
 
+{::options auto_ids="false" /}
+
 ## Teaching Assistanship
 
 - **Spring 2021:** [CS 373, Data Mining and Machine Learning][CS373'21]{:target="_blank"}. (Taught by Prof. [Jean Honorio][jhonorio]{:target="_blank"}.)

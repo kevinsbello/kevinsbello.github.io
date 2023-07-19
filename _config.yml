@@ -103,7 +103,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kevin Bello"
+  name             : "<a href='/'>Kevin Bello</a>"
   avatar           : "/images/me.jpeg"
   bio              : "Postdoctoral Fellow <br> UChicago & CMU <br> <br> Contact me at:<br> kbello at cs.cmu.edu"
   location         : 
