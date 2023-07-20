@@ -27,7 +27,7 @@ Before my PhD, I received a BSc in Mechatronics Engineering from the [National U
 ### News
 
 <div class='news' markdown='1'>
-- 07/23: Talk about [iSCAN][iscan]{:target="_blank"} at the [Max Planck Institute for Intelligent Systems](https://ei.is.mpg.de/){: target="_blank"}.
+- 07/23: Talk about [iSCAN][iscan]{:target="_blank"} at the [Max Planck Institute for Intelligent Systems, Tübingen](https://ei.is.mpg.de/){: target="_blank"}.
 - 07/23: **New preprint:**{: class="bf-500"} [iSCAN: New identifiability results][iscan]{:target="_blank"} of causal mechanism shifts among nonlinear SCMs without individual structure learning!
 - 06/23: **New preprint:**{: class="bf-500"} First set of results on [global optimality for gradient-based DAG learning][bivariate-notears]{:target="_blank"}. 
 - 06/23: [Code][topo-code]{:target="_blank"} for [TOPO][topo]{:target="_blank"} is now available on GitHub: Improved continuous optimization for DAG learning with optimality guarantees! 
