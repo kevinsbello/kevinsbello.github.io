@@ -19,7 +19,7 @@ Before my PhD, I received a BSc in Mechatronics Engineering from the [National U
 
 *[SCMs]: Structural Causal Models
 
-> **In the job market for the 2024 year. If you see a fit, please reach out.**
+> **I'm in the job market for the 2024 year. If you see a fit, please reach out.**
 
 
 {::options auto_ids="false" /}
