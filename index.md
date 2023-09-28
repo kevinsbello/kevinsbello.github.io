@@ -5,41 +5,42 @@ classes: wide
 ---
 
 
-I am a [2021 Computing Innovation Fellow][cifellow]{:target="_blank"} and postdoctoral researcher in the
-[Booth School of Business][booth]{:target="_blank"} at the [University of Chicago][uchicago]{:target="_blank"} and in the [Machine Learning Department][ml-cmu]{:target="_blank"} at [Carnegie Mellon University][cmu]{:target="_blank"}.
+I am a [2021 Computing Innovation Fellow][cifellow]{:target="_blank"} and postdoctoral researcher in the [Machine Learning Department][ml-cmu]{:target="_blank"} at [Carnegie Mellon University][cmu]{:target="_blank"} and in the [Booth School of Business][booth]{:target="_blank"} at the [University of Chicago][uchicago]{:target="_blank"}.
 I am fortunate to be co-mentored by [Bryon Aragam][bryon]{:target="_blank"} and [Pradeep Ravikumar][pradeep]{:target="_blank"}.
 
 I am broadly interested in Artificial Intelligence and Machine Learning.
 My research focuses on developing principled algorithms that are computationally and statistically efficient for various machine learning problems.
-Current interests include structure learning (a.k.a., causal discovery), and learning invariant/causal representations.
-Also, I have recently worked in structured prediction, studying efficient learning with latent variables ([NeurIPS'18][neurips18]{:target="_blank"}),
+Current interests include structure learning, a.k.a. causal discovery ([NeurIPS'22][dagma], [ICML'23][topo], [NeurIPS'23][bivariate-notears]), and learning invariant/causal representations ([NeurIPS'23][iscan]).
+I have also worked in structured prediction, studying efficient learning with latent variables ([NeurIPS'18][neurips18]{:target="_blank"}),
 minimax bounds ([AISTATS'20][aistats20]{:target="_blank"}), and exact inference ([NeurIPS'19][neurips19]{:target="_blank"}, [NeurIPS'20][neurips20]{:target="_blank"}).
 
 Previously, I received my PhD in Computer Science from Purdue University, where I was advised by [Jean Honorio][jean]{:target="_blank"}.
 Before my PhD, I received a BSc in Mechatronics Engineering from the [National University of Engineering][uni]{:target="_blank"} in Lima, Peru.
 
-
 *[SCMs]: Structural Causal Models
-*[iSCAN]: Identifying Shifts in Causal Additive Noise models
+
+> **In the job market for the 2024 year. If you see a fit, please reach out.**
+
 
 {::options auto_ids="false" /}
 
 ### News
 
 <div class='news' markdown='1'>
+- 09/23: Two papers accepted to NeurIPS.
+- 09/23: Giving a talk on Oct. 17 about recent advances in continuous structure learning at the [INFORMS Annual Meeting](https://www.abstractsonline.com/pp8/#!/10856/session/517){:target="_blank"}.
+- 09/23: Presenting [iSCAN][iscan]{:target="_blank"} at the [Bay Area Machine Learning Symposium (BayLearn)][baylearn]{:target="_blank"} on Oct. 19.
+- 09/23: [Code][iscan-code]{:target="_blank"} for [iSCAN][iscan]{:target="_blank"} is now available on GitHub: Efficient identification of distribution shifts of causal variables in nonlinear SCMs.
 - 07/23: Talk about [iSCAN][iscan]{:target="_blank"} at the [Max Planck Institute for Intelligent Systems, Tübingen](https://ei.is.mpg.de/){: target="_blank"}.
-- 07/23: **New preprint:**{: class="bf-500"} [iSCAN: New identifiability results][iscan]{:target="_blank"} of causal mechanism shifts among nonlinear SCMs without individual structure learning!
-- 06/23: **New preprint:**{: class="bf-500"} First set of results on [global optimality for gradient-based DAG learning][bivariate-notears]{:target="_blank"}. 
-- 06/23: [Code][topo-code]{:target="_blank"} for [TOPO][topo]{:target="_blank"} is now available on GitHub: Improved continuous optimization for DAG learning with optimality guarantees! 
+- 07/23: **New preprint:**{: class="bf-500"} [iSCAN: New identifiability results][iscan]{:target="_blank"} of causal mechanism shifts among nonlinear SCMs without individual structure learning! _(Accepted to NeurIPS)_.
+- 06/23: **New preprint:**{: class="bf-500"} First set of results on [global optimality for gradient-based DAG learning][bivariate-notears]{:target="_blank"}. _(Accepted to NeurIPS)_. 
+- 06/23: [Code][topo-code]{:target="_blank"} for [TOPO][topo]{:target="_blank"} is now available on GitHub: Improved continuous optimization for DAG learning with optimality guarantees.
 - 05/23: **New preprint:**{: class="bf-500"} [TOPO: Optimization theory for continuous structure learning][topo]{:target="_blank"}. _(Accepted to ICML)_. 
 - 04/23: One paper accepted to ICML.
-- 04/23: Awarded the [DAAD AInet fellowship][daad]! A fund for visiting German institutions.
+- 04/23: Awarded the [DAAD AInet fellowship][daad]. A fund for visiting German institutions.
 - 12/22: [Code][dagma-code]{:target="_blank"} for [DAGMA][dagma]{:target="_blank"} is now available on GitHub: Continuous optimization for
 structure learning with faster and more accurate log-det constraint.
-- 09/22: Presenting [DAGMA][dagma]{:target="_blank"} at the [Bay Area Machine Learning Symposium (BayLearn)][baylearn]{:target="_blank"} on Oct. 20!
 - 09/22: Our paper ["DAGMA: Learning DAGs via M-matrices and a Log-Determinant Acyclicity Characterization"][dagma]{:target="_blank"} has been accepted to NeurIPS.
-- 05/22: One paper accepted to ISIT.
-- 01/22: One paper accepted to AISTATS.
 </div>
 
 <div>
@@ -48,6 +49,9 @@ structure learning with faster and more accurate log-det constraint.
     Older News
 </label>
 <div class="collapsible-content news" markdown="1">
+- 09/22: Presenting [DAGMA][dagma]{:target="_blank"} at the [Bay Area Machine Learning Symposium (BayLearn)][baylearn]{:target="_blank"} on Oct. 20!
+- 05/22: One paper accepted to ISIT.
+- 01/22: One paper accepted to AISTATS.
 - 09/21: Started a joint postdoc at UChicago and CMU.
 - 09/21: One paper accepted to NeurIPS.
 - 06/21: Excited to have been awarded the [Computing Innovation Fellowship!][cifellow]{: .target="_blank" .bf-500}
@@ -74,7 +78,7 @@ structure learning with faster and more accurate log-det constraint.
 - Reviewer:
     - **NeurIPS:**{: .bf-400} 2023, 2022, 2021, 2020, 2019
     - **ICML:**{: .bf-400} 2023, 2022, 2021
-    - **ICLR:**{: .bf-400} 2023, 2022, 2021
+    - **ICLR:**{: .bf-400} 2024, 2023, 2022, 2021
     - **AISTATS:**{: .bf-400} 2021
     - **AAAI:**{: .bf-400} 2022
     - **LATIN Symposium:**{: .bf-400} 2022
@@ -102,6 +106,7 @@ structure learning with faster and more accurate log-det constraint.
 [neurips18]: http://papers.neurips.cc/paper/7577-learning-latent-variable-structured-prediction-models-with-gaussian-perturbations.pdf
 [dagma-code]: https://github.com/kevinsbello/dagma
 [topo-code]: https://github.com/Duntrain/TOPO
+[iscan-code]: https://github.com/kevinsbello/iscan
 [daad]: https://www.daad.de/en/the-daad/postdocnet/fellows/fellows/#Bello
 
 [lxai_workshop]: https://icml.cc/Conferences/2020/ScheduleMultitrack?event=7087

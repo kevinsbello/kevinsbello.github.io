@@ -12,9 +12,12 @@ title: Publications
 <div class='publications' markdown='1'>
 0. [iSCAN: Identifying Causal Mechanism Shifts among Nonlinear Additive Noise Models.][14]{:target="_blank" .bf-400}\\
    T. Chen, K. Bello, B. Aragam, P. Ravikumar\\
-   Preprint 2023.
+   <span style="color: blue">NeurIPS'23</span>. Annual Conference on Neural Information Processing Systems, 2023.
 0. [Global Optimality in Bivariate Gradient-based DAG Learning.][13]{:target="_blank"}\\
    C. Deng, K. Bello, B. Aragam, P. Ravikumar\\
+   <span style="color: blue">NeurIPS'23</span>. Annual Conference on Neural Information Processing Systems, 2023.
+0. [Bayesian Dynamic DAG Learning: Application in Discovering Dynamic Effective Connectome of Brain.][15]{:target="_blank"}\\
+   A. Bagheri, M. Pasande, K. Bello, A. Akhondi-Asl, B. N. Araabi\\
    Preprint 2023.
 0. [Optimizing NOTEARS Objectives via Topological Swaps.][12]{:target="_blank"}\\
    C. Deng, K. Bello, B. Aragam, P. Ravikumar\\
@@ -57,6 +60,7 @@ title: Publications
 {: reversed="reversed"}
 </div>
 
+[15]: https://arxiv.org/abs/2309.07080
 [14]: https://arxiv.org/abs/2306.17361 
 [13]: https://arxiv.org/abs/2306.17378
 [12]: https://arxiv.org/abs/2305.17277
