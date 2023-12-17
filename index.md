@@ -81,6 +81,7 @@ structure learning with faster and more accurate log-det constraint.
 
 <div class='service' markdown='1'>
 - **Production Editor**{: class="bf-400"} of the Journal of Machine Learning Research ([JMLR][jmlr]{:target="_blank"})
+- **Mentor**{: class="bf-400"} in the 2023 Data Science Institute Summer Lab (UChicago)
 - **Web Chair**{: class="bf-400"} of [LatinX AI Workshop][lxai_workshop]{:target="_blank"} at ICML 2020
 - **Reviewer:**{: class="bf-400"}
     - **NeurIPS:**{: .bf-400} 2023, 2022, 2021, 2020, 2019
