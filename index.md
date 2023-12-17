@@ -8,18 +8,24 @@ classes: wide
 I am a [2021 Computing Innovation Fellow][cifellow]{:target="_blank"} and postdoctoral researcher in the [Machine Learning Department][ml-cmu]{:target="_blank"} at [Carnegie Mellon University][cmu]{:target="_blank"} and in the [Booth School of Business][booth]{:target="_blank"} at the [University of Chicago][uchicago]{:target="_blank"}.
 I am fortunate to be co-mentored by [Bryon Aragam][bryon]{:target="_blank"} and [Pradeep Ravikumar][pradeep]{:target="_blank"}.
 
-I am broadly interested in Artificial Intelligence and Machine Learning.
-My research focuses on developing principled algorithms that are computationally and statistically efficient for various machine learning problems.
-Current interests include structure learning, a.k.a. causal discovery ([NeurIPS'22][dagma], [ICML'23][topo], [NeurIPS'23][bivariate-notears]), and learning invariant/causal representations ([NeurIPS'23][iscan]).
-I have also worked in structured prediction, studying efficient learning with latent variables ([NeurIPS'18][neurips18]{:target="_blank"}),
-minimax bounds ([AISTATS'20][aistats20]{:target="_blank"}), and exact inference ([NeurIPS'19][neurips19]{:target="_blank"}, [NeurIPS'20][neurips20]{:target="_blank"}).
-
 Previously, I received my PhD in Computer Science from Purdue University, where I was advised by [Jean Honorio][jean]{:target="_blank"}.
-Before my PhD, I received a BSc in Mechatronics Engineering from the [National University of Engineering][uni]{:target="_blank"} in Lima, Peru.
+Before my PhD, I completed my BSc in Mechatronics Engineering from the [National University of Engineering][uni]{:target="_blank"} in Lima, Peru.
 
-*[SCMs]: Structural Causal Models
+I will be serving as Production Editor of the Journal of Machine Learning Research ([JMLR][jmlr]{:target="_blank"}) starting in 2024.
+For JMLR related inquiries please reach out to [bello@jmlr.org](mailto:bello@jmlr.org).
 
 > **I'm in the job market for the 2024 year. If you see a fit, please reach out.**
+
+### Research
+
+My research goal is to develop next-generation ML systems that will tackle some of the current major challenges, such as robustness, interpretability, and fairness. 
+These systems necessitate a shift from standard statistical models that are susceptible to capture undesired nonlinear correlations to ones that can potentially unearth causal relations from data. 
+To this end, I develop, analyze, and apply principled algorithms for *causal ML*, with a focus on causal discovery ([NeurIPS'22][dagma], [ICML'23][topo], [NeurIPS'23][bivariate-notears]), which is a crucial step for developing the new wave of ML models, and learning invariant/causal representations ([NeurIPS'23][iscan]).
+
+I also work in structured prediction, studying efficient learning with latent variables ([NeurIPS'18][neurips18]{:target="_blank"}),
+minimax bounds ([AISTATS'20][aistats20]{:target="_blank"}), and exact inference ([NeurIPS'19][neurips19]{:target="_blank"}, [NeurIPS'20][neurips20]{:target="_blank"}).
+
+*[SCMs]: Structural Causal Models
 
 
 {::options auto_ids="false" /}
@@ -71,14 +77,16 @@ structure learning with faster and more accurate log-det constraint.
 </div>
 </div>
 
-### Academic Service
+### Service
 
 <div class='service' markdown='1'>
-- Web Chair of [LatinX AI Workshop][lxai_workshop]{:target="_blank"} at ICML 2020.
-- Reviewer:
+- **Production Editor**{: class="bf-400"} of the Journal of Machine Learning Research ([JMLR][jmlr]{:target="_blank"})
+- **Web Chair**{: class="bf-400"} of [LatinX AI Workshop][lxai_workshop]{:target="_blank"} at ICML 2020
+- **Reviewer:**{: class="bf-400"}
     - **NeurIPS:**{: .bf-400} 2023, 2022, 2021, 2020, 2019
-    - **ICML:**{: .bf-400} 2023, 2022, 2021
+    - **ICML:**{: .bf-400} 2024, 2023, 2022, 2021
     - **ICLR:**{: .bf-400} 2024, 2023, 2022, 2021
+    - **CLeaR:**{: .bf-400} 2024
     - **AISTATS:**{: .bf-400} 2021
     - **AAAI:**{: .bf-400} 2022
     - **LATIN Symposium:**{: .bf-400} 2022
@@ -110,6 +118,7 @@ structure learning with faster and more accurate log-det constraint.
 [daad]: https://www.daad.de/en/the-daad/postdocnet/fellows/fellows/#Bello
 
 [lxai_workshop]: https://icml.cc/Conferences/2020/ScheduleMultitrack?event=7087
+[jmlr]: https://jmlr.org/
 
 [baylearn]: https://baylearn.org/
 [dagma]: https://arxiv.org/abs/2209.08037
