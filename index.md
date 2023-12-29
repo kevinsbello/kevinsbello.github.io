@@ -77,7 +77,7 @@ structure learning with faster and more accurate log-det constraint.
 </div>
 </div>
 
-### Service
+### Service {#Service}
 
 <div class='service' markdown='1'>
 - **Production Editor**{: class="bf-400"} of the Journal of Machine Learning Research ([JMLR][jmlr]{:target="_blank"})
