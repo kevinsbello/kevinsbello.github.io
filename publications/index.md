@@ -7,6 +7,6 @@ title: Publications
 
 ## Publications
 
-<script src="https://bibbase.org/show?bib=https://kevinsbello.github.io/bello.bib&css=https://kevinsbello.github.io/assets/css/bibBaseAll.css&showSearch=true&jsonp=1"></script>
+<script src="https://bibbase.org/show?bib=https://bibbase.org/network/files/rCkLfBFn5R2vmYjSx&css=https://kevinsbello.github.io/assets/css/bibBaseAll.css&showSearch=true&jsonp=1"></script>
 
 {::options auto_ids="false" /}
