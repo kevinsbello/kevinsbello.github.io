@@ -18,6 +18,10 @@
   text-decoration: none;
   border-width: 0;
   border-radius: $border-radius;
+  background-image: none;
+  line-height: revert;
+  text-shadow: none;
+  box-shadow: none;
   cursor: pointer;
 
   .icon {
