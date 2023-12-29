@@ -1,133 +1,211 @@
-@article{bello2019exact,
-  title={Exact inference in structured prediction},
-  author={Bello, Kevin and Honorio, Jean},
-  journal={Advances in Neural Information Processing Systems},
-  volume={32},
-  year={2019}
-}
-
-@article{dexter2021inverse,
-  title={Inverse reinforcement learning in a continuous state space with formal guarantees},
-  author={Dexter, Gregory and Bello, Kevin and Honorio, Jean},
-  journal={Advances in Neural Information Processing Systems},
-  volume={34},
-  pages={6972--6982},
-  year={2021}
-}
-
-@article{bello2022dagma,
-  title={Dagma: Learning dags via m-matrices and a log-determinant acyclicity characterization},
-  author={Bello, Kevin and Aragam, Bryon and Ravikumar, Pradeep},
-  journal={Advances in Neural Information Processing Systems},
-  volume={35},
-  pages={8226--8239},
-  year={2022},
-  url_Paper={https://proceedings.neurips.cc/paper_files/paper/2022/hash/36e2967f87c3362e37cf988781a887ad-Abstract-Conference.html},
-}
-
-@article{bello2018computationally,
-  title={Computationally and statistically efficient learning of causal Bayes nets using path queries},
-  author={Bello, Kevin and Honorio, Jean},
-  journal={Advances in Neural Information Processing Systems},
-  volume={31},
-  year={2018}
-}
-
-@article{cardenas2018improving,
-  title={Improving Topic Coherence Using Entity Extraction Denoising.},
-  author={Cardenas, Ronald and Bello, Kevin and Coronado, Alberto and Villota, Elizabeth},
-  journal={Prague Bull. Math. Linguistics},
-  volume={110},
-  pages={85--101},
-  year={2018}
-}
-
-@article{bello2020fairness,
-  title={Fairness constraints can help exact inference in structured prediction},
-  author={Bello, Kevin and Honorio, Jean},
-  journal={Advances in Neural Information Processing Systems},
-  volume={33},
-  pages={11322--11332},
-  year={2020}
-}
-
-@article{bello2018learning,
-  title={Learning latent variable structured prediction models with gaussian perturbations},
-  author={Bello, Kevin and Honorio, Jean},
-  journal={Advances in Neural Information Processing Systems},
-  volume={31},
-  year={2018}
-}
-
-@inproceedings{deng2023optimizing,
-  title={Optimizing NOTEARS objectives via topological swaps},
-  author={Deng, Chang and Bello, Kevin and Aragam, Bryon and Ravikumar, Pradeep Kumar},
-  booktitle={International Conference on Machine Learning},
-  pages={7563--7595},
+@article{chen2023iscan,
+  title={iSCAN: Identifying Causal Mechanism Shifts among Nonlinear Additive Noise Models},
+  author={Tianyu Chen and Kevin Bello and Bryon Aragam and Pradeep Ravikumar},
+  journal={<span style="color: #0088cc; font-style: normal">NeurIPS-23.</span> Advances in Neural Information Processing Systems},
   year={2023},
-  organization={PMLR}
-}
-
-@inproceedings{xu2021cam,
-  title={A le cam type bound for adversarial learning and applications},
-  author={Xu, Qiuling and Bello, Kevin and Honorio, Jean},
-  booktitle={2021 IEEE International Symposium on Information Theory (ISIT)},
-  pages={1164--1169},
-  year={2021},
-  organization={IEEE}
-}
-
-@inproceedings{bello2020minimax,
-  title={Minimax bounds for structured prediction based on factor graphs},
-  author={Bello, Kevin and Ghoshal, Asish and Honorio, Jean},
-  booktitle={International Conference on Artificial Intelligence and Statistics},
-  pages={213--222},
-  year={2020},
-  organization={PMLR}
-}
-
-@inproceedings{bello2022view,
-  title={A View of Exact Inference in Graphs from the Degree-4 Sum-of-Squares Hierarchy},
-  author={Bello, Kevin and Ke, Chuyang and Honorio, Jean},
-  booktitle={International Conference on Artificial Intelligence and Statistics},
-  pages={640--654},
-  year={2022},
-  organization={PMLR}
-}
-
-@article{bagheri2023bayesian,
-  title={Bayesian Dynamic DAG Learning: Application in Discovering Dynamic Effective Connectome of Brain},
-  author={Bagheri, Abdolmahdi and Pasande, Mohammad and Bello, Kevin and Akhondi-Asl, Alireza and Araabi, Babak Nadjar},
-  journal={arXiv preprint arXiv:2309.07080},
-  year={2023}
+  abstract={Structural causal models (SCMs) are widely used in various disciplines to represent causal relationships among variables in complex systems. Unfortunately, the underlying causal structure is often unknown, and estimating it from data remains a challenging task. In many situations, however, the end goal is to localize the changes (shifts) in the causal mechanisms between related datasets instead of learning the full causal structure of the individual datasets. Some applications include root cause analysis, analyzing gene regulatory network structure changes between healthy and cancerous individuals, or explaining distribution shifts. This paper focuses on identifying the causal mechanism shifts in two or more related datasets over the same set of variables—without estimating the entire DAG structure of each SCM. Prior work under this setting assumed linear models with Gaussian noises; instead, in this work we assume that each SCM belongs to the more general class of nonlinear additive noise models (ANMs). A key technical contribution of this work is to show that the Jacobian of the score function for the mixture distribution allows for the identification of shifts under general non-parametric functional mechanisms. Once the shifted variables are identified, we leverage recent work to estimate the structural differences, if any, for the shifted variables. Experiments on synthetic and real-world data are provided to showcase the applicability of this approach. Code implementing the proposed method is open-source and publicly available at https://github.com/kevinsbello/iSCAN.},
+  url_Proceedings={https://openreview.net/pdf?id=GEtXhqKW6X},
+  url_Preprint={https://arxiv.org/pdf/2306.17361.pdf},
+  url_Code={https://github.com/kevinsbello/iscan/},
+  keyword={Causality and Graphical Models, Distribution Shifts, Latent Variable Models and Generative Models, Statistical Machine Learning, Interpretability and Fairness},
 }
 
 @article{deng2023global,
   title={Global Optimality in Bivariate Gradient-based DAG Learning},
   author={Deng, Chang and Bello, Kevin and Aragam, Bryon and Ravikumar, Pradeep},
-  journal={arXiv preprint arXiv:2306.17378},
-  year={2023}
+  journal={<span style="color: #0088cc; font-style: normal">NeurIPS-23.</span> Advances in Neural Information Processing Systems},
+  year={2023},
+  abstract={Recently, a new class of non-convex optimization problems motivated by the statistical problem of learning an acyclic directed graphical model from data has attracted significant interest. While existing work uses standard first-order optimization schemes to solve this problem, proving the global optimality of such approaches has proven elusive. The difficulty lies in the fact that unlike other non-convex problems in the literature, this problem is not "benign", and possesses multiple spurious solutions that standard approaches can easily get trapped in. In this paper, we prove that a simple path-following optimization scheme globally converges to the global minimum of the population loss in the bivariate setting.},
+  url_Proceedings={https://openreview.net/pdf?id=5MG5C5aS6m},
+  url_Preprint={https://arxiv.org/pdf/2306.17378.pdf},
+  keyword={Causality and Graphical Models, Optimization},
 }
 
-@article{chen2023iscan,
-  title={iSCAN: Identifying Causal Mechanism Shifts among Nonlinear Additive Noise Models},
-  author={Chen, Tianyu and Bello, Kevin and Aragam, Bryon and Ravikumar, Pradeep},
-  journal={arXiv preprint arXiv:2306.17361},
-  year={2023}
+@article{deng2023optimizing,
+  title={Optimizing NOTEARS objectives via topological swaps},
+  author={Deng, Chang and Bello, Kevin and Aragam, Bryon and Ravikumar, Pradeep Kumar},
+  journal={<span style="color: #0088cc; font-style: normal">ICML-23.</span> Proceedings of the 40th International Conference on Machine Learning},
+  pages = {7563--7595},
+  volume = {202},
+  year={2023},
+  abstract = {Recently, an intriguing class of non-convex optimization problems has emerged in the context of learning directed acyclic graphs (DAGs). These problems involve minimizing a given loss or score function, subject to a non-convex continuous constraint that penalizes the presence of cycles in a graph. In this work, we delve into the optimality challenges associated with this class of non-convex programs. To address these challenges, we propose a bi-level algorithm that leverages the non-convex constraint in a novel way. The outer level of the algorithm optimizes over topological orders by iteratively swapping pairs of nodes within the topological order of a DAG. A key innovation of our approach is the development of an effective method for generating a set of candidate swapping pairs for each iteration. At the inner level, given a topological order, we utilize off-the-shelf solvers that can handle linear constraints. The key advantage of our proposed algorithm is that it is guaranteed to find a local minimum or a KKT point under weaker conditions compared to previous work and finds solutions with lower scores. Extensive experiments demonstrate that our method outperforms state-of-the-art approaches in terms of achieving a better score. Additionally, our method can also be used as a post-processing algorithm to significantly improve the score of other algorithms. Code implementing the proposed method is available at https://github.com/duntrain/topo.},
+  url_Proceedings={https://proceedings.mlr.press/v202/deng23a.html},
+  url_Preprint={https://arxiv.org/pdf/2305.17277.pdf},
+  url_Code={https://github.com/duntrain/topo/},
+  keyword={Causality and Graphical Models, Optimization},
 }
 
-@inproceedings{lee2022fundamental,
+@misc{bagheri2023bayesian,
+  title={Bayesian Dynamic DAG Learning: Application in Discovering Dynamic Effective Connectome of Brain},
+  author={Bagheri, Abdolmahdi and Pasande, Mohammad and Bello, Kevin and Akhondi-Asl, Alireza and Araabi, Babak Nadjar},
+  howpublished = {ArXiv:2309.07080},
+  abstract={Understanding the complex mechanisms of the brain can be unraveled by extracting the Dynamic Effective Connectome (DEC). Recently, score-based Directed Acyclic Graph (DAG) discovery methods have shown significant improvements in extracting the causal structure and inferring effective connectivity. However, learning DEC through these methods still faces two main challenges: one with the fundamental impotence of high-dimensional dynamic DAG discovery methods and the other with the low quality of fMRI data. In this paper, we introduce Bayesian Dynamic DAG learning with M-matrices Acyclicity characterization (BDyMA) method to address the challenges in discovering DEC. The presented dynamic causal model enables us to discover bidirected edges as well. Leveraging an unconstrained framework in the BDyMA method leads to more accurate results in detecting high-dimensional networks, achieving sparser outcomes, making it particularly suitable for extracting DEC. Additionally, the score function of the BDyMA method allows the incorporation of prior knowledge into the process of dynamic causal discovery which further enhances the accuracy of results. Comprehensive simulations on synthetic data and experiments on Human Connectome Project (HCP) data demonstrate that our method can handle both of the two main challenges, yielding more accurate and reliable DEC compared to state-of-the-art and baseline methods. Additionally, we investigate the trustworthiness of DTI data as prior knowledge for DEC discovery and show the improvements in DEC discovery when the DTI data is incorporated into the process.},
+  url_Preprint={https://arxiv.org/abs/2309.07080},
+  year={2023},
+  keyword={Causality and Graphical Models, Applications},
+}
+
+@article{bello2022dagma,
+  title={DAGMA: Learning DAGs via M-matrices and a Log-Determinant Acyclicity Characterization},
+  author={Bello, Kevin and Aragam, Bryon and Ravikumar, Pradeep},
+  journal={<span style="color: #0088cc; font-style: normal">NeurIPS-22.</span> Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={8226--8239},
+  year={2022},
+  abstract={The combinatorial problem of learning directed acyclic graphs (DAGs) from data was recently framed as a purely continuous optimization problem by leveraging a differentiable acyclicity characterization of DAGs based on the trace of a matrix exponential function. Existing acyclicity characterizations are based on the idea that powers of an adjacency matrix contain information about walks and cycles. In this work, we propose a new acyclicity characterization based on the log-determinant (log-det) function, which leverages the nilpotency property of DAGs. To deal with the inherent asymmetries of a DAG, we relate the domain of our log-det characterization to the set of M-matrices, which is a key difference to the classical log-det function defined over the cone of positive definite matrices. Similar to acyclicity functions previously proposed, our characterization is also exact and differentiable. However, when compared to existing characterizations, our log-det function: (1) Is better at detecting large cycles; (2) Has better-behaved gradients; and (3) Its runtime is in practice about an order of magnitude faster. From the optimization side, we drop the typically used augmented Lagrangian scheme and propose DAGMA (Directed Acyclic Graphs via M-matrices for Acyclicity), a method that resembles the central path for barrier methods. Each point in the central path of DAGMA is a solution to an unconstrained problem regularized by our log-det function, then we show that at the limit of the central path the solution is guaranteed to be a DAG. Finally, we provide extensive experiments for linear and nonlinear SEMs and show that our approach can reach large speedups and smaller structural Hamming distances against state-of-the-art methods. Code implementing the proposed method is open-source and publicly available at https://github.com/kevinsbello/dagma.},
+  url_Proceedings={https://proceedings.neurips.cc/paper_files/paper/2022/hash/36e2967f87c3362e37cf988781a887ad-Abstract-Conference.html},
+  url_Preprint={https://arxiv.org/pdf/2209.08037.pdf},
+  url_Code={https://github.com/kevinsbello/dagma/},
+  keyword={Causality and Graphical Models, Optimization},
+}
+
+@article{bello2022view,
+  title={A View of Exact Inference in Graphs from the Degree-4 Sum-of-Squares Hierarchy},
+  author={Bello, Kevin and Ke, Chuyang and Honorio, Jean},
+  journal={<span style="color: #0088cc; font-style: normal">AISTATS-22.</span> Proceedings of The 25th International Conference on Artificial Intelligence and Statistics},
+  abstract={Performing inference in graphs is a common task within several machine learning problems, e.g., image segmentation, community detection, among others. For a given undirected connected graph, we tackle the statistical problem of exactly recovering an unknown ground-truth binary labeling of the nodes from a single corrupted observation of each edge. Such problem can be formulated as a quadratic combinatorial optimization problem over the boolean hypercube, where it has been shown before that one can (with high probability and in polynomial time) exactly recover the ground-truth labeling of graphs that have an isoperimetric number that grows with respect to the number of nodes (e.g., complete graphs, regular expanders). In this work, we apply a powerful hierarchy of relaxations, known as the sum-of-squares (SoS) hierarchy, to the combinatorial problem. Motivated by empirical evidence on the improvement in exact recoverability, we center our attention on the degree-4 SoS relaxation and set out to understand the origin of such improvement from a graph theoretical perspective. We show that the solution of the dual of the relaxed problem is related to finding edge weights of the Johnson and Kneser graphs, where the weights fulfill the SoS constraints and intuitively allow the input graph to increase its algebraic connectivity. Finally, as byproduct of our analysis, we derive a novel Cheeger-type lower bound for the algebraic connectivity of graphs with signed edge weights.},
+  volume={151},
+  pages={640--654},
+  year={2022},
+  publisher={PMLR},
+  url_proceedings={https://proceedings.mlr.press/v151/bello22a.html},
+  url_preprint={https://arxiv.org/pdf/2102.08019.pdf},
+  keyword={Statistical Machine Learning, Optimization, Causality and Graphical Models},
+}
+
+@article{lee2022fundamental,
   title={On the Fundamental Limits of Exact Inference in Structured Prediction},
   author={Lee, Hanbyul and Bello, Kevin and Honorio, Jean},
-  booktitle={2022 IEEE International Symposium on Information Theory (ISIT)},
+  journal={<span style="color: #0088cc; font-style: normal">ISIT-22.</span> IEEE International Symposium on Information Theory},
+  abstract={Inference is a main task in structured prediction and it is naturally modeled with a graph. In the context of Markov random fields, noisy observations corresponding to nodes and edges are usually involved, and the goal of exact inference is to recover the unknown true label for each node precisely. The focus of this paper is on the fundamental limits of exact recovery irrespective of computational efficiency, assuming the generative process proposed by Globerson et al. (2015). We derive the necessary condition for any algorithm and the sufficient condition for maximum likelihood estimation to achieve exact recovery with high probability, and reveal that the sufficient and necessary conditions are tight up to a logarithmic factor for a wide range of graphs. Finally, we show that there exists a gap between the fundamental limits and the performance of the computationally tractable method of Bello and Honorio (2019), which implies the need for further development of algorithms for exact inference.},
   pages={3174--3179},
+  volume={pp},
   year={2022},
-  organization={IEEE}
+  publisher={IEEE},
+  url_proceedings={https://ieeexplore.ieee.org/document/9834614},
+  url_preprint={https://arxiv.org/pdf/2102.08895.pdf},
+  keyword={Statistical Machine Learning, Causality and Graphical Models},
 }
 
-@article{ghoshal2019direct,
-  title={Direct learning with guarantees of the difference dag between structural equation models},
+@article{dexter2021inverse,
+  title={Inverse Reinforcement Learning in a Continuous State Space with Formal Guarantees},
+  author={Dexter, Gregory and Bello, Kevin and Honorio, Jean},
+  journal={<span style="color: #0088cc; font-style: normal">NeurIPS-21.</span> Advances in Neural Information Processing Systems},
+  abstract={Inverse Reinforcement Learning (IRL) is the problem of finding a reward function which describes observed/known expert behavior. The IRL setting is remarkably useful for automated control, in situations where the reward function is difficult to specify manually or as a means to extract agent preference. In this work, we provide a new IRL algorithm for the continuous state space setting with unknown transition dynamics by modeling the system using a basis of orthonormal functions. Moreover, we provide a proof of correctness and formal guarantees on the sample and time complexity of our algorithm. Finally, we present synthetic experiments to corroborate our theoretical guarantees.},
+  volume={34},
+  pages={6972--6982},
+  year={2021},
+  url_proceedings={https://proceedings.neurips.cc/paper/2021/hash/384babc3e7faa44cf1ca671b74499c3b-Abstract.html},
+  url_preprint={https://arxiv.org/pdf/2102.07937.pdf},
+  keyword={Statistical Machine Learning, Reinforcement Learning},
+}
+
+@article{xu2021cam,
+  title={A Le Cam Type Bound for Adversarial Learning and Applications},
+  author={Xu, Qiuling * and Bello, Kevin * and Honorio, Jean},
+  journal={<span style="color: #0088cc; font-style: normal">ISIT-21.</span> IEEE International Symposium on Information Theory},
+  abstract={Robustness of machine learning methods is essential for modern practical applications. Given the arms race between attack and defense methods, one may be curious regarding the fundamental limits of any defense mechanism. In this work, we focus on the problem of learning from noise-injected data, where the existing literature falls short by either assuming a specific attack method or by over-specifying the learning problem. We shed light on the information-theoretic limits of adversarial learning without assuming a particular learning process or attacker. Finally, we apply our general bounds to a canonical set of non-trivial learning problems and provide examples of common types of attacks.},
+  volume={pp},
+  pages={1164--1169},
+  year={2021},
+  publisher={IEEE},
+  bibbase_note={(* Equal contribution)},
+  url_proceedings={https://ieeexplore.ieee.org/document/9518178},
+  url_preprint={https://arxiv.org/pdf/2007.00289.pdf},
+  keyword={Statistical Machine Learning, Applications},
+}
+
+@phdthesis{bello2021structured,
+  title={Structured Prediction: Statistical and Computational Guarantees in Learning and Inference},
+  author={Bello, Kevin},
+  year={2021},
+  school={Purdue University},
+  doi={https://doi.org/10.25394/PGS.15066291.v1},
+  url_Thesis={https://hammer.purdue.edu/ndownloader/files/28970307},
+  keyword={Statistical Machine Learning, Causality and Graphical Models},
+}
+
+@article{bello2020fairness,
+  title={Fairness constraints can help exact inference in structured prediction},
+  author={Bello, Kevin and Honorio, Jean},
+  journal={<span style="color: #0088cc; font-style: normal">NeurIPS-20.</span> Advances in Neural Information Processing Systems},
+  abstract={Many inference problems in structured prediction can be modeled as maximizing a score function on a space of labels, where graphs are a natural representation to decompose the total score into a sum of unary (nodes) and pairwise (edges) scores. Given a generative model with an undirected connected graph G and true vector of binary labels $\bar{y}$, it has been previously shown that when G has good expansion properties, such as complete graphs or d-regular expanders, one can exactly recover $\bar{y}$ (with high probability and in polynomial time) from a single noisy observation of each edge and node. We analyze the previously studied generative model by Globerson et al. (2015) under a notion of statistical parity. That is, given a fair binary node labeling, we ask the question whether it is possible to recover the fair assignment, with high probability and in polynomial time, from single edge and node observations. We find that, in contrast to the known trade-offs between fairness and model performance, the addition of the fairness constraint improves the probability of exact recovery. We effectively explain this phenomenon and empirically show how graphs with poor expansion properties, such as grids, are now capable of achieving exact recovery. Finally, as a byproduct of our analysis, we provide a tighter minimum-eigenvalue bound than that which can be derived from Weyl's inequality.},
+  volume={33},
+  pages={11322--11332},
+  year={2020},
+  url_proceedings={https://proceedings.neurips.cc/paper/2020/hash/8248a99e81e752cb9b41da3fc43fbe7f-Abstract.html},
+  url_preprint={https://arxiv.org/pdf/2007.00218.pdf},
+  keyword={Statistical Machine Learning, Interpretability and Fairness, Causality and Graphical Models},
+}
+
+@article{bello2020minimax,
+  title={Minimax Bounds for Structured Prediction Based on Factor Graphs},
+  author={Bello, Kevin and Ghoshal, Asish and Honorio, Jean},
+  journal={<span style="color: #0088cc; font-style: normal">AISTATS-20.</span> Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics},
+  abstract={Structured prediction can be considered as a generalization of many standard supervised learning tasks, and is usually thought as a simultaneous prediction of multiple labels. One standard approach is to maximize a score function on the space of labels, which usually decomposes as a sum of unary and pairwise potentials, each depending on one or two specific labels, respectively.For this approach, several learning and inference algorithms have been proposed over the years, ranging from exact to approximate methods while balancing the computational complexity.However, in contrast to binary and multiclass classification, results on the necessary number of samples for achieving learning are still limited, even for a specific family of predictors such as factor graphs.In this work, we provide minimax lower bounds for a class of general factor-graph inference models in the context of structured prediction.That is, we characterize the necessary sample complexity for any conceivable algorithm to achieve learning of general factor-graph predictors.},
+  volume={108},
+  pages={213--222},
+  year={2020},
+  publisher={PMLR},
+  url_proceedings={https://proceedings.mlr.press/v108/bello20a.html},
+  url_preprint={https://arxiv.org/pdf/1906.00449.pdf},
+  keyword={Statistical Machine Learning, Causality and Graphical Models},
+}
+
+@article{bello2019exact,
+  title={Exact inference in structured prediction},
+  author={Bello, Kevin and Honorio, Jean},
+  journal={<span style="color: #0088cc; font-style: normal">NeurIPS-19.</span> Advances in Neural Information Processing Systems},
+  abstract={Structured prediction can be thought of as a simultaneous prediction of multiple labels. This is often done by maximizing a score function on the space of labels, which decomposes as a sum of pairwise and unary potentials. The above is naturally modeled with a graph, where edges and vertices are related to pairwise and unary potentials, respectively. We consider the generative process proposed by Globerson et al. (2015) and apply it to general connected graphs. We analyze the structural conditions of the graph that allow for the exact recovery of the labels. Our results show that exact recovery is possible and achievable in polynomial time for a large class of graphs. In particular, we show that graphs that are bad expanders can be exactly recovered by adding small edge perturbations coming from the Erdos-Renyi model. Finally, as a byproduct of our analysis, we provide an extension of Cheeger's inequality.},
+  volume={32},
+  year={2019},
+  url_proceedings={https://papers.nips.cc/paper_files/paper/2019/hash/312351bff07989769097660a56395065-Abstract.html},
+  url_preprint={https://arxiv.org/pdf/1906.00451.pdf},
+  keyword={Statistical Machine Learning, Optimization, Causality and Graphical Models},
+}
+
+@misc{ghoshal2019direct,
+  title={Direct Learning with Guarantees of the Difference DAG between Structural Equation Models},
   author={Ghoshal, Asish and Bello, Kevin and Honorio, Jean},
-  journal={arXiv preprint arXiv:1906.12024},
-  year={2019}
+  howpublished={ArXiv 1906.12024},
+  abstract={Discovering cause-effect relationships between variables from observational data is a fundamental challenge in many scientific disciplines. However, in many situations it is desirable to directly estimate the change in causal relationships across two different conditions, e.g., estimating the change in genetic expression across healthy and diseased subjects can help isolate genetic factors behind the disease. This paper focuses on the problem of directly estimating the structural difference between two structural equation models (SEMs), having the same topological ordering, given two sets of samples drawn from the individual SEMs. We present an principled algorithm that can recover the difference SEM in $O(d^2\ log(p))$ samples, where $d$ is related to the number of edges in the difference SEM of $p$ nodes. We also study the fundamental limits and show that any method requires at least $\Omega(d'\ log(\frac{p}{d'}))$ samples to learn difference SEMs with at most $d'$ parents per node. Finally, we validate our theoretical results with synthetic experiments and show that our method outperforms the state-of-the-art. Moreover, we show the usefulness of our method by using data from the medical domain.},
+  year={2019},
+  url_preprint={https://arxiv.org/pdf/1906.12024.pdf},
+  keyword={Causality and Graphical Models, Distribution Shifts, Latent Variable Models and Generative Models, Statistical Machine Learning, Interpretability and Fairness},
+}
+
+@article{bello2018learning,
+  title={Learning Latent Variable Structured Prediction Models with Gaussian Perturbations},
+  author={Bello, Kevin and Honorio, Jean},
+  journal={<span style="color: #0088cc; font-style: normal">NeurIPS-18.</span> Advances in Neural Information Processing Systems},
+  abstract={The standard margin-based structured prediction commonly uses a maximum loss over all possible structured outputs. The large-margin formulation including latent variables not only results in a non-convex formulation but also increases the search space by a factor of the size of the latent space. Recent work has proposed the use of the maximum loss over random structured outputs sampled independently from some proposal distribution, with theoretical guarantees. We extend this work by including latent variables. We study a new family of loss functions under Gaussian perturbations and analyze the effect of the latent space on the generalization bounds. We show that the non-convexity of learning with latent variables originates naturally, as it relates to a tight upper bound of the Gibbs decoder distortion with respect to the latent space. Finally, we provide a formulation using random samples and relaxations that produces a tighter upper bound of the Gibbs decoder distortion up to a statistical accuracy, which enables a polynomial time evaluation of the objective function. We illustrate the method with synthetic experiments and a computer vision application.},
+  volume={31},
+  year={2018},
+  url_Proceedings={https://papers.nips.cc/paper_files/paper/2018/hash/f18a6d1cde4b205199de8729a6637b42-Abstract.html},
+  url_Preprint={https://arxiv.org/pdf/1805.09213.pdf},
+  keyword={Latent Variable Models and Generative Models, Statistical Machine Learning},
+}
+
+@article{bello2018computationally,
+  title={Computationally and statistically efficient learning of causal Bayes nets using path queries},
+  author={Bello, Kevin and Honorio, Jean},
+  journal={<span style="color: #0088cc; font-style: normal">NeurIPS-18.</span> Advances in Neural Information Processing Systems},
+  abstract={Causal discovery from empirical data is a fundamental problem in many scientific domains. Observational data allows for identifiability only up to Markov equivalence class. In this paper we first propose a polynomial time algorithm for learning the exact correctly-oriented structure of the transitive reduction of any causal Bayesian network with high probability, by using interventional path queries. Each path query takes as input an origin node and a target node, and answers whether there is a directed path from the origin to the target. This is done by intervening on the origin node and observing samples from the target node. We theoretically show the logarithmic sample complexity for the size of interventional data per path query, for continuous and discrete networks. We then show how to learn the transitive edges using also logarithmic sample complexity (albeit in time exponential in the maximum number of parents for discrete networks), which allows us to learn the full network. We further extend our work by reducing the number of interventional path queries for learning rooted trees. We also provide an analysis of imperfect interventions.},
+  volume={31},
+  year={2018},
+  url_Proceedings={https://proceedings.neurips.cc/paper_files/paper/2018/hash/a0b45d1bb84fe1bedbb8449764c4d5d5-Abstract.html},
+  url_Preprint={https://arxiv.org/pdf/1706.00754v4.pdf},
+  keyword={Causality and Graphical Models, Statistical Machine Learning},
+}
+
+@article{cardenas2018improving,
+  title={Improving Topic Coherence Using Entity Extraction Denoising.},
+  author={Cardenas, Ronald and Bello, Kevin and Coronado, Alberto and Villota, Elizabeth},
+  journal={Prague Bulletin of Mathematical Linguistics},
+  abstract={Managing large collections of documents is an important problem for many areas of science, industry, and culture. Probabilistic topic modeling offers a promising solution. Topic modeling is an unsupervised machine learning method and the evaluation of this model is an interesting problem on its own. Topic interpretability measures have been developed in recent years as a more natural option for topic quality evaluation, emulating human perception of coherence with word sets correlation scores. In this paper, we show experimental evidence of the improvement of topic coherence score by restricting the training corpus to that of relevant information in the document obtained by Entity Recognition. We experiment with job advertisement data and find that with this approach topic models improve interpretability in about 40 percentage points on average. Our analysis reveals as well that using the extracted text chunks, some redundant topics are joined while others are split into more skill-specific topics. Fine-grained topics observed in models using the whole text are preserved.},
+  volume={110},
+  pages={85--101},
+  year={2018},
+  url_Proceedings={https://ufal.mff.cuni.cz/pbml/110/art-cardenas-et-al.pdf},
+  keyword={Latent Variable Models and Generative Models, Applications},
 }

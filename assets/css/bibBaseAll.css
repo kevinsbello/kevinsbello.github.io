@@ -1,133 +1,230 @@
-.bibbase_body {
-    position: relative;
-    margin: 2rem;
-  }
-  
-  #bibbase_header a {
-      text-decoration: none;
-  }
-  
-  #bibbase_header i {
-      width: 16px;
-      text-align: center;
-      margin-right: 5px;
-  }
-  
-  .bibbase_group:before {
-      border-top: 2px solid #0070ba;
-      content: '';
-      display: table-cell;
-      position: relative;
-      top: 0.5em;
-      flex: auto;
-      margin-right: 0;
-  }
-  
-  .bibbase_group:after {
-      border-top: 2px solid #0070ba;
-      content: '';
-      display: table-cell;
-      position: relative;
-      top: 0.5em;
-      flex: auto;
-      margin-left: 0.25em;
-  }
-  
-  .bibbase_group {
-    color: #0070ba;
-    font-size: 2rem;
-    font-weight: 400;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    cursor: pointer;
-    text-align: center;
-    /* display: table; */
-    /* width: 100%; */
-  
-    display: flex;
-    flex-direction: row;
-    line-height: 1.0em;
-  }
-  
-  .bibbase_group_count {
-    display: none;
-  }
-  
-  .bibbase_group_head_icon {
-    display: none;
-  }
-  
-  .bibbase_group_body {
-    line-height: 1.3em;
-  }
-  
-  
-  .bibbase_paper {
-    margin-bottom: 1rem !important;
-  }
-  
-  
-  
-  
-  /* span.bibbase_icon_text { */
-  /*     display: none; */
-  /* } */
-  
-  .bibbase_code {
-      width: 80%
-  }
-  
-  .comment {
-      font-size: smaller;
-      font-style: italic;
-      color: gray;
-  }
-  
-  .recommended {
-      color: green;
-  }
-  
-  /* bootstrap */
-  
-  .bibbase_msg {
-      text-align: center;
-      width: 80%;
-      margin: auto;
-  }
-  
-  #bibbase_embed_modal {
-      width: 70%;
-      left: 15%;
-      margin: 0;
-  }
-  
-  .bibbase.well {
-      margin: 20px;
-      overflow-wrap: break-word;
-  }
-  
-  .bibbase.link {
-      text-decoration: none;
-  }
-  
-  .bibbase_paper_content {
-      font-size: smaller;
-  }
-  
-  br.bibbase_paper_content {
-      display: none;
-  }
-
-
-  .bibbase_icon {
+#menu_dropdown {
     display: none;
 }
+
+#bibbase_body {
+    clear: both;
+    padding-top: 0.25em;
+    font-weight: 300;
+    font-size: 0.9em;
+    position: relative;
+}
+
+#bibbase_header {
+    font-weight: 300;
+    font-size: 0.9em;
+    position: relative;
+}
+
+#bibbase_header a {
+    text-decoration: none;
+}
+
+#bibbase_header i {
+    width: 16px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.bibbase_group::before {
+    border-top: 2px solid rgba(167,42,42,0.9493333333);
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    flex: auto;
+    margin-right: 0;
+}
+
+.bibbase_group::after {
+    border-top: 2px solid rgba(167,42,42,0.9493333333);
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    flex: auto;
+    margin-left: 0.25em;
+}
+
+.bibbase_group {
+color: rgba(167,42,42,0.9493333333);
+background-color: #7070701c;
+font-size: 1em;
+font-weight: 500;
+/* margin-top: 1rem; */
+margin-bottom: 1rem;
+cursor: pointer;
+font-style: normal;
+/* display: table; */
+/* width: 100%; */
+
+/* display: flex; */
+/* flex-direction: row; */
+line-height: 1.0em;
+}
+
+.groupby.downloads {
+    display: none;
+}
+
+
+#bibbase_header .dropdown-menu>li>a {
+    line-height: 0em;
+}
+
+li.groupby.keyword>a {
+    text-indent: -9999px;
+    line-height: 0;
+}
+  
+li.groupby.keyword>a::after {
+    content: "Topics";
+    text-indent: 0;
+    display: block;
+    line-height: 1.5em;
+}
+
+#bibbase_header li.groupby.year>a {
+    line-height: 1.5em;
+}
+#bibbase_header li.groupby.author>a {
+    line-height: 1.5em;
+}
+#bibbase_header li.groupby.type>a {
+    line-height: 1.5em;
+}
+
+
+.bibbase_group_body {
+    line-height: 1.3em;
+}
+
+
+.bibbase_paper {
+    margin-bottom: 1rem !important;
+}
+
+.bibbase_paper_title{
+    font-weight: 400;
+}
+
+.bibbase_paper_title::after{
+    content: "\a";
+    white-space: pre;
+}
+
+.bibbase_paper_author::after{
+    content: "\a";
+    white-space: pre;
+}
+
+
+/* span.bibbase_icon_text { */
+/*     display: none; */
+/* } */
+
+.bibbase_code {
+    width: 80%;
+}
+
+/* .comment {
+font-size: smaller;
+font-style: italic;
+color: gray;
+} */
+
+/* .recommended {
+color: green;
+} */
+
+/* bootstrap */
+
+.bibbase_msg {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+#bibbase_embed_modal {
+    width: 70%;
+    left: 15%;
+    margin: 0;
+}
+
+.bibbase.well {
+    margin: 20px;
+    overflow-wrap: break-word;
+    font-size: smaller;
+}
+
+.bibbase.author.link {
+    text-decoration: none;
+    pointer-events: none;
+    color: #404040;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.bibbase_paper_content {
+    font-size: smaller;
+}
+
+/* br.bibbase_paper_content {
+display: none;
+} */
+
+
+/* .bibbase_icon {
+display: none;
+} */
 
 
 .bibbase.bibbase_page.link {
     display: none;
 }
 
-  .bibbase.bibtex.link {
+.bibbase.bibtex.link {
     display: none;
 }
+
+
+
+.label, .badge {
+    display: revert;
+    padding: revert;
+    font-size: revert;
+    font-weight: revert;
+    line-height: revert;
+    color: revert;
+    vertical-align: revert;
+    white-space: revert;
+    text-shadow: revert;
+    background-color: revert;
+}
+
+
+
+
+
+
+
+
+
+
+#group_article div.bibbase_group i+span { display: none; }
+#group_inproceedings div.bibbase_group i+span { display: none; }
+#group_mastersthesis div.bibbase_group i+span { display: none; }
+#group_phdthesis div.bibbase_group i+span { display: none; }
+#group_techreport div.bibbase_group i+span { display: none; }
+#group_unpublished div.bibbase_group i+span { display: none; }
+#group_incollection div.bibbase_group i+span { display: none; }
+#group_misc div.bibbase_group i+span { display: none; }
+
+#group_article div.bibbase_group span:before { content: " Published Papers"; font-size: 1.2em; }
+#group_inproceedings div.bibbase_group span:before { content: " Conference Publications"; font-size: 1.2em;}
+#group_mastersthesis div.bibbase_group span:before { content: " Master's Thesis"; font-size: 1.2em; }
+#group_phdthesis div.bibbase_group span:before { content: " PhD Thesis"; font-size: 1.2em; }
+#group_techreport div.bibbase_group span:before { content: " Technical Report"; font-size: 1.2em; }
+#group_unpublished div.bibbase_group span:before { content: " Preprint"; font-size: 1.2em; }
+#group_incollection div.bibbase_group span:before { content: " In Collection"; font-size: 1.2em; }
+#group_misc div.bibbase_group span:before { content: " Preprints"; font-size: 1.2em; }
