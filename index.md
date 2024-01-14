@@ -11,7 +11,7 @@ I am fortunate to be co-mentored by [Bryon Aragam][bryon]{:target="_blank"} and 
 Previously, I received my PhD in Computer Science from Purdue University, where I was advised by [Jean Honorio][jean]{:target="_blank"}.
 Before my PhD, I completed my BSc in Mechatronics Engineering from the [National University of Engineering][uni]{:target="_blank"} in Lima, Peru.
 
-I will be serving as Production Editor of the Journal of Machine Learning Research ([JMLR][jmlr]{:target="_blank"}) starting in 2024.
+I serve as Production Editor of the Journal of Machine Learning Research ([JMLR][jmlr]{:target="_blank"}), the flagship journal for the field of machine learning.
 For JMLR related inquiries please reach out to [bello@jmlr.org](mailto:bello@jmlr.org).
 
 > **I'm in the job market for the 2024 year. If you see a fit, please reach out.**
