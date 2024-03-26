@@ -1,3 +1,21 @@
+@article{chen2024,
+  title={Identifying General Mechanism Shifts in Linear Causal Representations},
+  author={Tianyu Chen and Kevin Bello and Bryon Aragam and Pradeep Ravikumar},
+  journal={Under Review},
+  year={2024},
+  abstract={Recent theoretical advances in unsupervised learning of causal representations guarantee the identifiability of latent causal graphs and mixing functions, given access to interventional data. However, current strong identifiability results hinge on hard single-node interventions, necessitating each latent variable's intervention in at least one context/environment, limiting practical applicability. This paper addresses scenarios with multiple datasets with the aim of uncovering the latent sources driving observed distribution changes, if any. In the setting of latent linear SEMs and linear mixing functions, we establish the identifiability of mechanism shifts in latent causal representations and provide an efficient algorithm based on independent component analysis to identify them. Crucially, our approach eliminates the need to estimate underlying causal graphs or shared mixing functions, significantly reducing both identifiability ambiguities and computational demands. Importantly, our method does not assume a consistent topological order of the latent causal graphs across different environments, allowing for varied types of interventions, including edge additions and reversals. Synthetic data experiments and a real-world application in psychometrics validate our contributions.},
+  keyword={Causality and Graphical Models,Distribution Shifts,Latent Variable Models and Generative Models,Interpretability and Fairness},
+}
+
+@article{malik2024,
+  title={Identifying Causal Changes Between Linear Structural Equation Models},
+  author={Vineet Malik and Kevin Bello and Asish Ghoshal and Jean Honorio},
+  journal={Under Review},
+  year={2024},
+  abstract={In numerous scientific domains, it is crucial to learn the structures---commonly assumed to be directed acyclic graphs (DAGs)---of structural equation models (SEMs) from data as they are effective models for representing causal relationships among variables in a system. Nevertheless, in several scenarios, it is preferable to directly estimate the changes in causal relations between two distinct conditions. For example, estimating causal changes in genetic expression between healthy and diseased subjects can assist in isolating the genetic factors that contribute to the disease. This work studies the problem of directly estimating the structural difference between two linear SEMs, i.e. without estimating the individual DAG structures, given two sets of samples drawn from the individual SEMs. We consider general classes of linear SEMs where the noise distributions are allowed to be Gaussian or non-Gaussian and have different noise variances across the variables in the individual SEMs. We rigorously characterize novel conditions related to the topological layering of the structural difference that lead to the identifiability of the difference DAG (DDAG). Moreover, we propose an efficient algorithm to identify the DDAG via sequential re-estimation of the difference of precision matrices. A surprising implication of our results is that causal changes can be identifiable even between non-identifiable models such as Gaussian SEMs with unequal noise variances. Synthetic experiments are presented to validate our theoretical results and to show the scalability of our method.},
+  keyword={Causality and Graphical Models,Distribution Shifts,Latent Variable Models and Generative Models,Interpretability and Fairness},
+}
+
 @article{chen2023iscan,
   title={iSCAN: Identifying Causal Mechanism Shifts among Nonlinear Additive Noise Models},
   author={Tianyu Chen and Kevin Bello and Bryon Aragam and Pradeep Ravikumar},
