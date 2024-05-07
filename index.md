@@ -14,7 +14,6 @@ Before my PhD, I completed my BSc in Mechatronics Engineering from the [National
 I serve as Production Editor of the Journal of Machine Learning Research ([JMLR][jmlr]{:target="_blank"}), the flagship journal for the field of machine learning.
 For JMLR related inquiries please reach out to [bello@jmlr.org](mailto:bello@jmlr.org).
 
-> **I'm in the job market for the 2024 year. If you see a fit, please reach out.**
 
 ### Research
 
@@ -33,6 +32,7 @@ minimax bounds ([AISTATS'20][aistats20]{:target="_blank"}), and exact inference 
 ### News
 
 <div class='news' markdown='1'>
+- 04/24: One papar accepted to UAI.
 - 09/23: Two papers accepted to NeurIPS.
 - 09/23: Giving a talk on Oct. 17 about recent advances in continuous structure learning at the [INFORMS Annual Meeting](https://www.abstractsonline.com/pp8/#!/10856/session/517){:target="_blank"}.
 - 09/23: Presenting [iSCAN][iscan]{:target="_blank"} at the [Bay Area Machine Learning Symposium (BayLearn)][baylearn]{:target="_blank"} on Oct. 19.
