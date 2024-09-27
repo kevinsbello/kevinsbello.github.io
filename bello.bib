@@ -1,7 +1,16 @@
+@article{deng2024,
+  title={Likelihood-based differentiable structure learning},
+  author={Chang Deng and Kevin Bello and Pradeep Ravikumar and Bryon Aragam},
+  journal={<span style="color: #0088cc; font-style: normal">NeurIPS-24.</span> Advances in Neural Information Processing Systems},
+  year={2024},
+  abstract={Existing approaches to differentiable structure learning of directed acyclic graphs (DAGs) rely on strong identifiability assumptions in order to guarantee that global minimizers of the acyclicity-constrained optimization problem identifies the true DAG. Moreover, it has been observed empirically that the optimizer may exploit undesirable artifacts in the loss function. We explain and remedy these issues by studying the behavior of differentiable acyclicity-constrained programs under general likelihoods with multiple global minimizers. By carefully regularizing the likelihood, it is possible to identify the sparsest model in the Markov equivalence class, even in the absence of an identifiable parametrization. We first study the Gaussian case in detail, showing how proper regularization of the likelihood defines a score that identifies the sparsest model. Assuming faithfulness, it also recovers the Markov equivalence class. These results are then generalized to general models and likelihoods, where the same claims hold. These theoretical results are validated empirically, showing how this can be done using standard gradient-based optimizers, thus paving the way for differentiable structure learning under general models and losses.},
+  keyword={Causality and Graphical Models, Optimization},
+}
+
 @article{chen2024,
   title={Identifying General Mechanism Shifts in Linear Causal Representations},
   author={Tianyu Chen and Kevin Bello and Francesco Locatello and Bryon Aragam and Pradeep Ravikumar},
-  journal={Under Review},
+  journal={<span style="color: #0088cc; font-style: normal">NeurIPS-24.</span> Advances in Neural Information Processing Systems},
   year={2024},
   abstract={Recent theoretical advances in unsupervised learning of causal representations guarantee the identifiability of latent causal graphs and mixing functions, given access to interventional data. However, current strong identifiability results hinge on hard single-node interventions, necessitating each latent variable's intervention in at least one context/environment, limiting practical applicability. This paper addresses scenarios with multiple datasets with the aim of uncovering the latent sources driving observed distribution changes, if any. In the setting of latent linear SEMs and linear mixing functions, we establish the identifiability of mechanism shifts in latent causal representations and provide an efficient algorithm based on independent component analysis to identify them. Crucially, our approach eliminates the need to estimate underlying causal graphs or shared mixing functions, significantly reducing both identifiability ambiguities and computational demands. Importantly, our method does not assume a consistent topological order of the latent causal graphs across different environments, allowing for varied types of interventions, including edge additions and reversals. Synthetic data experiments and a real-world application in psychometrics validate our contributions.},
   keyword={Causality and Graphical Models,Distribution Shifts,Latent Variable Models and Generative Models,Interpretability and Fairness},
@@ -30,7 +39,7 @@
 
 @article{deng2023global,
   title={Global Optimality in Bivariate Gradient-based DAG Learning},
-  author={Deng, Chang and Bello, Kevin and Aragam, Bryon and Ravikumar, Pradeep},
+  author={Deng, Chang and Bello, Kevin and Ravikumar, Pradeep and Aragam, Bryon},
   journal={<span style="color: #0088cc; font-style: normal">NeurIPS-23.</span> Advances in Neural Information Processing Systems},
   year={2023},
   abstract={Recently, a new class of non-convex optimization problems motivated by the statistical problem of learning an acyclic directed graphical model from data has attracted significant interest. While existing work uses standard first-order optimization schemes to solve this problem, proving the global optimality of such approaches has proven elusive. The difficulty lies in the fact that unlike other non-convex problems in the literature, this problem is not "benign", and possesses multiple spurious solutions that standard approaches can easily get trapped in. In this paper, we prove that a simple path-following optimization scheme globally converges to the global minimum of the population loss in the bivariate setting.},
@@ -53,13 +62,13 @@
   keyword={Causality and Graphical Models,Optimization},
 }
 
-@misc{bagheri2023bayesian,
-  title={Bayesian Dynamic DAG Learning: Application in Discovering Dynamic Effective Connectome of Brain},
+@article{bagheri2024bayesian,
+  title={Discovering the effective connectome of the brain with dynamic Bayesian DAG learning},
   author={Bagheri, Abdolmahdi and Pasande, Mohammad and Bello, Kevin and Akhondi-Asl, Alireza and Araabi, Babak Nadjar},
-  howpublished = {ArXiv:2309.07080},
+  journal = {NeuroImage},
   abstract={Understanding the complex mechanisms of the brain can be unraveled by extracting the Dynamic Effective Connectome (DEC). Recently, score-based Directed Acyclic Graph (DAG) discovery methods have shown significant improvements in extracting the causal structure and inferring effective connectivity. However, learning DEC through these methods still faces two main challenges: one with the fundamental impotence of high-dimensional dynamic DAG discovery methods and the other with the low quality of fMRI data. In this paper, we introduce Bayesian Dynamic DAG learning with M-matrices Acyclicity characterization (BDyMA) method to address the challenges in discovering DEC. The presented dynamic causal model enables us to discover bidirected edges as well. Leveraging an unconstrained framework in the BDyMA method leads to more accurate results in detecting high-dimensional networks, achieving sparser outcomes, making it particularly suitable for extracting DEC. Additionally, the score function of the BDyMA method allows the incorporation of prior knowledge into the process of dynamic causal discovery which further enhances the accuracy of results. Comprehensive simulations on synthetic data and experiments on Human Connectome Project (HCP) data demonstrate that our method can handle both of the two main challenges, yielding more accurate and reliable DEC compared to state-of-the-art and baseline methods. Additionally, we investigate the trustworthiness of DTI data as prior knowledge for DEC discovery and show the improvements in DEC discovery when the DTI data is incorporated into the process.},
   url_Preprint={https://arxiv.org/abs/2309.07080},
-  year={2023},
+  year={2024},
   keyword={Causality and Graphical Models,Applications},
 }
 
