@@ -32,6 +32,8 @@ minimax bounds ([AISTATS'20][aistats20]{:target="_blank"}), and exact inference 
 ### News
 
 <div class='news' markdown='1'>
+- 09/24: Two papers accepted to NeurIPS.
+- 06/24: One paper accepted to NeuroImage.
 - 04/24: One paper accepted to UAI.
 - 09/23: Two papers accepted to NeurIPS.
 - 09/23: Giving a talk on Oct. 17 about recent advances in continuous structure learning at the [INFORMS Annual Meeting](https://www.abstractsonline.com/pp8/#!/10856/session/517){:target="_blank"}.
