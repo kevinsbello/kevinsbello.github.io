@@ -106,7 +106,7 @@ author:
   name             : "<a href='/'>Kevin Bello</a>"
   avatar           : "/images/me.jpeg"
   bio              : "Research Scientist<br>Soroco"
-  location         : ""
+  # location         : ""
   email            : kbello@cs.cmu.edu
   links:
     - label: "CV"
