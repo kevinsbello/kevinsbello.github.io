@@ -4,59 +4,60 @@ author_profile: true
 classes: wide
 ---
 
+<div class="section-block intro" markdown="1">
+I am a Research Scientist at [Soroco](https://soroco.com/){:target="_blank"}, working on foundation models for interaction data. 
+Previously, I was a [2021 Computing Innovation Fellow][cifellow]{:target="_blank"} and postdoctoral researcher jointly at [MLD@CMU][ml-cmu]{:target="_blank"} and [Chicago Booth][booth]{:target="_blank"}, where I worked with [Bryon Aragam][bryon]{:target="_blank"} and [Pradeep Ravikumar][pradeep]{:target="_blank"}.
 
-I am a [2021 Computing Innovation Fellow][cifellow]{:target="_blank"} and postdoctoral researcher in the [Machine Learning Department][ml-cmu]{:target="_blank"} at [Carnegie Mellon University][cmu]{:target="_blank"} and in the [Booth School of Business][booth]{:target="_blank"} at the [University of Chicago][uchicago]{:target="_blank"}.
-I am fortunate to be co-mentored by [Bryon Aragam][bryon]{:target="_blank"} and [Pradeep Ravikumar][pradeep]{:target="_blank"}.
-
-Previously, I received my PhD in Computer Science from Purdue University, where I was advised by [Jean Honorio][jean]{:target="_blank"}.
+I received my PhD in Computer Science from Purdue University, where I was advised by [Jean Honorio][jean]{:target="_blank"}.
 Before my PhD, I completed my BSc in Mechatronics Engineering from the [National University of Engineering][uni]{:target="_blank"} in Lima, Peru.
+</div>
 
+<div class="section-block role" markdown="1">
 I serve as Production Editor of the Journal of Machine Learning Research ([JMLR][jmlr]{:target="_blank"}), the flagship journal for the field of machine learning.
 For JMLR related inquiries please reach out to [bello@jmlr.org](mailto:bello@jmlr.org).
-
-
-### Research
-
-My research goal is to develop next-generation ML systems that will tackle some of the current major challenges, such as robustness, interpretability, and fairness. 
-These systems necessitate a shift from standard statistical models that are susceptible to capture undesired nonlinear correlations to ones that can potentially unearth causal relations from data. 
-To this end, I develop, analyze, and apply principled algorithms for *causal ML*, with a focus on causal discovery ([NeurIPS'22][dagma], [ICML'23][topo], [NeurIPS'23][bivariate-notears]), which is a crucial step for developing the new wave of ML models, and learning invariant/causal representations ([NeurIPS'23][iscan]).
-
-I also work in structured prediction, studying efficient learning with latent variables ([NeurIPS'18][neurips18]{:target="_blank"}),
-minimax bounds ([AISTATS'20][aistats20]{:target="_blank"}), and exact inference ([NeurIPS'19][neurips19]{:target="_blank"}, [NeurIPS'20][neurips20]{:target="_blank"}).
-
-*[SCMs]: Structural Causal Models
-
+</div>
 
 {::options auto_ids="false" /}
 
+<div class="section-block research" markdown="1">
+### Research
+
+My research goal is to develop next-generation ML systems that will tackle some of the current major challenges, such as robustness, interpretability, and fairness. 
+These systems necessitate a shift from standard statistical models that are susceptible to capture undesired nonlinear correlations to ones that can potentially discover (causal) relations from multimodal, complex data.
+
+**Topics of interest:**
+- Causal machine learning: Structure learning, invariant/causal representations
+- Generative models: Probabilistic models, latent variable modeling
+- Statistical learning: Structured prediction, sample complexity, exact inference
+</div>
+
+<div class="section-block news" markdown="1">
 ### News
 
-<div class='news' markdown='1'>
+- 01/25: One paper accepted to AISTATS.
 - 09/24: Two papers accepted to NeurIPS.
 - 06/24: One paper accepted to NeuroImage.
 - 04/24: One paper accepted to UAI.
 - 09/23: Two papers accepted to NeurIPS.
 - 09/23: Giving a talk on Oct. 17 about recent advances in continuous structure learning at the [INFORMS Annual Meeting](https://www.abstractsonline.com/pp8/#!/10856/session/517){:target="_blank"}.
 - 09/23: Presenting [iSCAN][iscan]{:target="_blank"} at the [Bay Area Machine Learning Symposium (BayLearn)][baylearn]{:target="_blank"} on Oct. 19.
-- 09/23: [Code][iscan-code]{:target="_blank"} for [iSCAN][iscan]{:target="_blank"} is now available on GitHub: Efficient identification of distribution shifts of causal variables in nonlinear SCMs.
+- 09/23: [Code][iscan-code]{:target="_blank"} for [iSCAN][iscan]{:target="_blank"} is now available on GitHub.
 - 07/23: Talk about [iSCAN][iscan]{:target="_blank"} at the [Max Planck Institute for Intelligent Systems, Tübingen](https://ei.is.mpg.de/){: target="_blank"}.
+
+<div class="toggle-container">
+  <input type="checkbox" id="news-toggle" class="toggle-input">
+  <label for="news-toggle" class="toggle-label">Show More Updates</label>
+  <div class="toggle-content" markdown="1">
+
 - 07/23: **New preprint:**{: class="bf-500"} [iSCAN: New identifiability results][iscan]{:target="_blank"} of causal mechanism shifts among nonlinear SCMs without individual structure learning! _(Accepted to NeurIPS)_.
 - 06/23: **New preprint:**{: class="bf-500"} First set of results on [global optimality for gradient-based DAG learning][bivariate-notears]{:target="_blank"}. _(Accepted to NeurIPS)_. 
-- 06/23: [Code][topo-code]{:target="_blank"} for [TOPO][topo]{:target="_blank"} is now available on GitHub: Improved continuous optimization for DAG learning with optimality guarantees.
-- 05/23: **New preprint:**{: class="bf-500"} [TOPO: Optimization theory for continuous structure learning][topo]{:target="_blank"}. _(Accepted to ICML)_. 
+- 06/23: [Code][topo-code]{:target="_blank"} for [TOPO][topo]{:target="_blank"} is now available on GitHub.
+- 05/23: **New preprint:**{: class="bf-500"} [TOPO: Optimization theory for continuous structure learning][topo]{:target="_blank"}. _(Accepted to ICML)_.
 - 04/23: One paper accepted to ICML.
 - 04/23: Awarded the [DAAD AInet fellowship][daad]. A fund for visiting German institutions.
 - 12/22: [Code][dagma-code]{:target="_blank"} for [DAGMA][dagma]{:target="_blank"} is now available on GitHub: Continuous optimization for
 structure learning with faster and more accurate log-det constraint.
 - 09/22: Our paper ["DAGMA: Learning DAGs via M-matrices and a Log-Determinant Acyclicity Characterization"][dagma]{:target="_blank"} has been accepted to NeurIPS.
-</div>
-
-<div>
-<input id="collapsible" class="toggle" type="checkbox">
-<label for="collapsible" class="lbl-toggle">
-    Older News
-</label>
-<div class="collapsible-content news" markdown="1">
 - 09/22: Presenting [DAGMA][dagma]{:target="_blank"} at the [Bay Area Machine Learning Symposium (BayLearn)][baylearn]{:target="_blank"} on Oct. 20!
 - 05/22: One paper accepted to ISIT.
 - 01/22: One paper accepted to AISTATS.
@@ -78,28 +79,53 @@ structure learning with faster and more accurate log-det constraint.
 - 09/18: Two papers accepted to NeurIPS.
 </div>
 </div>
-
-### Service {#Service}
-
-<div class='service' markdown='1'>
-- **Production Editor**{: class="bf-400"} of the Journal of Machine Learning Research ([JMLR][jmlr]{:target="_blank"})
-- **Mentor**{: class="bf-400"} in the 2023 Data Science Institute Summer Lab (UChicago)
-- **Web Chair**{: class="bf-400"} of [LatinX AI Workshop][lxai_workshop]{:target="_blank"} at ICML 2020
-- **Reviewer:**{: class="bf-400"}
-    - **NeurIPS:**{: .bf-400} 2023, 2022, 2021, 2020, 2019
-    - **ICML:**{: .bf-400} 2024, 2023, 2022, 2021
-    - **ICLR:**{: .bf-400} 2024, 2023, 2022, 2021
-    - **CLeaR:**{: .bf-400} 2024
-    - **AISTATS:**{: .bf-400} 2021
-    - **AAAI:**{: .bf-400} 2022
-    - **LATIN Symposium:**{: .bf-400} 2022
-    - **IJCAI:**{: .bf-400} 2020
-    - Journal of Machine Learning Research (JMLR)
-    - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
-    - Transactions on Machine Learning Research (TMLR)
-    - Journal of Computational and Graphical Statistics (JCGS)
 </div>
 
+<div class="section-block service" markdown="1">
+### Service {#Service}
+
+<div class="service-grid" markdown="1">
+<div class="service-item" markdown="1">
+#### Leadership
+{: .service-heading}
+
+- **Production Editor**{: .role-title} 
+  Journal of Machine Learning Research ([JMLR][jmlr]{:target="_blank"})
+- **Mentor**{: .role-title}
+  Data Science Institute Summer Lab, UChicago (2023)
+- **Web Chair**{: .role-title}
+  [LatinX AI Workshop][lxai_workshop]{:target="_blank"} at ICML 2020
+</div>
+
+<div class="service-item" markdown="1">
+#### Conference Reviews
+{: .service-heading}
+
+<div class="conference-grid">
+<div class="conference-item">NeurIPS (2019--2024)</div>
+<div class="conference-item">ICML (2021--2025)</div>
+<div class="conference-item">ICLR (2021--2025)</div>
+<div class="conference-item">CLeaR (2024--2025)</div>
+<div class="conference-item">AISTATS (2021, 2025)</div>
+<div class="conference-item">UAI (2025)</div>
+<div class="conference-item">AAAI (2022)</div>
+<div class="conference-item">LATIN Symposium (2022)</div>
+<div class="conference-item">IJCAI (2020)</div>
+</div>
+</div>
+
+<div class="service-item" markdown="1">
+#### Journal Reviews
+{: .service-heading}
+
+- Journal of Machine Learning Research ([JMLR][jmlr]{:target="_blank"})
+- IEEE Trans. Pattern Analysis and Machine Intelligence ([TPAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34){:target="_blank"})
+- Transactions on Machine Learning Research ([TMLR](https://jmlr.org/tmlr/){:target="_blank"})
+- Annals of Applied Statistics ([AOAS](https://projecteuclid.org/journals/annals-of-applied-statistics){:target="_blank"})
+- Journal of the Royal Statistical Society: Series B ([JRSSSB](https://academic.oup.com/jrsssb){:target="_blank"})
+- Journal of Computational and Graphical Statistics ([JCGS](https://www.tandfonline.com/toc/ucgs20/current){:target="_blank"})
+</div>
+</div>
 
 [bryon]: https://www.bryonaragam.com/
 [pradeep]: https://www.cs.cmu.edu/~pradeepr/

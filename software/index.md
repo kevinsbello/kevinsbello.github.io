@@ -12,13 +12,25 @@ title: Software
 <div class='software' markdown='1'>
 
 > ### iSCAN
-The [`iscan-dag`][iscan_pip] library is a Python 3 package designed for detecting which variables, if any, have undergo a casual mechanism shift given multiple heterogeneous datasets. iSCAN does not make parametric assumptions on the functional relationship between causal variables. [[Paper][iscan_paper]{:target="_blank"} / [Code][iscan_code]{:target="_blank"} / [Documentation][iscan_doc]{:target="_blank"}]
+> The [`iscan-dag`][iscan_pip] library is a Python 3 package designed for detecting which variables, if any, have undergo a casual mechanism shift given multiple heterogeneous datasets. iSCAN does not make parametric assumptions on the functional relationship between causal variables.
+> 
+> <div class="links" markdown="1">
+> [<i class="fas fa-file-alt"></i> Paper][iscan_paper]{:target="_blank"} [<i class="fab fa-github"></i> Code][iscan_code]{:target="_blank"} [<i class="fas fa-book"></i> Documentation][iscan_doc]{:target="_blank"}
+> </div>
 
 > ### TOPO
-Improved continuous constrained optimization for DAG structure learning with optimality guarantees. TOPO can be used with any loss function and includes implementations for both linear and nonlinear (e.g. neural network) models. [[Paper][topo_paper]{:target="_blank"} / [Code][topo_code]{:target="_blank"}]
+> Improved continuous constrained optimization for DAG structure learning with optimality guarantees. TOPO can be used with any loss function and includes implementations for both linear and nonlinear (e.g. neural network) models.
+> 
+> <div class="links" markdown="1">
+> [<i class="fas fa-file-alt"></i> Paper][topo_paper]{:target="_blank"} [<i class="fab fa-github"></i> Code][topo_code]{:target="_blank"}
+> </div>
 
 > ### DAGMA
-The [`dagma`][dagma_pip] library is a Python 3 package that provides faster and more accurate continuous constrained optimization for structure learning based on a new acyclicity  characterization via the log-det function. DAGMA can be used with any loss function and includes implementations for both linear and nonlinear (e.g. neural networks) models. [[Paper][dagma_paper]{:target="_blank"} / [Code][dagma_code]{:target="_blank"} / [Documentation][dagma_doc]{:target="_blank"}]
+> The [`dagma`][dagma_pip] library is a Python 3 package that provides faster and more accurate continuous constrained optimization for structure learning based on a new acyclicity characterization via the log-det function. DAGMA can be used with any loss function and includes implementations for both linear and nonlinear (e.g. neural networks) models.
+> 
+> <div class="links" markdown="1">
+> [<i class="fas fa-file-alt"></i> Paper][dagma_paper]{:target="_blank"} [<i class="fab fa-github"></i> Code][dagma_code]{:target="_blank"} [<i class="fas fa-book"></i> Documentation][dagma_doc]{:target="_blank"}
+> </div>
 
 </div>
 

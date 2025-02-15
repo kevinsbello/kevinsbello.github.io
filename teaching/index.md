@@ -7,35 +7,51 @@ title: Teaching
 
 {::options auto_ids="false" /}
 
-## Teaching Experience
+## Teaching
 
-### Guest Lecturer
+<div class="teaching-section">
+  <div class="teaching-role">
+    <h3>Guest Lecturer</h3>
+    <div class="teaching-item">
+      <strong>Spring 2022: <a href="https://www.cs.cmu.edu/~pradeepr/courses/2022-spring/" target="_blank">Advanced Machine Learning: Theory and Methods, ML 10-716</a></strong>
+      <div class="institution">Machine Learning Department, Carnegie Mellon University</div>
+      <div class="professor">Taught by Prof. <a href="https://www.cs.cmu.edu/~pradeepr/" target="_blank">Pradeep Ravikumar</a></div>
+    </div>
 
-- **Spring 2022:** [Advanced Machine Learning: Theory and Methods, ML 10-716][ML10-716].\\
-Machine Learning Department, Carnegie Mellon University.\\
-(Taught by Prof. [Pradeep Ravikumar][pradeep]{:target="_blank"}.)
+    <div class="teaching-item">
+      <strong>Fall 2021: <a href="https://www.cs.cmu.edu/~pradeepr/708/" target="_blank">Probabilistic Graphical Models, ML 10-708</a></strong>
+      <div class="institution">Machine Learning Department, Carnegie Mellon University</div>
+      <div class="professor">Taught by Prof. <a href="https://www.cs.cmu.edu/~pradeepr/" target="_blank">Pradeep Ravikumar</a></div>
+    </div>
+  </div>
 
-- **Fall 2021:** [Probabilistic Graphical Models, ML 10-708][ML10-708].\\
-Machine Learning Department, Carnegie Mellon University.\\
-(Taught by Prof. [Pradeep Ravikumar][pradeep]{:target="_blank"}.)
+  <div class="teaching-role">
+    <h3>Teaching Assistantship</h3>
+    <div class="teaching-item">
+      <strong>Spring 2021: <a href="https://www.cs.purdue.edu/homes/jhonorio/21spring-cs37300.html" target="_blank">Data Mining and Machine Learning, CS 373</a></strong>
+      <div class="institution">Department of Computer Science, Purdue University</div>
+      <div class="professor">Taught by Prof. <a href="https://www.cs.purdue.edu/homes/jhonorio" target="_blank">Jean Honorio</a></div>
+    </div>
 
-### Teaching Assistantship
+    <div class="teaching-item">
+      <strong>Fall 2020: <a href="https://www.cs.purdue.edu/homes/jhonorio/20fall-cs57800.html" target="_blank">Statistical Machine Learning, CS 578</a></strong>
+      <div class="institution">Department of Computer Science, Purdue University</div>
+      <div class="professor">Taught by Prof. <a href="https://www.cs.purdue.edu/homes/jhonorio" target="_blank">Jean Honorio</a></div>
+    </div>
 
-- **Spring 2021:** [Data Mining and Machine Learning, CS 373][CS373'21]{:target="_blank"}. \\
-Department of Computer Science, Purdue University.\\
-(Taught by Prof. [Jean Honorio][jhonorio]{:target="_blank"}.)
+    <div class="teaching-item">
+      <strong>Spring 2017: Data Structures and Algorithms, CS 251</strong>
+      <div class="institution">Department of Computer Science, Purdue University</div>
+      <div class="professor">Taught by Prof. <a href="https://www.cs.purdue.edu/homes/xmt/web/Index.html" target="_blank">Xavier Tricoche</a></div>
+    </div>
 
-- **Fall 2020:** [Statistical Machine Learning, CS 578][CS578'20]{:target="_blank"}. \\
-Department of Computer Science, Purdue University.\\
-(Taught by Prof. [Jean Honorio][jhonorio]{:target="_blank"}.)
-
-- **Spring 2017:** Data Structures and Algorithms, CS 251. \\
-Department of Computer Science, Purdue University.\\
-(Taught by Prof. [Xavier Tricoche][tricoche]{:target="_blank"}.)
-
-- **Fall 2016:** Data Structures and Algorithms, CS 251. \\
-Department of Computer Science, Purdue University.\\
-(Taught by Prof. [Elisha Sacks][sacks]{:target="_blank"}.)
+    <div class="teaching-item">
+      <strong>Fall 2016: Data Structures and Algorithms, CS 251</strong>
+      <div class="institution">Department of Computer Science, Purdue University</div>
+      <div class="professor">Taught by Prof. <a href="https://www.cs.purdue.edu/people/faculty/eps/" target="_blank">Elisha Sacks</a></div>
+    </div>
+  </div>
+</div>
 
 [CS373'21]: https://www.cs.purdue.edu/homes/jhonorio/21spring-cs37300.html
 [CS578'20]: https://www.cs.purdue.edu/homes/jhonorio/20fall-cs57800.html

@@ -1,0 +1,70 @@
+@import "minimal-mistakes";
+
+.teaching-section {
+  margin: 2em 0;
+
+  h2 {
+    color: $primary-color;
+    border-bottom: 3px solid $primary-color;
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
+  }
+
+  h3 {
+    color: $info-color;
+    margin-bottom: 1.2em;
+  }
+}
+
+.teaching-role {
+  margin-bottom: 3em;
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.teaching-item {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  strong {
+    color: $primary-color;
+    font-size: 1.1em;
+  }
+
+  p {
+    margin: 0.5em 0;
+  }
+}
+
+.institution {
+  color: $text-color;
+  font-style: italic;
+  margin: 0.3em 0;
+}
+
+.professor {
+  color: $text-color;
+  font-size: 0.9em;
+  
+  a {
+    color: $link-color;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+} 

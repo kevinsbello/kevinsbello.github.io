@@ -1,0 +1,211 @@
+.software {
+  margin: 0.8em 0;
+
+  > blockquote {
+    border: none;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04), 0 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1.1em;
+    margin: 0.8em 0;
+    border-top: 2px solid #4a90e2;
+
+    h3 {
+      color: #2c3e50;
+      margin: 0;
+      font-size: 1em;
+      font-weight: 600;
+      margin-bottom: 0.3em;
+      font-style: normal;
+      display: flex;
+      align-items: center;
+      gap: 0.4em;
+
+      // &::after {
+      //   content: '';
+      //   flex: 1;
+      //   height: 1px;
+      //   background: linear-gradient(to right, rgba(74, 144, 226, 0.2), transparent);
+      // }
+    }
+
+    p {
+      font-size: 0.9em;
+      line-height: 1.5;
+      color: #4a5568;
+      margin-bottom: 0.6em;
+      font-style: normal;
+
+      a {
+        color: #4a90e2;
+        text-decoration: none;
+        font-weight: 500;
+        z-index: 1;
+        position: relative;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .links {
+    margin-top: 0.6em;
+    padding-top: 0.6em;
+    border-top: 1px solid rgba(74, 144, 226, 0.1);
+    font-size: 0.85em;
+    display: flex;
+    gap: 0.8em;
+    position: relative;
+    z-index: 2;
+
+    a {
+      color: #4a90e2;
+      text-decoration: none;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3em;
+      padding: 0.3em 0.6em;
+      border-radius: 4px;
+      background: rgba(74, 144, 226, 0.05);
+      position: relative;
+
+      i {
+        font-size: 0.9em;
+      }
+
+      &:hover {
+        color: darken(#4a90e2, 10%);
+        background: rgba(74, 144, 226, 0.1);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// Dark mode support
+@media (prefers-color-scheme: dark) {
+  .software {
+    > blockquote {
+      background: #1a1a1a;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 1px rgba(0, 0, 0, 0.3);
+      border-top: 3px solid #4a90e2;
+      
+      h3 {
+        color: #e2e8f0;
+
+        &::after {
+          background: linear-gradient(to right, rgba(74, 144, 226, 0.2), transparent);
+        }
+      }
+
+      p {
+        color: #cbd5e0;
+
+        a {
+          color: #63b3ed;
+
+          &:hover {
+            color: lighten(#63b3ed, 10%);
+          }
+        }
+      }
+    }
+
+    .links {
+      border-top: 1px solid rgba(74, 144, 226, 0.15);
+
+      a {
+        color: #63b3ed;
+        background: rgba(99, 179, 237, 0.1);
+
+        &:hover {
+          color: lighten(#63b3ed, 10%);
+          background: rgba(99, 179, 237, 0.15);
+        }
+      }
+    }
+  }
+}
+
+.software-item {
+  margin-bottom: 2em;
+  padding: 1.5em;
+  border-radius: 8px;
+  background: $background-color;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  &.featured {
+    border-top: 2px solid $primary-color;
+  }
+
+  h3 {
+    color: $text-color;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 1em;
+  }
+
+  .description {
+    margin-bottom: 1em;
+    line-height: 1.6;
+    color: $muted-text-color;
+  }
+
+  .links {
+    a {
+      color: $link-color;
+      text-decoration: none;
+      margin-right: 1em;
+      
+      &:hover {
+        color: darken($link-color, 10%);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.software-item.dark-theme {
+  background: $primary-color;
+  color: $background-color;
+  border-top: 3px solid $link-color;
+
+  h3 {
+    color: $background-color;
+  }
+
+  .description {
+    color: mix($background-color, $primary-color, 80%);
+  }
+
+  .links {
+    a {
+      color: $link-color;
+      
+      &:hover {
+        color: lighten($link-color, 10%);
+      }
+    }
+  }
+
+  .meta {
+    color: $link-color;
+  }
+
+  .download-link {
+    color: $link-color;
+    
+    &:hover {
+      color: lighten($link-color, 10%);
+    }
+  }
+} 

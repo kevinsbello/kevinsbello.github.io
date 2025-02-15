@@ -105,8 +105,8 @@ analytics:
 author:
   name             : "<a href='/'>Kevin Bello</a>"
   avatar           : "/images/me.jpeg"
-  bio              : "Postdoctoral Fellow <br> CMU and UChicago <br> kbello at cs.cmu.edu"
-  location         : 
+  bio              : "Research Scientist<br>Soroco"
+  location         : ""
   email            : kbello@cs.cmu.edu
   links:
     - label: "CV"
