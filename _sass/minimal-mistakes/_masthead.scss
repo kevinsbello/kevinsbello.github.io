@@ -16,7 +16,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
-    max-width: 100%;
+    max-width: 95%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -89,5 +89,167 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+  }
+}
+
+.greedy-nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: $nav-height;
+  background: $background-color;
+
+  a {
+    display: block;
+    margin: 0 1rem;
+    color: $masthead-link-color;
+    text-decoration: none;
+    
+    &:hover {
+      color: $masthead-link-color-hover;
+    }
+  }
+
+  button {
+    position: relative;
+    height: 2rem;
+    padding: 0 0.5rem;
+    border: 0;
+    outline: none;
+    color: $text-color;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .visible-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: hidden;
+    
+    li {
+      -webkit-box-flex: 0;
+      -ms-flex: none;
+      flex: none;
+    }
+  }
+}
+
+.greedy-nav__toggle {
+  display: none;
+  padding: 0 0.5rem;
+  align-self: center;
+  margin-left: auto;
+}
+
+.navicon {
+  position: relative;
+  width: 1.5rem;
+  height: 0.25rem;
+  background: $primary-color;
+  margin: auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 1.5rem;
+    height: 0.25rem;
+    background: $primary-color;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  &:before {
+    top: -0.5rem;
+  }
+
+  &:after {
+    bottom: -0.5rem;
+  }
+}
+
+@media screen and (max-width: $medium) {
+  .masthead__inner-wrap {
+    padding: 0.5em;
+  }
+
+  .greedy-nav {
+    position: relative;
+    
+    .site-title {
+      margin-left: 0;
+    }
+
+    .greedy-nav__toggle {
+      display: block;
+    }
+    
+    .visible-links {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      background: $background-color;
+      padding: 0;
+      border: 1px solid $border-color;
+      border-radius: 0 0 4px 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 9999;
+      
+      &.show {
+        display: flex;
+      }
+      
+      li {
+        display: block;
+        border-bottom: 1px solid $border-color;
+        
+        &:last-child {
+          border-bottom: none;
+        }
+        
+        a {
+          display: block;
+          margin: 0;
+          padding: 0.5rem 1rem;
+          
+          &:hover {
+            background: rgba($primary-color, 0.1);
+          }
+        }
+      }
+    }
+  }
+  
+  .nav-open {
+    .navicon {
+      background: transparent;
+      
+      &:before {
+        transform: rotate(-45deg);
+        top: 0;
+      }
+      
+      &:after {
+        transform: rotate(45deg);
+        bottom: 0;
+      }
+    }
   }
 }
