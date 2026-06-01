@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600;6..96,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+#dagma-guide-root.dagma-guide {
+  --dagma-bg: #070b14;
+  --dagma-surface: rgba(17, 24, 39, 0.78);
+  --dagma-surface-strong: rgba(15, 23, 42, 0.93);
+  --dagma-text: #e5e7eb;
+  --dagma-muted: #a8b0be;
+  --dagma-gold: #f59e0b;
+  --dagma-cyan: #22d3ee;
+  --dagma-teal: #34d399;
+  --dagma-rose: #fb7185;
+  --dagma-border: rgba(226, 232, 240, 0.16);
+  --dagma-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+
+  color: var(--dagma-text);
+  background:
+    radial-gradient(1300px 560px at 10% -10%, rgba(34, 211, 238, 0.2), transparent 62%),
+    radial-gradient(1100px 420px at 88% 2%, rgba(245, 158, 11, 0.22), transparent 64%),
+    linear-gradient(180deg, #0b1020 0%, #070b14 56%, #070b14 100%);
+  border-radius: 22px;
+  padding: 2.4rem 2rem 2.8rem;
+  box-shadow: var(--dagma-shadow);
+  position: relative;
+  overflow: hidden;
+  margin-top: 0.8rem;
+  margin-bottom: 2.8rem;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Bodoni Moda', Georgia, serif;
+    letter-spacing: 0.01em;
+    color: #f8fafc;
+  }
+
+  p,
+  li,
+  label,
+  input,
+  button,
+  select,
+  .dg-caption,
+  .dg-kicker {
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  code,
+  pre {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  .dg-hero {
+    position: relative;
+    border: 1px solid var(--dagma-border);
+    border-radius: 18px;
+    padding: 2rem 1.4rem;
+    background: linear-gradient(145deg, rgba(30, 41, 59, 0.5), rgba(15, 23, 42, 0.8));
+    margin-bottom: 2rem;
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 0.35rem;
+      font-size: clamp(1.9rem, 4.2vw, 3.2rem);
+      line-height: 1.08;
+      max-width: 12ch;
+    }
+
+    .dg-kicker {
+      text-transform: uppercase;
+      letter-spacing: 0.17em;
+      color: var(--dagma-cyan);
+      font-size: 0.76rem;
+      margin-bottom: 0.45rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0;
+      color: #d6deea;
+      font-size: 1.02rem;
+      max-width: 70ch;
+      line-height: 1.66;
+    }
+  }
+
+  .dg-callout {
+    margin-top: 1.2rem;
+    border-left: 3px solid var(--dagma-gold);
+    background: rgba(2, 6, 23, 0.5);
+    padding: 0.8rem 1rem;
+    color: #f8fafc;
+  }
+
+  .dg-section {
+    margin-top: 2rem;
+    margin-bottom: 2.4rem;
+    opacity: 0.45;
+    transform: translateY(16px);
+    transition: opacity 420ms ease, transform 420ms ease;
+
+    &.is-active,
+    &.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    h2 {
+      font-size: clamp(1.3rem, 2.3vw, 2rem);
+      margin-bottom: 0.5rem;
+      margin-top: 0;
+    }
+
+    p,
+    li {
+      color: #d6deea;
+      line-height: 1.68;
+    }
+
+    ul {
+      margin: 0.4rem 0 0;
+      padding-left: 1.1rem;
+    }
+  }
+
+  .dg-problem-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .dg-glass-card {
+    border: 1px solid var(--dagma-border);
+    border-radius: 16px;
+    padding: 1rem;
+    background: rgba(15, 23, 42, 0.56);
+    backdrop-filter: blur(10px);
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0.4rem;
+      color: #f8fafc;
+      font-size: 1.18rem;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .dg-scrolly {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(340px, 0.95fr);
+    gap: 1.2rem;
+    align-items: start;
+
+    .dg-text-panel,
+    .dg-sticky-panel {
+      border: 1px solid var(--dagma-border);
+      border-radius: 16px;
+      background: var(--dagma-surface);
+      padding: 1rem;
+    }
+
+    .dg-sticky-panel {
+      position: sticky;
+      top: 1.2rem;
+      background: var(--dagma-surface-strong);
+    }
+  }
+
+  .dg-graph-wrap {
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    border-radius: 14px;
+    min-height: 420px;
+    background: radial-gradient(circle at 35% 20%, rgba(245, 158, 11, 0.1), rgba(0, 0, 0, 0) 70%), rgba(2, 6, 23, 0.72);
+    overflow: hidden;
+  }
+
+  .dagma-graph-svg {
+    width: 100%;
+    height: 420px;
+    display: block;
+  }
+
+  .dagma-node-label {
+    fill: #f8fafc;
+    font-size: 13px;
+    font-weight: 600;
+    pointer-events: none;
+  }
+
+  .dg-status-panel {
+    margin-top: 0.9rem;
+    border-radius: 12px;
+    border: 1px solid rgba(148, 163, 184, 0.3);
+    background: rgba(2, 6, 23, 0.6);
+    padding: 0.72rem 0.8rem;
+
+    p {
+      margin: 0;
+      line-height: 1.4;
+      color: #e2e8f0;
+      font-size: 0.9rem;
+    }
+
+    .dg-status-secondary {
+      margin-top: 0.25rem;
+      color: #b6c0cf;
+      font-size: 0.84rem;
+    }
+  }
+
+  .dg-math-block {
+    border-radius: 16px;
+    padding: 1.1rem 1rem;
+    background: rgba(2, 6, 23, 0.58);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    overflow-x: auto;
+  }
+
+  .dg-controls {
+    margin-top: 1rem;
+    border-radius: 16px;
+    border: 1px solid var(--dagma-border);
+    background: var(--dagma-surface);
+    padding: 1rem;
+  }
+
+  .dg-controls-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  .dg-control {
+    display: flex;
+    flex-direction: column;
+    gap: 0.22rem;
+
+    label {
+      font-size: 0.78rem;
+      color: #cbd5e1;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    input {
+      border-radius: 10px;
+      border: 1px solid rgba(148, 163, 184, 0.34);
+      background: rgba(15, 23, 42, 0.85);
+      color: #f8fafc;
+      padding: 0.45rem 0.55rem;
+      min-height: 38px;
+
+      &:focus {
+        outline: 2px solid rgba(34, 211, 238, 0.5);
+        outline-offset: 1px;
+      }
+    }
+  }
+
+  .dg-advanced {
+    margin-top: 0.85rem;
+    border-top: 1px solid rgba(148, 163, 184, 0.24);
+    padding-top: 0.8rem;
+
+    summary {
+      cursor: pointer;
+      color: #cbd5e1;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+
+    .dg-controls-grid {
+      margin-top: 0.75rem;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  .dg-actions {
+    margin-top: 0.95rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    align-items: center;
+  }
+
+  .dg-btn {
+    border: 1px solid rgba(226, 232, 240, 0.4);
+    border-radius: 999px;
+    background: rgba(15, 23, 42, 0.92);
+    color: #f8fafc;
+    padding: 0.45rem 0.95rem;
+    min-height: 38px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    transition: transform 170ms ease, background 170ms ease;
+
+    &:hover:not(:disabled) {
+      transform: translateY(-1px);
+      background: rgba(30, 41, 59, 0.98);
+    }
+
+    &:disabled {
+      opacity: 0.4;
+      cursor: default;
+    }
+  }
+
+  .dg-btn-primary {
+    background: linear-gradient(120deg, rgba(245, 158, 11, 0.9), rgba(249, 115, 22, 0.86));
+    border-color: rgba(251, 191, 36, 0.72);
+    color: #111827;
+  }
+
+  .dg-speed {
+    margin-left: auto;
+    min-width: 220px;
+
+    label {
+      display: block;
+      font-size: 0.78rem;
+      color: #cbd5e1;
+      text-transform: uppercase;
+      margin-bottom: 0.2rem;
+      font-weight: 600;
+    }
+
+    .dg-speed-row {
+      display: flex;
+      gap: 0.6rem;
+      align-items: center;
+    }
+
+    input[type='range'] {
+      width: 100%;
+      accent-color: var(--dagma-cyan);
+    }
+
+    span {
+      min-width: 42px;
+      text-align: right;
+      color: #e2e8f0;
+      font-weight: 600;
+      font-size: 0.85rem;
+    }
+  }
+
+  .dg-playback-row {
+    margin-top: 0.55rem;
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+
+    input[type='range'] {
+      flex: 1;
+      accent-color: var(--dagma-rose);
+    }
+
+    span {
+      color: #cbd5e1;
+      font-size: 0.82rem;
+      min-width: 64px;
+      text-align: right;
+    }
+  }
+
+  .dg-plot {
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    border-radius: 14px;
+    background: rgba(2, 6, 23, 0.67);
+    min-height: 360px;
+    margin-top: 0.8rem;
+    overflow: hidden;
+  }
+
+  .dg-caption {
+    color: #cbd5e1;
+    font-size: 0.86rem;
+    margin-top: 0.45rem;
+  }
+
+  .dg-tip-box {
+    border: 1px dashed rgba(148, 163, 184, 0.45);
+    border-radius: 14px;
+    padding: 0.95rem;
+    background: rgba(15, 23, 42, 0.5);
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0.35rem;
+      font-size: 1.15rem;
+    }
+
+    ul {
+      margin: 0;
+    }
+  }
+
+  .dg-limitations {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85rem;
+  }
+
+  .dg-pill {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    font-size: 0.77rem;
+    padding: 0.22rem 0.65rem;
+    border: 1px solid rgba(226, 232, 240, 0.3);
+    color: #e2e8f0;
+    background: rgba(15, 23, 42, 0.8);
+    margin-right: 0.25rem;
+    margin-bottom: 0.2rem;
+  }
+
+  @media (max-width: 1000px) {
+    padding: 1.35rem 0.95rem 1.9rem;
+
+    .dg-scrolly {
+      grid-template-columns: 1fr;
+
+      .dg-sticky-panel {
+        position: static;
+      }
+    }
+
+    .dg-controls-grid,
+    .dg-advanced .dg-controls-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .dg-limitations,
+    .dg-problem-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .dg-speed {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .dg-hero h1 {
+      max-width: 100%;
+    }
+
+    .dg-controls-grid,
+    .dg-advanced .dg-controls-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .dg-actions {
+      .dg-btn {
+        flex: 1;
+      }
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #dagma-guide-root.dagma-guide {
+    .dg-section {
+      transition: none;
+      transform: none;
+      opacity: 1;
+    }
+
+    .dg-btn {
+      transition: none;
+    }
+  }
+}

@@ -8,6 +8,7 @@
 @import "minimal-mistakes";
 @import "software"; // custom software page styling
 @import "teaching"; // teaching styles
+@import "dagma-guide"; // DAGMA visual guide post/app styling
 
 // Modern color palette - Using a sophisticated dark blue theme
 $background-color: #ffffff;
@@ -678,4 +679,3 @@ html {
     display: flex !important;
   }
 }
-

@@ -29,7 +29,7 @@ title: Software
 > The [`dagma`][dagma_pip] library is a Python 3 package that provides faster and more accurate continuous constrained optimization for structure learning based on a new acyclicity characterization via the log-det function. DAGMA can be used with any loss function and includes implementations for both linear and nonlinear (e.g. neural networks) models.
 > 
 > <div class="links" markdown="1">
-> [<i class="fas fa-file-alt"></i> Paper][dagma_paper]{:target="_blank"} [<i class="fab fa-github"></i> Code][dagma_code]{:target="_blank"} [<i class="fas fa-book"></i> Documentation][dagma_doc]{:target="_blank"}
+> [<i class="fas fa-file-alt"></i> Paper][dagma_paper]{:target="_blank"} [<i class="fab fa-github"></i> Code][dagma_code]{:target="_blank"} [<i class="fas fa-book"></i> Documentation][dagma_doc]{:target="_blank"} [<i class="fas fa-play-circle"></i> Visual Guide][dagma_visual_guide]
 > </div>
 
 </div>
@@ -38,6 +38,7 @@ title: Software
 [dagma_code]: https://github.com/kevinsbello/dagma
 [dagma_doc]: https://dagma.readthedocs.io/en/latest/
 [dagma_pip]: https://pypi.org/project/dagma/
+[dagma_visual_guide]: /blog/dagma-visual-guide/
 
 [topo_code]: https://github.com/Duntrain/TOPO
 [topo_paper]: https://arxiv.org/abs/2305.17277
